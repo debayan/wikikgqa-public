@@ -1,0 +1,4713 @@
+{
+  "questions": [
+    {
+      "id": 126,
+      "sparql": "SELECT ?obj WHERE { { SELECT (COUNT(*) AS ?obj2) WHERE { wd:Q17714 wdt:P40 ?obj1 . } } OPTIONAL { wd:Q17714 wdt:P1971 ?obj3 . } BIND(COALESCE(?obj2,?obj3) AS ?obj) }",
+      "answers": [
+        "3"
+      ],
+      "question": [
+        {
+          "string": "¿Cuántos hijos tiene Stephen Hawking?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 127,
+      "sparql": "SELECT ?sbj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q11424 . ?sbj wdt:P915/wdt:P131*/wdt:P17? wd:Q805 }",
+      "answers": [
+        "Q57157757",
+        "Q57157757",
+        "Q57157757",
+        "Q60834962",
+        "Q61876370",
+        "Q113638069",
+        "Q113638098",
+        "Q113655294",
+        "Q113655407",
+        "Q113656464",
+        "Q113656600",
+        "Q113656609",
+        "Q113656900",
+        "Q113657213",
+        "Q113667586"
+      ],
+      "question": [
+        {
+          "string": "¿Qué películas fueron producidas en Yemen?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 129,
+      "sparql": "SELECT ?sbj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q39367 . ?sbj wdt:P495 wd:Q148  }",
+      "answers": [
+        "Q14766993",
+        "Q38959",
+        "Q38972",
+        "Q39357",
+        "Q39322",
+        "Q135885052",
+        "Q37892",
+        "Q37673",
+        "Q29013",
+        "Q14533392",
+        "Q38948",
+        "Q1000049"
+      ],
+      "question": [
+        {
+          "string": "¿Qué razas de perro se originaron en China?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "sparql": "SELECT ?obj WHERE { wd:Q80655009 p:P2583/psn:P2583/wikibase:quantityAmount ?obj . }",
+      "answers": [
+        "75600000000000000000.0"
+      ],
+      "question": [
+        {
+          "string": "¿Qué tan lejos está IRAS 14038-3450 de la Tierra?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 131,
+      "sparql": "SELECT ?obj WHERE { wd:Q751738 wdt:P837 ?obj }",
+      "answers": [
+        "Q14827163"
+      ],
+      "question": [
+        {
+          "string": "¿En qué fecha es el día de Martin Luther King Jr.?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 132,
+      "sparql": "SELECT ?obj WHERE { wd:Q37150 p:P2048/psn:P2048/wikibase:quantityAmount ?obj }",
+      "answers": [
+        "1.7"
+      ],
+      "question": [
+        {
+          "string": "¿Cuánto mide Lana del Rey?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 133,
+      "sparql": "SELECT ?obj WHERE { wd:Q42944 wdt:P5991 ?obj . }",
+      "answers": [
+        "78169.0"
+      ],
+      "question": [
+        {
+          "string": "¿Cuál es la huella de carbono de CERN?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 134,
+      "sparql": "SELECT ?obj3 WHERE { wd:Q531 p:P2442 ?obj1 . ?obj1 psv:P2442 ?obj2 . ?obj2 wikibase:quantityAmount ?obj3 .  ?obj2 wikibase:quantityUnit wd:Q828224 . }",
+      "answers": [
+        "9460730472581.0"
+      ],
+      "question": [
+        {
+          "string": "¿Cuántos kilómetros están en un año luz?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 136,
+      "sparql": "SELECT ?obj WHERE { wd:Q181900 wdt:P509 ?obj . }",
+      "answers": [
+        "Q18558122"
+      ],
+      "question": [
+        {
+          "string": "¿Cómo murió Stan Lee?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "sparql": "SELECT ?sbj WHERE { ?sbj wdt:P206 wd:Q166 . ?sbj wdt:P31 wd:Q3624078 }",
+      "answers": [
+        "Q159",
+        "Q219",
+        "Q43"
+      ],
+      "question": [
+        {
+          "string": "¿Qué países limitan al Mar Negro?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 138,
+      "sparql": "SELECT (MIN(YEAR(?obj5)-YEAR(?obj1) - IF(MONTH(?obj5)>MONTH(?obj1),0,IF(MONTH(?obj5)=MONTH(?obj1) && DAY(?obj5)>=DAY(?obj1),0,1))) AS ?age) WHERE { wd:Q166389 wdt:P569 ?obj1 . wd:Q166389 p:P166 ?obj2 . ?obj2 ps:P166 ?obj3 . ?obj3 wdt:P31 wd:Q19020 . ?obj2 pq:P805 ?obj4 . ?obj4 wdt:P585 ?obj5 . }",
+      "answers": [
+        "32"
+      ],
+      "question": [
+        {
+          "string": "¿Cuántos años tenía Daniel Day-Lewis cuando ganó su primer premio Óscar?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 139,
+      "sparql": "ASK WHERE { wd:Q166389 wdt:P166 ?obj . ?obj wdt:P31 wd:Q19020 }",
+      "answers": [
+        true
+      ],
+      "question": [
+        {
+          "string": "¿Ha ganado Daniel Day-Lewis un premio Óscar?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 140,
+      "sparql": "SELECT DISTINCT ?obj WHERE { wd:Q958 wdt:P47 ?obj . ?obj wdt:P31/wdt:P279* wd:Q3624078 }",
+      "answers": [
+        "Q1036",
+        "Q1049",
+        "Q114",
+        "Q115",
+        "Q929",
+        "Q974"
+      ],
+      "question": [
+        {
+          "string": "¿Con qué países limita Sudan de Sur?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 141,
+      "sparql": "SELECT DISTINCT ?obj WHERE { OPTIONAL { wd:Q963 wdt:P807 ?obj1 } OPTIONAL { wd:Q963 wdt:P1365 ?obj2 } OPTIONAL { wd:Q963 wdt:P155 ?obj3 } BIND(COALESCE(?obj1,?obj2,?obj3) AS ?obj) }",
+      "answers": [
+        "Q145"
+      ],
+      "question": [
+        {
+          "string": "¿De qué país se escindió Botsuana?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 142,
+      "sparql": "SELECT ?obj WHERE { wd:Q105078719 wdt:P1451 ?obj }",
+      "answers": [
+        "Ploughing minds for service"
+      ],
+      "question": [
+        {
+          "string": "¿Cuál es el lema del Data Link Institute?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 144,
+      "sparql": "SELECT DISTINCT ?sbj WHERE {  ?sbj wdt:P832 wd:Q622365 . ?sbj wdt:P31/wdt:P279* wd:Q3624078 . }",
+      "answers": [
+        "Q142",
+        "Q213"
+      ],
+      "question": [
+        {
+          "string": "¿Qué países observan el Día de la Victoria en Europa?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 145,
+      "sparql": "SELECT DISTINCT ?obj2 WHERE {  wd:Q678 wdt:P85 ?obj1 . ?obj1 wdt:P86 ?obj2 . }",
+      "answers": [
+        "Q4525745"
+      ],
+      "question": [
+        {
+          "string": "¿Quién compuso el himno nacional de Tonga?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 146,
+      "sparql": "SELECT ?sbj WHERE { ?sbj p:P2218 ?obj1 . ?obj1 a wikibase:BestRank . ?obj1 psv:P2218 ?obj2 . ?obj2 wikibase:quantityUnit wd:Q4917 . ?obj2 wikibase:quantityAmount ?obj3 . } ORDER BY DESC(?obj3) LIMIT 1",
+      "answers": [
+        "Q317521"
+      ],
+      "question": [
+        {
+          "string": "¿Quién es la persona más rica del  mundo?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 147,
+      "sparql": "SELECT ?sbj { ?sbj p:P39 ?obj1 . ?obj1 ps:P39 wd:Q15407843 . ?obj1 pq:P580 ?obj2 } ORDER BY DESC(?obj2) LIMIT 1",
+      "answers": [
+        "Q12587400"
+      ],
+      "question": [
+        {
+          "string": "¿Quién es el primer ministro de Corea del Sur?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 148,
+      "sparql": "ASK WHERE { ?sbj wdt:P31*/wdt:P279* wd:Q14212 . ?sbj wdt:P1001 wd:Q884 }",
+      "answers": [
+        true
+      ],
+      "question": [
+        {
+          "string": "¿Tiene Corea del Sur un primer ministro?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 149,
+      "sparql": "SELECT DISTINCT ?obj WHERE { wd:Q127724 wdt:P828|wdt:P1478|^wdt:P1542 ?obj }",
+      "answers": [
+        "Q11391",
+        "Q12206",
+        "Q155857",
+        "Q180152",
+        "Q21173555",
+        "Q332154",
+        "Q523893"
+      ],
+      "question": [
+        {
+          "string": "¿Qué causa cataratas?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 151,
+      "sparql": "SELECT ?obj2 WHERE { ?sbj wdt:P31|wdt:P3450 wd:Q32096 . ?sbj wdt:P585 ?obj1 . ?sbj wdt:P1346 ?obj2 } ORDER BY DESC(?obj1) LIMIT 1",
+      "answers": [
+        "Q219714"
+      ],
+      "question": [
+        {
+          "string": "¿Quiénes son los campeones actuales del Súper Tazón?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 152,
+      "sparql": "SELECT ?obj { wd:Q790 wdt:P37 ?obj }",
+      "answers": [
+        "Q150",
+        "Q33491"
+      ],
+      "question": [
+        {
+          "string": "¿Cuáles son los idiomas oficiales de Haití?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 153,
+      "sparql": "SELECT ?obj WHERE { wd:Q181900 wdt:P569 ?obj }",
+      "answers": [
+        "1922-12-28T00:00:00Z"
+      ],
+      "question": [
+        {
+          "string": "¿Cuándo nació Stan Lee?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 154,
+      "sparql": "SELECT ?obj WHERE { wd:Q181900 wdt:P19 ?obj }",
+      "answers": [
+        "Q11299"
+      ],
+      "question": [
+        {
+          "string": "¿Dónde nació Stan Lee?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 155,
+      "sparql": "SELECT ?obj WHERE { wd:Q181900 wdt:P20 ?obj }",
+      "answers": [
+        "Q1052562"
+      ],
+      "question": [
+        {
+          "string": "¿Dónde murió Stan Lee?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 156,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q33506 . ?sbj wdt:P276?/wdt:P131* wd:Q3624 . }",
+      "answers": [
+        "Q115101919",
+        "Q15856263",
+        "Q20982459",
+        "Q2652168",
+        "Q55603199",
+        "Q56072786",
+        "Q6585314",
+        "Q73802179",
+        "Q94993165"
+      ],
+      "question": [
+        {
+          "string": "¿Qué museos están en Adís Abeba?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 157,
+      "sparql": "SELECT ?sbj WHERE { ?sbj wdt:P21/wdt:P279* wd:Q6581072 . ?sbj p:P2218 ?obj1 . ?obj1 a wikibase:BestRank . ?obj1 psv:P2218 ?obj2 . ?obj2 wikibase:quantityUnit wd:Q4917 . ?obj2 wikibase:quantityAmount ?obj3 . } ORDER BY DESC(?obj3) LIMIT 1",
+      "answers": [
+        "Q75088207"
+      ],
+      "question": [
+        {
+          "string": "¿Quién es la mujer más rica del mundo?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 159,
+      "sparql": "SELECT ?obj WHERE { wd:Q13794921 wdt:P57 ?obj }",
+      "answers": [
+        "Q16146485"
+      ],
+      "question": [
+        {
+          "string": "¿Quién dirigió Sharknado?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 161,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P105 wd:Q7432 . ?sbj wdt:P4214 ?obj } ORDER BY DESC(?obj) LIMIT 1",
+      "answers": [
+        "Q1116374"
+      ],
+      "question": [
+        {
+          "string": "¿Qué especie es la más longeva?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 162,
+      "sparql": "SELECT ?obj { wd:Q43192 wdt:P462 ?obj }",
+      "answers": [
+        "Q1088",
+        "Q23444",
+        "Q3142"
+      ],
+      "question": [
+        {
+          "string": "¿Qué colores tiene la bandera francés?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 163,
+      "sparql": "SELECT DISTINCT ?obj { wd:Q152105 p:P2047/psn:P2047/wikibase:quantityAmount ?obj }",
+      "answers": [
+        "8580.0"
+      ],
+      "question": [
+        {
+          "string": "¿Cuánto dura Ikiru?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 164,
+      "sparql": "SELECT ?obj WHERE { wd:Q15707573 wdt:P276 ?obj }",
+      "answers": [
+        "Q2868"
+      ],
+      "question": [
+        {
+          "string": "¿Dónde tuvo lugar la Conferencia de las Naciones Unidas sobre el Cambio Climático de 2014?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 165,
+      "sparql": "ASK WHERE { wd:Q30 wdt:P1906 ?obj . ?obj (wdt:P279|wdt:P31)* wd:Q30461 }",
+      "answers": [
+        true
+      ],
+      "question": [
+        {
+          "string": "¿Tiene los EEUU un presidente?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 166,
+      "sparql": "SELECT ?sbj WHERE { ?sbj p:P39 ?obj1 . ?obj1 ps:P39/^wdt:P1313 wd:Q30 . ?obj1 pq:P580 ?obj2 . ?sbj wdt:P569 ?obj3 . } ORDER BY ASC (?obj2-?obj3) LIMIT 1",
+      "answers": [
+        "Q33866"
+      ],
+      "question": [
+        {
+          "string": "¿Quién fue el presidente más joven de los EEUU?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 167,
+      "sparql": "SELECT ?sbj WHERE { ?sbj p:P39 ?obj1 . ?obj1 ps:P39/^wdt:P1313 wd:Q30 . ?obj1 pq:P580 ?obj2 . ?sbj wdt:P569 ?obj3 . } ORDER BY DESC (?obj2-?obj3) LIMIT 1",
+      "answers": [
+        "Q22686"
+      ],
+      "question": [
+        {
+          "string": "¿Quién fue el presidente de los EEUU más viejo al momento de su inauguración?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 168,
+      "sparql": "SELECT ?sbj WHERE { ?sbj p:P39 ?obj1 . ?obj1 ps:P39/^wdt:P1313 wd:Q30 . ?sbj wdt:P569 ?obj3 . OPTIONAL{ ?obj1 pq:P582 ?obj2 . } BIND(COALESCE(?obj2,NOW()) AS ?obj4) } ORDER BY DESC (?obj4-?obj3) LIMIT 1",
+      "answers": [
+        "Q6279"
+      ],
+      "question": [
+        {
+          "string": "¿Quién fue el presidente más viejo de los EEUU en ejercicio?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 169,
+      "sparql": "SELECT ?obj WHERE { wd:Q125953 wdt:P585 ?obj }",
+      "answers": [
+        "1908-06-30T00:00:00Z"
+      ],
+      "question": [
+        {
+          "string": "¿Cuándo fue el bólido de Tunguska?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 170,
+      "sparql": "SELECT ?sbj WHERE { ?sbj p:P39 ?obj1 . ?obj1 ps:P39/^wdt:P1313 wd:Q30 . ?obj1 pq:P580 ?obj2 . ?obj1 pq:P582 ?obj3 . FILTER(YEAR(?obj2)<=1984 && YEAR(?obj3)>=1984) }",
+      "answers": [
+        "Q9960"
+      ],
+      "question": [
+        {
+          "string": "¿Quién fue el presidente de los Estados Unidos en 1984?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 171,
+      "sparql": "SELECT ?sbj WHERE { ?sbj p:P39 ?obj1 . ?obj1 ps:P39/^wdt:P1313 wd:Q30 . ?obj1 pq:P580 ?obj2 . ?obj1 pq:P582 ?obj3 . wd:Q981327 wdt:P585 ?obj4 .  FILTER(?obj2<=?obj4 && ?obj3>=?obj4) }",
+      "answers": [
+        "Q207"
+      ],
+      "question": [
+        {
+          "string": "¿Quién fue el presidente de los Estados Unidos durante la masacre de Haditha?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 172,
+      "sparql": "SELECT ?sbj WHERE { ?sbj p:P2218 ?obj1 . ?sbj wdt:P27 wd:Q252 . ?obj1 a wikibase:BestRank . ?obj1 psv:P2218 ?obj2 . ?obj2 wikibase:quantityUnit wd:Q4917 . ?obj2 wikibase:quantityAmount ?obj3 . } ORDER BY DESC(?obj3) LIMIT 1",
+      "answers": [
+        "Q2156645"
+      ],
+      "question": [
+        {
+          "string": "¿Quién es la persona más rica de Indonesia?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 174,
+      "sparql": "SELECT ?obj WHERE { wd:Q37710 wdt:P7725 ?obj . }",
+      "answers": [
+        "6.0"
+      ],
+      "question": [
+        {
+          "string": "¿Cuál es el tamaño de camada de una border collie?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 175,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q11424 . { ?sbj wdt:P144 ?obj1 . ?obj1 wdt:P50 wd:Q171091 . } UNION {?sbj wdt:P1877 wd:Q171091 .} MINUS {?sbj wdt:P629 ?obj2 .} }",
+      "answers": [
+        "Q13424079",
+        "Q1660388",
+        "Q184843",
+        "Q222018",
+        "Q244604",
+        "Q247516",
+        "Q2601347",
+        "Q300547",
+        "Q3030131",
+        "Q4411138",
+        "Q4478964",
+        "Q492089",
+        "Q555995",
+        "Q562396",
+        "Q634810",
+        "Q728539"
+      ],
+      "question": [
+        {
+          "string": "¿Qué películas se basan en obras escritas por Philip K. Dick?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 176,
+      "sparql": "SELECT ?obj WHERE { wd:Q581952 wdt:P826 ?obj . }",
+      "answers": [
+        "Q913790"
+      ],
+      "question": [
+        {
+          "string": "¿En qué tonalidad está compuesta Space Oddity?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 177,
+      "sparql": "SELECT ?obj WHERE { wd:Q12176 p:P2583/psn:P2583/wikibase:quantityAmount ?obj }",
+      "answers": [
+        "41249088000000000.0"
+      ],
+      "question": [
+        {
+          "string": "¿Qué tan lejos está Alfa Centauri de la Tierra?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 178,
+      "sparql": "SELECT ?obj WHERE { wd:Q916 wdt:P38 ?obj }",
+      "answers": [
+        "Q200337"
+      ],
+      "question": [
+        {
+          "string": "¿Qué divisa se usa en Angola?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 179,
+      "sparql": "SELECT ?sbj WHERE { ?sbj wdt:P161 wd:Q5066520 . ?sbj wdt:P31/wdt:P279* wd:Q11424 . ?sbj wdt:P577 ?obj } ORDER BY DESC(?obj) LIMIT 1",
+      "answers": [
+        "Q65049470"
+      ],
+      "question": [
+        {
+          "string": "¿Cuál fue la última película en que protagonizó Chadwick Boseman?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 181,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj (wdt:P31|wdt:P279)* wd:Q178359 . ?sbj wdt:P527+ wd:Q3406628 . ?sbj wdt:P527+ wd:Q21546392 . }",
+      "answers": [
+        "Q117288146",
+        "Q12538673",
+        "Q125604924",
+        "Q127255886",
+        "Q127255902",
+        "Q178143",
+        "Q2088642",
+        "Q507816",
+        "Q5965772",
+        "Q82813109",
+        "Q9004419"
+      ],
+      "question": [
+        {
+          "string": "¿Qué salsas contienen cebolla y ajo?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 182,
+      "sparql": "SELECT ?sbj WHERE { ?sbj wdt:P57 wd:Q230448 . ?sbj p:P2047/psn:P2047/wikibase:quantityAmount ?obj . ?sbj wdt:P31/wdt:P279* wd:Q11424 } ORDER BY DESC(?obj) LIMIT 1",
+      "answers": [
+        "Q1304431"
+      ],
+      "question": [
+        {
+          "string": "¿Cuál es la película más larga dirigida por Jane Campion?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 184,
+      "sparql": "SELECT ?obj WHERE { wd:Q1396889 wdt:P3132 ?obj . }",
+      "answers": [
+        "The creatures outside looked from pig to man, and from man to pig, and from pig to man again; but already it was impossible to say which was which."
+      ],
+      "question": [
+        {
+          "string": "¿Cuál es la última línea de Animal Farm?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 186,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q8502 . ?sbj p:P2044/psn:P2044/wikibase:quantityAmount ?obj1 . ?sbj wdt:P17 ?obj2 . MINUS { ?sbj wdt:P17/wdt:P30 wd:Q48 . } } ORDER BY DESC(?obj1) LIMIT 1",
+      "answers": [
+        "Q39739"
+      ],
+      "question": [
+        {
+          "string": "¿Cuál es la montaña más alta en el mundo fuera de Asia?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 187,
+      "sparql": "SELECT DISTINCT ?obj1 WHERE { wd:Q32789 wdt:P171+ ?obj1 . wd:Q862089 wdt:P171+ ?obj1 . MINUS { wd:Q32789 wdt:P171+ ?obj2 . wd:Q862089 wdt:P171+ ?obj2 . ?obj2 wdt:P171 ?obj1 } }",
+      "answers": [
+        "Q5414620"
+      ],
+      "question": [
+        {
+          "string": "¿Cuál es el taxón común más bajo entre cebras y jirafas?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 188,
+      "sparql": "SELECT (MAX(?obj) AS ?max) WHERE { ?sbj p:P1087/ps:P1087 ?obj . }",
+      "answers": [
+        "2882.0"
+      ],
+      "question": [
+        {
+          "string": "¿Cuál es la puntuación Elo más alta que un jugador de ajedrez ha logrado?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 190,
+      "sparql": "SELECT ?obj WHERE { wd:Q23118 wdt:P61 ?obj }",
+      "answers": [
+        "Q122338"
+      ],
+      "question": [
+        {
+          "string": "¿Quién inventó LSD?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 191,
+      "sparql": "SELECT ?sbj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q22698 . ?sbj wdt:P131+ wd:Q3183 }",
+      "answers": [
+        "Q21933821",
+        "Q21972312",
+        "Q21972681",
+        "Q14935818",
+        "Q21933821",
+        "Q21972404"
+      ],
+      "question": [
+        {
+          "string": "¿Qué parques están en Perth?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 192,
+      "sparql": "SELECT DISTINCT ?obj2 WHERE { ?sbj p:P35 ?obj1 . ?obj1 ps:P35 ?obj2 . ?sbj wdt:P1906 ?obj3 . ?obj3 (wdt:P31|wdt:P279)* wd:Q30461 . ?obj2 wdt:P569 ?obj4 . ?obj2 p:P39 ?obj5 . ?obj5 ps:P39 ?obj3 . MINUS { ?obj1 pq:P582 ?obj6 } MINUS { ?obj5 pq:P582 ?obj7 } } ORDER BY ?obj4 LIMIT 1",
+      "answers": [
+        "Q57272"
+      ],
+      "question": [
+        {
+          "string": "¿Quién es el presidente actual más viejo?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 194,
+      "sparql": "SELECT ?obj WHERE { wd:Q1223977 wdt:P131+ ?obj . ?obj wdt:P31 wd:Q6465 }",
+      "answers": [
+        "Q12745"
+      ],
+      "question": [
+        {
+          "string": "¿Avressieux está ubicado en qué departamento de Francia?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 195,
+      "sparql": "SELECT ?obj WHERE { wd:Q76570685 wdt:P59 ?obj }",
+      "answers": [
+        "Q8866"
+      ],
+      "question": [
+        {
+          "string": "¿Cuál es la constelación de OGLE BLG-ECL-143281?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 196,
+      "sparql": "SELECT ?obj WHERE { wd:Q213 wdt:P2131 ?obj }",
+      "answers": [
+        "250681000000.0"
+      ],
+      "question": [
+        {
+          "string": "¿Cuál es el PIB de la República Checa?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 197,
+      "sparql": "SELECT ?obj WHERE { wd:Q4596967 wdt:P10374 ?obj . }",
+      "answers": [
+        "Q6954626"
+      ],
+      "question": [
+        {
+          "string": "¿Cuál es la complejidad computacional del problema de 2-satisfactibilidad?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 198,
+      "sparql": "SELECT ?obj WHERE { wd:Q15762983 wdt:P123 ?obj }",
+      "answers": [
+        "Q880582"
+      ],
+      "question": [
+        {
+          "string": "¿Qué editorial publica la Journal of Visual Literacy?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 199,
+      "sparql": "SELECT DISTINCT ?obj2 WHERE { wd:Q80 p:P108|p:P1416 ?obj1 . ?obj1 ps:P108|ps:P1416 ?obj2 . MINUS { ?obj1 pq:P582 ?obj3 }  }",
+      "answers": [
+        "Q37033",
+        "Q49108",
+        "Q7095994",
+        "Q7432436"
+      ],
+      "question": [
+        {
+          "string": "¿Dónde trabaja Tim Berners-Lee actualmente?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 200,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P106/wdt:P279* wd:Q2125610 . ?sbj wdt:P27|wdt:P1532 wd:Q664 . ?sbj wdt:P1344 wd:Q8544 }",
+      "answers": [
+        "Q11770868",
+        "Q1299266",
+        "Q1494815",
+        "Q176489",
+        "Q18402356",
+        "Q19757567",
+        "Q19876156",
+        "Q257126",
+        "Q27058000",
+        "Q286813",
+        "Q2966600",
+        "Q463687",
+        "Q4961153",
+        "Q573758",
+        "Q7367248",
+        "Q7649835",
+        "Q772321",
+        "Q7803285"
+      ],
+      "question": [
+        {
+          "string": "¿Qué ciclistas de Nueva Zelanda participaron en los Juegos Olímpicos de verano de 2000?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 201,
+      "sparql": "SELECT ?obj WHERE { wd:Q678 wdt:P421 ?obj }",
+      "answers": [
+        "Q7118",
+        "Q7122271"
+      ],
+      "question": [
+        {
+          "string": "¿En qué huso horario está Tonga?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 202,
+      "sparql": "SELECT ?obj3 { wd:Q2822418 p:P361 ?obj1 . ?obj1 ps:P361 ?obj2 . ?obj2 wdt:P31 wd:Q15795637 . ?obj1 pq:P156 ?obj3 }",
+      "answers": [
+        "Q11074074"
+      ],
+      "question": [
+        {
+          "string": "¿Qué evolución tiene Magikarp?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 203,
+      "sparql": "SELECT ?obj3 { wd:Q11074074 p:P361 ?obj1 . ?obj1 ps:P361 ?obj2 . ?obj2 wdt:P31 wd:Q15795637 . ?obj1 pq:P155 ?obj3 }",
+      "answers": [
+        "Q2822418"
+      ],
+      "question": [
+        {
+          "string": "¿De qué evoluciona Gyarados?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 204,
+      "sparql": "SELECT ?obj { wd:Q132469 wdt:P1318 ?obj }",
+      "answers": [
+        "Q184433",
+        "Q712170"
+      ],
+      "question": [
+        {
+          "string": "¿Quién demostró el último teorema de Fermat?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 205,
+      "sparql": "SELECT ?obj { wd:Q127330 wdt:P737 ?obj }",
+      "answers": [
+        "Q154331",
+        "Q190933",
+        "Q57247",
+        "Q607448",
+        "Q708884"
+      ],
+      "question": [
+        {
+          "string": "¿Quién influenció a Frank Zappa?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 206,
+      "sparql": "SELECT ?sbj { ?sbj wdt:P135 wd:Q183216 . ?sbj wdt:P106/wdt:P276* wd:Q4964182 }",
+      "answers": [
+        "Q272615",
+        "Q9391",
+        "Q1087945",
+        "Q1701398",
+        "Q172544",
+        "Q18719173",
+        "Q1927910",
+        "Q822437",
+        "Q725239",
+        "Q215263",
+        "Q725012",
+        "Q340070",
+        "Q6074243",
+        "Q288756",
+        "Q295012",
+        "Q60526193",
+        "Q319803",
+        "Q4725710",
+        "Q33760",
+        "Q374834"
+      ],
+      "question": [
+        {
+          "string": "¿Qué filósofos vienen del movimiento de filosofía analítica?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 207,
+      "sparql": "SELECT ?obj WHERE { wd:Q2875087 wdt:P119 ?obj }",
+      "answers": [
+        "Q814479"
+      ],
+      "question": [
+        {
+          "string": "¿Dónde fue enterrada Azar Andami?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 208,
+      "sparql": "SELECT ?sbj WHERE { ?sbj wdt:P161 wd:Q173399 . ?sbj wdt:P577 ?obj . ?sbj wdt:P31/wdt:P279* wd:Q11424 } ORDER BY ?obj LIMIT 1",
+      "answers": [
+        "Q3293618"
+      ],
+      "question": [
+        {
+          "string": "¿Cuál fue la primera película en que protagonizó Elliot Page?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 209,
+      "sparql": "SELECT ?obj WHERE { wd:Q9684 wdt:P112 ?obj }",
+      "answers": [
+        "Q164985",
+        "Q5541162"
+      ],
+      "question": [
+        {
+          "string": "¿Quién fundó the New York Times?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 210,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q1330974 . ?sbj wdt:P17 wd:Q189 }",
+      "answers": [
+        "Q1018862",
+        "Q182913",
+        "Q211665"
+      ],
+      "question": [
+        {
+          "string": "¿Qué volcanes en Islandia están activos?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 211,
+      "sparql": "SELECT ?sbj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q11424 . ?sbj wdt:P495 wd:Q668 . ?sbj p:P2142 ?obj1 . ?obj1 psv:P2142 ?obj2 . ?obj2 wikibase:quantityAmount ?obj3 . ?obj2 wikibase:quantityUnit wd:Q4917 . } ORDER BY DESC(?obj3) LIMIT 1",
+      "answers": [
+        "Q20762668"
+      ],
+      "question": [
+        {
+          "string": "¿Qué película india es la más taquillera?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 212,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q22687 . ?sbj wdt:P17 wd:Q262 }",
+      "answers": [
+        "Q1774622",
+        "Q63759113",
+        "Q86675373"
+      ],
+      "question": [
+        {
+          "string": "¿Qué bancos operan en Argelia?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 213,
+      "sparql": "SELECT ?obj WHERE { ?sbj wdt:P105 wd:Q7432 . ?sbj wdt:P171+ ?obj . ?obj wdt:P105 wd:Q34740 . } GROUP BY ?obj ORDER BY DESC(COUNT(DISTINCT ?sbj)) LIMIT 1",
+      "answers": [
+        "Q16526"
+      ],
+      "question": [
+        {
+          "string": "¿Qué género tiene más especies?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 214,
+      "sparql": "SELECT ?obj WHERE { wd:Q220726 wdt:P264 ?obj }",
+      "answers": [
+        "Q193023",
+        "Q208909"
+      ],
+      "question": [
+        {
+          "string": "¿Qué sello discográfico tiene Kid A?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 215,
+      "sparql": "SELECT ?obj WHERE { wd:Q34261 wdt:P190 ?obj }",
+      "answers": [
+        "Q1335",
+        "Q28218",
+        "Q340",
+        "Q3992",
+        "Q8652"
+      ],
+      "question": [
+        {
+          "string": "¿Qué ciudades están hermanadas con Puerto Príncipe?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 216,
+      "sparql": "SELECT DISTINCT ?obj WHERE { wd:Q771427 wdt:P156|(p:P361/pq:P156) ?obj . ?obj wdt:P31/wdt:P279* wd:Q482994 }",
+      "answers": [
+        "Q2058212"
+      ],
+      "question": [
+        {
+          "string": "¿Qué álbum siguió Another Green World?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 217,
+      "sparql": "SELECT DISTINCT ?obj WHERE { wd:Q771427 wdt:P155|(p:P361/pq:P155) ?obj . ?obj wdt:P31/wdt:P279* wd:Q482994 }",
+      "answers": [
+        "Q2473691"
+      ],
+      "question": [
+        {
+          "string": "¿Qué álbum fue seguido por Another Green World?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 218,
+      "sparql": "SELECT DISTINCT ?obj2 WHERE { wd:Q344647 p:P793 ?obj1 . ?obj1 ps:P793 wd:Q1194369 . ?obj1 pq:P710 ?obj2 }",
+      "answers": [
+        "Q29297",
+        "Q957519"
+      ],
+      "question": [
+        {
+          "string": "¿Quién fue el primero en subir el Ľadový štít?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 219,
+      "sparql": "SELECT ?obj WHERE { wd:Q181560 wdt:P462 ?obj }",
+      "answers": [
+        "Q943"
+      ],
+      "question": [
+        {
+          "string": "¿De qué color es una carambola?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 221,
+      "sparql": "SELECT ?obj WHERE { wd:Q181596 wdt:P178 ?obj }",
+      "answers": [
+        "Q132888041",
+        "Q135419999",
+        "Q37156",
+        "Q7052308"
+      ],
+      "question": [
+        {
+          "string": "¿Quién es el desarrollador de SPSS?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 222,
+      "sparql": "SELECT ?sbj WHERE { ?sbj (wdt:P31|wdt:P279)* wd:Q216048 . ?sbj wdt:P2283/(wdt:P31|wdt:P279)* wd:Q40044101 }",
+      "answers": [
+        "Q41466",
+        "Q974015",
+        "Q2194700",
+        "Q206763",
+        "Q5156775",
+        "Q213711",
+        "Q124366986",
+        "Q1455",
+        "Q183018",
+        "Q86256934",
+        "Q5375",
+        "Q8031140",
+        "Q185851",
+        "Q5369"
+      ],
+      "question": [
+        {
+          "string": "¿Qué deportes en equipo usan palos?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 223,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P361 wd:Q12585 . ?sbj wdt:P31/wdt:P279* wd:Q3624078 . ?sbj wdt:P1081 ?obj } ORDER BY DESC(?obj) LIMIT 1",
+      "answers": [
+        "Q414"
+      ],
+      "question": [
+        {
+          "string": "¿Qué país latinoamericano tiene el índice de desarrollo humano más alto?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 224,
+      "sparql": "SELECT ?obj WHERE { wd:Q36380 wdt:P1451 ?obj }",
+      "answers": [
+        "Ad maiorem Dei gloriam"
+      ],
+      "question": [
+        {
+          "string": "¿Cuál es el lema de los Jesuitas?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 225,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P39 wd:Q19546 . ?sbj wdt:P26 ?obj }",
+      "answers": [
+        "Q160931",
+        "Q173995",
+        "Q33923"
+      ],
+      "question": [
+        {
+          "string": "¿Qué papas estaban casados?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 227,
+      "sparql": "SELECT (COUNT(DISTINCT ?sbj) AS ?cnt) WHERE { ?sbj wdt:P31/wdt:P279* wd:Q2199 . ?sbj wdt:P397 wd:Q525 }",
+      "answers": [
+        "7"
+      ],
+      "question": [
+        {
+          "string": "¿Cuántos planetas enanos están en órbita del Sol?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 229,
+      "sparql": "SELECT ?obj WHERE { wd:Q791187 p:P2067/psn:P2067/wikibase:quantityAmount ?obj }",
+      "answers": [
+        "0.146"
+      ],
+      "question": [
+        {
+          "string": "¿Cuánto pesa una pelota de béisbol?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 230,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P57 ?obj . ?obj wdt:P69 wd:Q204457 . ?sbj wdt:P31/wdt:P279* wd:Q11424  }",
+      "answers": [
+        "Q104589294",
+        "Q10712998",
+        "Q11995287",
+        "Q14918344",
+        "Q1592308",
+        "Q16171115",
+        "Q17413100",
+        "Q1765687",
+        "Q20962283",
+        "Q23705709",
+        "Q33551429",
+        "Q938294"
+      ],
+      "question": [
+        {
+          "string": "¿Qué películas fueron dirigidas por egresados de la Universidad de Bergen?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 231,
+      "sparql": "SELECT ?obj WHERE { wd:Q13794921 wdt:P161 ?obj }",
+      "answers": [
+        "Q162035",
+        "Q211082",
+        "Q3434296",
+        "Q352233",
+        "Q462327",
+        "Q5711332",
+        "Q723751",
+        "Q900426"
+      ],
+      "question": [
+        {
+          "string": "¿Quién actuó en Sharknado?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 232,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q11424 . ?sbj wdt:P57 wd:Q466320 }",
+      "answers": [
+        "Q1046841",
+        "Q11780529",
+        "Q1557308",
+        "Q1624299",
+        "Q1637390",
+        "Q1785725",
+        "Q18156993",
+        "Q20921603",
+        "Q2734213",
+        "Q3988967",
+        "Q44935",
+        "Q461447",
+        "Q603857",
+        "Q610097",
+        "Q641324",
+        "Q6946216",
+        "Q945586"
+      ],
+      "question": [
+        {
+          "string": "¿Qué películas fueron dirigidas por Mira Nair?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 233,
+      "sparql": "SELECT ?s WHERE { ?s wdt:P106 wd:Q937857 . ?s wdt:P1399 wd:Q3806932 . }",
+      "answers": [
+        "Q615"
+      ],
+      "question": [
+        {
+          "string": "¿Qué futbolistas fueron condenados por fraude fiscal?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 234,
+      "sparql": "SELECT ?sbj WHERE { ?sbj p:P1087 ?obj1 . ?obj1 ps:P1087 ?obj2 . ?sbj wdt:P27 wd:Q801 . } ORDER BY DESC(?obj2) LIMIT 1",
+      "answers": [
+        "Q486778"
+      ],
+      "question": [
+        {
+          "string": "¿Quién tuvo la mejor puntuación Elo en la historia de Israel?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 235,
+      "sparql": "SELECT ?obj WHERE { wd:Q557933 p:P2048/psn:P2048/wikibase:quantityAmount ?obj }",
+      "answers": [
+        "412.0"
+      ],
+      "question": [
+        {
+          "string": "¿Qué altura tiene Al Hamra Tower?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 236,
+      "sparql": "SELECT ?sbj WHERE { ?sbj p:P166 ?obj1 . ?obj1 ps:P166 wd:Q28835 . ?obj1 pq:P585 ?obj2 . ?sbj wdt:P569 ?obj3 . BIND(?obj2 - ?obj3 AS ?obj4)  } ORDER BY ?obj4 LIMIT 1",
+      "answers": [
+        "Q212063"
+      ],
+      "question": [
+        {
+          "string": "¿Quién fue el galardonado más joven de la Medalla Fields?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 237,
+      "sparql": "SELECT ?obj WHERE { wd:Q6279 wdt:P140 ?obj  }",
+      "answers": [
+        "Q1841"
+      ],
+      "question": [
+        {
+          "string": "¿De qué religión es Joe Biden?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 239,
+      "sparql": "SELECT ?obj WHERE { wd:Q672 wdt:P163 ?obj }",
+      "answers": [
+        "Q105643"
+      ],
+      "question": [
+        {
+          "string": "¿Cuál es la bandera de Tuvalu?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 241,
+      "sparql": "SELECT ?sbj WHERE { ?sbj wdt:P161 wd:Q3840847 . ?sbj wdt:P577 ?obj . ?sbj wdt:P31/wdt:P279* wd:Q11424 . FILTER(?obj < NOW()) } ORDER BY DESC(?obj) LIMIT 1",
+      "answers": [
+        "Q130753599"
+      ],
+      "question": [
+        {
+          "string": "¿Cuál es la última película en que protagonizó Lupita Nyong'o?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 242,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q3966183 . ?sbj p:P2067/psn:P2067/wikibase:quantityAmount ?obj } ORDER BY DESC(?obj) LIMIT 1",
+      "answers": [
+        "Q1070682"
+      ],
+      "question": [
+        {
+          "string": "¿Cuál es el Pokémon más pesado?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 244,
+      "sparql": "SELECT ?obj WHERE { wd:Q93437995 wdt:P6258 ?obj }",
+      "answers": [
+        "19.430675"
+      ],
+      "question": [
+        {
+          "string": "¿Qué declinación tiene SDSSCGB 22541.3?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 245,
+      "sparql": "SELECT ?sbj WHERE { ?sbj wdt:P27 wd:Q183 . ?sbj wdt:P21/wdt:P279* wd:Q6581072 . ?sbj p:P2218 ?obj1 . ?obj1 a wikibase:BestRank . ?obj1 psv:P2218 ?obj2 . ?obj2 wikibase:quantityUnit wd:Q4917 . ?obj2 wikibase:quantityAmount ?obj3 . } ORDER BY DESC(?obj3) LIMIT 1",
+      "answers": [
+        "Q289590"
+      ],
+      "question": [
+        {
+          "string": "¿Quién es la mujer más rica de Alemania?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 246,
+      "sparql": "SELECT ?obj WHERE { wd:Q432 wdt:P571 ?obj }",
+      "answers": [
+        "0631-01-01T00:00:00Z"
+      ],
+      "question": [
+        {
+          "string": "¿Cuándo empezó el Islam?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 247,
+      "sparql": "SELECT DISTINCT ?obj2 WHERE { wd:Q1617 p:P1098 ?obj1 . ?obj1 a wikibase:BestRank . ?obj1 pq:P518 wd:Q36870 . ?obj1 ps:P1098 ?obj2 }",
+      "answers": [
+        "68600000.0"
+      ],
+      "question": [
+        {
+          "string": "¿Cuántos hablan el urdu como su primera lengua?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 248,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj p:P793 ?obj1 . ?sbj wdt:P31/wdt:P279 wd:Q8502 . ?obj1 ps:P793 wd:Q1194369 . ?obj1 pq:P585 ?obj2 . FILTER((YEAR(NOW()) - YEAR(?obj2)) <= 80) }",
+      "answers": [
+        "Q1189330",
+        "Q1324394",
+        "Q1945447",
+        "Q2244727",
+        "Q2269026",
+        "Q840735"
+      ],
+      "question": [
+        {
+          "string": "¿Qué montañas fueron ascendidas por primera vez en los últimos ochenta años?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 250,
+      "sparql": "SELECT ?obj3 WHERE { OPTIONAL { wd:Q382121 wdt:P1101 ?obj1 . } OPTIONAL { wd:Q382121 wdt:P1139 ?obj2 . } BIND(COALESCE(?obj1,0) + COALESCE(?obj2,0) AS ?obj3) }",
+      "answers": [
+        "71.0"
+      ],
+      "question": [
+        {
+          "string": "¿Cuántos pisos tiene la Torre Zifeng?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 251,
+      "sparql": "SELECT DISTINCT ?obj2 WHERE { wd:Q615 p:P54 ?obj . ?obj ps:P54 wd:Q483020 . ?obj pq:P580 ?obj2 . }",
+      "answers": [
+        "2021-08-01T00:00:00Z"
+      ],
+      "question": [
+        {
+          "string": "¿Cuándo se integró Lionel Messi a Paris Saint-Germain?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 252,
+      "sparql": "ASK WHERE { wd:Q615 p:P54 ?obj . ?obj ps:P54 wd:Q483020 . }",
+      "answers": [
+        true
+      ],
+      "question": [
+        {
+          "string": "¿Jugó Lionel Messi con Paris Saint-Germain?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 253,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P179 wd:Q1210827 . ?sbj wdt:P31/wdt:P279* wd:Q11424 }",
+      "answers": [
+        "Q189600",
+        "Q207536",
+        "Q80322391",
+        "Q83495"
+      ],
+      "question": [
+        {
+          "string": "¿Qué películas están en la serie Matrix?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 254,
+      "sparql": "SELECT ?obj WHERE { wd:Q380 wdt:P355 ?obj }",
+      "answers": [
+        "Q106859693",
+        "Q106859740",
+        "Q107361304",
+        "Q110541711",
+        "Q16321326",
+        "Q17985544",
+        "Q19865830",
+        "Q209330",
+        "Q28943651",
+        "Q29123981",
+        "Q52410688",
+        "Q61058375",
+        "Q64732680",
+        "Q81063275",
+        "Q85760291",
+        "Q92586587"
+      ],
+      "question": [
+        {
+          "string": "¿Qué filiales tiene Meta Platforms?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 255,
+      "sparql": "SELECT ?obj WHERE { wd:Q5424652 wdt:P159 ?obj }",
+      "answers": [
+        "Q1960"
+      ],
+      "question": [
+        {
+          "string": "¿Dónde está la sede de FBME Bank?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 256,
+      "sparql": "SELECT ?obj WHERE { wd:Q691 wdt:P610 ?obj }",
+      "answers": [
+        "Q277441"
+      ],
+      "question": [
+        {
+          "string": "¿Cuál es el punto más alto de Papúa Nueva Guinea?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 257,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P31?/wdt:P279* wd:Q9174 . ?sbj wdt:P1552 wd:Q83364 . }",
+      "answers": [
+        "Q131165",
+        "Q19750498",
+        "Q9232"
+      ],
+      "question": [
+        {
+          "string": "¿Qué religiones promueven el vegetarianismo?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 258,
+      "sparql": "SELECT DISTINCT ?obj2 WHERE { wd:Q22686 p:P735 ?obj1 . ?obj1 pq:P1545 \"2\" . ?obj1 ps:P735 ?obj2 . }",
+      "answers": [
+        "Q4925477"
+      ],
+      "question": [
+        {
+          "string": "¿Cuál es el segundo nombre de Donald Trump?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 259,
+      "sparql": "SELECT DISTINCT ?obj WHERE { wd:Q880114 wdt:P449 ?obj }",
+      "answers": [
+        "Q501070"
+      ],
+      "question": [
+        {
+          "string": "¿Qué canal difundió Black Books originalmente?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 260,
+      "sparql": "SELECT ?obj WHERE { wd:Q117 wdt:P47 ?obj }",
+      "answers": [
+        "Q1008",
+        "Q945",
+        "Q965"
+      ],
+      "question": [
+        {
+          "string": "¿Qué países comparten un borde con Ghana?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 261,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q33506 . ?sbj wdt:P276?/wdt:P131* wd:Q34692 }",
+      "answers": [
+        "Q2498011",
+        "Q650517"
+      ],
+      "question": [
+        {
+          "string": "¿Qué museos están ubicados en Kingston, Jamaica?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 262,
+      "sparql": "SELECT DISTINCT ?obj4 WHERE { wd:Q209518 p:P54 ?obj1 . ?obj1 ps:P54 wd:Q205973 . ?obj1 pq:P582 ?obj2 . wd:Q209518 p:P54 ?obj3 . ?obj3 ps:P54 ?obj4 . ?obj3 pq:P580 ?obj5 . FILTER(YEAR(?obj5) >= YEAR(?obj2) && ?obj1 != ?obj3) } ORDER BY ?obj5 LIMIT 1",
+      "answers": [
+        "Q203008"
+      ],
+      "question": [
+        {
+          "string": "¿Con qué equipo se juntó Wayne Gretzky después de los Edmonton Oilers?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 263,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj p:P179 ?obj . ?obj ps:P179 wd:Q98063049 . ?obj pq:P1545 \"2\" }",
+      "answers": [
+        "Q170564"
+      ],
+      "question": [
+        {
+          "string": "¿Cuál es la segunda película en la serie Terminator?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 264,
+      "sparql": "SELECT ?obj WHERE { wd:Q304992 wdt:P749 ?obj }",
+      "answers": [
+        "Q334800"
+      ],
+      "question": [
+        {
+          "string": "¿Cuál es la empresa matriz de Gatorade?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 266,
+      "sparql": "SELECT ?sbj WHERE { ?sbj wdt:P171+ wd:Q21790 . ?sbj wdt:P105 wd:Q7432 . MINUS { ?sbj (wdt:P31|wdt:P141)/wdt:P279* wd:Q98961713 . } }",
+      "answers": [
+        "Q121812830",
+        "Q125495145",
+        "Q125498685",
+        "Q125498820",
+        "Q125498866",
+        "Q125498967",
+        "Q15343",
+        "Q193182",
+        "Q41162302",
+        "Q41166520",
+        "Q41167359",
+        "Q41169202",
+        "Q635949",
+        "Q757942",
+        "Q809557"
+      ],
+      "question": [
+        {
+          "string": "¿Qué especies existentes están en el orden de Monotremata?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 268,
+      "sparql": "SELECT DISTINCT ?obj WHERE { wd:Q7291 wdt:P2283 ?obj . ?obj wdt:P31?/wdt:P279* wd:Q18545 }",
+      "answers": [
+        "Q874669"
+      ],
+      "question": [
+        {
+          "string": "¿Qué pelota se usa en bádminton?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 270,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { wd:Q6900886 p:P31?/pq:P642?/wdt:P171+ ?obj . ?obj wdt:P105 wd:Q34740 . ?sbj wdt:P171+ ?obj . ?sbj wdt:P105 wd:Q7432 . FILTER(?sbj != wd:Q6900886) }",
+      "answers": [
+        "Q113127577",
+        "Q11877169",
+        "Q12418974",
+        "Q1323732",
+        "Q137360978",
+        "Q18964870",
+        "Q18964873",
+        "Q18964876",
+        "Q18964879",
+        "Q1986297",
+        "Q5025948",
+        "Q92114628",
+        "Q92114689"
+      ],
+      "question": [
+        {
+          "string": "¿Qué especies están en el mismo género que el virus de la viruela del mono?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 271,
+      "sparql": "SELECT ?obj WHERE { wd:Q3624 wdt:P1376 ?obj }",
+      "answers": [
+        "Q115"
+      ],
+      "question": [
+        {
+          "string": "¿De qué es Adís Abeba la capital?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 272,
+      "sparql": "SELECT ?obj WHERE { wd:Q7245 wdt:P1477 ?obj }",
+      "answers": [
+        "Samuel Langhorne Clemens"
+      ],
+      "question": [
+        {
+          "string": "¿Cuál fue el nombre de nacimiento de Mark Twain?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 274,
+      "sparql": "SELECT ?obj WHERE { wd:Q201832 wdt:P421 ?obj }",
+      "answers": [
+        "Q6828"
+      ],
+      "question": [
+        {
+          "string": "¿Cuál es el huso horario de Aligarh?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 276,
+      "sparql": "SELECT (COUNT(DISTINCT ?sbj) AS ?count) WHERE { ?sbj p:P726/ps:P726 wd:Q193156 . ?sbj wdt:P541 wd:Q11696 }",
+      "answers": [
+        "4"
+      ],
+      "question": [
+        {
+          "string": "¿Cuántas veces se presentó Ralph Nader a la presidencia estadounidense?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 277,
+      "sparql": "SELECT ?obj WHERE { wd:Q170645 wdt:P1346 ?obj }",
+      "answers": [
+        "Q47774"
+      ],
+      "question": [
+        {
+          "string": "¿Quién ganó la Copa Mundial de Fútbol de 2018?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 278,
+      "sparql": "SELECT DISTINCT ?obj2 WHERE { wd:Q18891156 p:P793 ?obj1 . ?obj1 ps:P793/wdt:P279* wd:Q2727213 . ?obj1 pq:P585 ?obj2  }",
+      "answers": [
+        "1994-02-12T00:00:00Z"
+      ],
+      "question": [
+        {
+          "string": "¿Cuándo fue robado El grito?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 279,
+      "sparql": "SELECT ?obj WHERE { wd:Q1334582 wdt:P2196 ?obj }",
+      "answers": [
+        "27678.0"
+      ],
+      "question": [
+        {
+          "string": "¿Cuántos estudiantes asisten a la Universidad de Lieja?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 280,
+      "sparql": "SELECT DISTINCT ?obj WHERE { wd:Q811021 wdt:P527 ?obj . ?obj wdt:P106/wdt:P279* wd:Q386854 . }",
+      "answers": [
+        "Q765813"
+      ],
+      "question": [
+        {
+          "string": "¿Quién es el baterista en la banda Battles?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 281,
+      "sparql": "SELECT ?sbj { { SELECT ?sbj (COUNT(DISTINCT ?obj) as ?cnt) WHERE { ?sbj wdt:P31/wdt:P279* wd:Q3624078 . ?sbj wdt:P47 ?obj } GROUP BY ?sbj }  { SELECT (COUNT(DISTINCT ?obj) as ?cnt) WHERE { ?sbj wdt:P31/wdt:P279* wd:Q3624078 . ?sbj wdt:P47 ?obj } GROUP BY ?sbj ORDER BY DESC (COUNT(DISTINCT ?obj)) LIMIT 1 } }",
+      "answers": [
+        "Q159"
+      ],
+      "question": [
+        {
+          "string": "¿Qué país tiene frontera con el número máximo de países?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 282,
+      "sparql": "SELECT ?sbj WHERE { ?sbj wdt:P106/wdt:P279* wd:Q170790 . ?sbj p:P8687 ?obj1 . ?obj1 pq:P2002|pq:P6552 ?obj2 . ?obj1 ps:P8687 ?obj3 } ORDER BY DESC(?obj3) LIMIT 1",
+      "answers": [
+        "Q380026"
+      ],
+      "question": [
+        {
+          "string": "¿Qué matemático tiene el número máximo de seguidores en Twitter?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 283,
+      "sparql": "SELECT ?obj WHERE { ?sbj wdt:P541 wd:Q5176750 . ?sbj wdt:P726 wd:Q10304982 . ?sbj wdt:P726 ?obj . FILTER(?obj != wd:Q10304982) }",
+      "answers": [
+        "Q10371678",
+        "Q37181",
+        "Q59284361",
+        "Q744798",
+        "Q3069485",
+        "Q19944687",
+        "Q237693",
+        "Q28677087",
+        "Q3069485",
+        "Q3428247",
+        "Q744798",
+        "Q964493"
+      ],
+      "question": [
+        {
+          "string": "¿Quién ha enfrentado a Jair Bolsonaro para ser Presidente de Brasil?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 284,
+      "sparql": "SELECT (COUNT(DISTINCT ?sbj) AS ?count) WHERE { ?sbj wdt:P1346 wd:Q380613 . ?sbj (wdt:P31/wdt:P279*)|wdt:P3450 wd:Q280275 }",
+      "answers": [
+        "1"
+      ],
+      "question": [
+        {
+          "string": "¿Cuántas veces ha ganado Rory McIlroy el Masters Tournament?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 285,
+      "sparql": "SELECT ?obj3 WHERE { wd:Q1138488 p:P5286 ?obj1 . ?obj1 pq:P1545 \"2\" . ?obj1 ps:P5286 ?obj2 . BIND(STRAFTER(STR(?obj2),\" \") AS ?obj3) }",
+      "answers": [
+        "e6"
+      ],
+      "question": [
+        {
+          "string": "¿Cuál es la segunda jugada de las negras en la apertura catalana?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 286,
+      "sparql": "SELECT ?sbj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q3918 . ?sbj wdt:P131*/wdt:P17?/wdt:P30? wd:Q843 . ?sbj wdt:P2196 ?obj . } ORDER BY DESC(?obj) LIMIT 1",
+      "answers": [
+        "Q3694529"
+      ],
+      "question": [
+        {
+          "string": "¿Qué universidad en Pakistán tiene el número máximo de estudiantes?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 287,
+      "sparql": "SELECT ?sbj WHERE { ?sbj wdt:P449 wd:Q23633 . ?sbj wdt:P31/wdt:P279* wd:Q5398426 . ?sbj p:P444 ?obj1 . ?obj1 pq:P459 wd:Q108403393 . ?obj1 ps:P444 ?obj2 . { SELECT ?obj2 WHERE { ?sbj wdt:P449 wd:Q23633 . ?sbj wdt:P31/wdt:P279* wd:Q5398426 . ?sbj p:P444 ?obj1 . ?obj1 pq:P459 wd:Q108403393 . ?obj1 ps:P444 ?obj2 . BIND(xsd:integer(IF(CONTAINS(STR(?obj2),\"%\"),STRBEFORE(STR(?obj2),\"%\"),IF(CONTAINS(STR(?obj2),\"/\"),STRBEFORE(STR(?obj2),\"/\"),?obj2))) AS ?obj3) } ORDER BY DESC(?obj3) LIMIT 1 } }",
+      "answers": [
+        "Q4999826",
+        "Q87131973"
+      ],
+      "question": [
+        {
+          "string": "¿Qué serie de HBO tiene el mejor puntaje de Tomatometer?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 288,
+      "sparql": "SELECT ?obj2 WHERE { wd:Q3224 p:P2046/psn:P2046/wikibase:quantityAmount ?obj2 }",
+      "answers": [
+        "801150000000.0"
+      ],
+      "question": [
+        {
+          "string": "¿Qué área tiene Nueva Gales del Sur?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 289,
+      "sparql": "SELECT ?obj WHERE { wd:Q51812 wdt:P281 ?obj }",
+      "answers": [
+        "70011"
+      ],
+      "question": [
+        {
+          "string": "¿Cuál es el código postal de Alberobello?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 290,
+      "sparql": "SELECT DISTINCT ?obj WHERE { wd:Q33231 (wdt:P417|^wdt:P2925) ?obj . }",
+      "answers": [
+        "Q196653"
+      ],
+      "question": [
+        {
+          "string": "¿Quién es el santo patrón de fotógrafos?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 291,
+      "sparql": "SELECT ?obj WHERE { wd:Q28451532 wdt:P86 ?obj }",
+      "answers": [
+        "Q86351247"
+      ],
+      "question": [
+        {
+          "string": "¿Quién es el compositor de Celeste?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 292,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj p:P1000 ?obj1 . ?obj1 ps:P1000 ?obj2 . ?obj2 p:P360 ?obj3 . ?obj3 ps:P360 wd:Q688615 . ?obj3 pq:P641 wd:Q55243755 . MINUS { ?obj1 pq:P582 ?obj4 } }",
+      "answers": [
+        "Q1189",
+        "Q120868534",
+        "Q132884102"
+      ],
+      "question": [
+        {
+          "string": "¿Quién es el plusmarquista mundial actual de los 200 metros lisos masculinos?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 293,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj p:P31 ?obj1 . ?obj1 ps:P31 ?obj2 . ?obj2 (wdt:P31|wdt:P279)* wd:Q373498 . ?obj2 wdt:P641 wd:Q11413 . ?obj1 pq:P1545 ?obj3 . } ORDER BY DESC(?obj3) LIMIT 1",
+      "answers": [
+        "Q12036922"
+      ],
+      "question": [
+        {
+          "string": "¿Cuál es el dan de Go más alto?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 294,
+      "sparql": "SELECT ?obj WHERE { wd:Q1254 wdt:P1412 ?obj }",
+      "answers": [
+        "Q150",
+        "Q1860",
+        "Q28026"
+      ],
+      "question": [
+        {
+          "string": "¿Qué idiomas hablaba Kofi Annan?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 295,
+      "sparql": "SELECT ?sbj WHERE { ?sbj p:P2052/psn:P2052/wikibase:quantityAmount ?obj . ?sbj wdt:P105 wd:Q7432 . ?sbj wdt:P171+ wd:Q7377 . } ORDER BY DESC(?obj) LIMIT 1",
+      "answers": [
+        "Q913930"
+      ],
+      "question": [
+        {
+          "string": "¿Qué especie de mamífero es la más rápida?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 296,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P31?/wdt:P279* wd:Q28640 . ?sbj wdt:P425/(wdt:P101|wdt:P2578)/^wdt:P171?/^wdt:P13176? wd:Q11946202 }",
+      "answers": [
+        "Q497294"
+      ],
+      "question": [
+        {
+          "string": "¿Qué profesión estudia las mariposas?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 297,
+      "sparql": "SELECT ?obj WHERE { wd:Q339 wdt:P61 ?obj }",
+      "answers": [
+        "Q190232"
+      ],
+      "question": [
+        {
+          "string": "¿Quién descubrió a  Plutón?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 298,
+      "sparql": "SELECT ?obj WHERE { wd:Q19467 wdt:P286 ?obj }",
+      "answers": [
+        "Q874777"
+      ],
+      "question": [
+        {
+          "string": "¿Quién es el entrenador de Crystal Palace F.C.?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 299,
+      "sparql": "SELECT DISTINCT ?obj WHERE { ?sbj (wdt:P361|wdt:P31)/wdt:P279* wd:Q248101 . ?sbj wdt:P195 ?obj . MINUS { ?obj wdt:P131*/wdt:P17?/wdt:P30? wd:Q15 }  }",
+      "answers": [
+        "Q160236",
+        "Q6373"
+      ],
+      "question": [
+        {
+          "string": "¿Qué colecciones fuera de África exponen Bronces de Benín?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 301,
+      "sparql": "SELECT DISTINCT ?obj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q828329 . ?sbj wdt:P131*/wdt:P17 ?obj }",
+      "answers": [
+        "Q155",
+        "Q717",
+        "Q730"
+      ],
+      "question": [
+        {
+          "string": "¿En qué países se encuentran tepuis?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 302,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q2537 . ?sbj wdt:P397+ wd:Q525 . ?sbj p:P2067/psn:P2067/wikibase:quantityAmount ?obj . } ORDER BY DESC(?obj) LIMIT 1",
+      "answers": [
+        "Q3169"
+      ],
+      "question": [
+        {
+          "string": "¿Cuál es la luna más grande del Sistema Solar por masa?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 303,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q2537 . ?sbj wdt:P397+ wd:Q525 . ?sbj p:P2120/psn:P2120/wikibase:quantityAmount ?obj . } ORDER BY DESC(?obj) LIMIT 1",
+      "answers": [
+        "Q3169"
+      ],
+      "question": [
+        {
+          "string": "¿Cuál es la luna más grande del Sistema Solar por radio?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 305,
+      "sparql": "SELECT ?obj WHERE { wd:Q269880 p:P3039/psn:P3039/wikibase:quantityAmount ?obj }",
+      "answers": [
+        "2.65"
+      ],
+      "question": [
+        {
+          "string": "¿Cuál es la distancia entre ejes del Enzo Ferrari?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 306,
+      "sparql": "SELECT DISTINCT ?obj2 WHERE { wd:Q4484215 p:P108 ?obj1 . ?obj1 ps:P108 wd:Q169889 . ?obj1 pq:P580 ?obj2 }",
+      "answers": [
+        "2018-04-02T00:00:00Z"
+      ],
+      "question": [
+        {
+          "string": "¿Cuándo se incorporó Kyra Phillips a ABC?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 307,
+      "sparql": "ASK WHERE { wd:Q4484215 p:P108 ?obj1 . ?obj1 ps:P108 wd:Q169889 . }",
+      "answers": [
+        true
+      ],
+      "question": [
+        {
+          "string": "¿Ha trabajado Kyra Phillips con ABC?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 308,
+      "sparql": "SELECT DISTINCT ?obj2 WHERE { wd:Q46239 p:P793 ?obj1 . ?obj1 ps:P793 wd:Q17781833 . ?obj1 pq:P585 ?obj2 . }",
+      "answers": [
+        "0475-01-01T00:00:00Z"
+      ],
+      "question": [
+        {
+          "string": "¿Cuándo fue destruida la Estatua de Zeus en Olimpia?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 309,
+      "sparql": "ASK WHERE { wd:Q46239 p:P793 ?obj1 . ?obj1 ps:P793 wd:Q17781833 . }",
+      "answers": [
+        true
+      ],
+      "question": [
+        {
+          "string": "¿Fue destruida la Estatua de Zeus en Olimpia?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 310,
+      "sparql": "SELECT DISTINCT ?obj2 WHERE { wd:Q644161 p:P726 ?obj1 . ?obj1 ps:P726 ?obj2 . ?obj1 pq:P102 wd:Q29552 . }",
+      "answers": [
+        "Q331742"
+      ],
+      "question": [
+        {
+          "string": "¿Quién fue el candidato del Partido Demócrata en las elecciones presidenciales de Estados Unidos de 1972?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 311,
+      "sparql": "SELECT ?obj WHERE { wd:Q3463928 wdt:P841 ?obj }",
+      "answers": [
+        "Q2623"
+      ],
+      "question": [
+        {
+          "string": "¿Cuándo es el día de festividad de Santo Kizito?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 312,
+      "sparql": "SELECT DISTINCT ?obj2 WHERE { wd:Q317521 wdt:P19 ?obj1 . ?obj1 wdt:P17 ?obj2 . }",
+      "answers": [
+        "Q258"
+      ],
+      "question": [
+        {
+          "string": "¿En qué país nació Elon Musk?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 313,
+      "sparql": "SELECT (COUNT(?grandmaster) as ?count) WHERE { ?grandmaster wdt:P2962 wd:Q105269 .  ?grandmaster wdt:P27 wd:Q36 }",
+      "answers": [
+        "58"
+      ],
+      "question": [
+        {
+          "string": "¿Cuántos Gran Maestros Internacionales polacos ha habido?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 315,
+      "sparql": "SELECT ?obj WHERE { wd:Q7156 wdt:P859 ?obj }",
+      "answers": [
+        "Q132551",
+        "Q689141"
+      ],
+      "question": [
+        {
+          "string": "¿Quiénes son patrocinadores del fútbol club Barcelona?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 316,
+      "sparql": "SELECT ?sbj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q7058673 . ?sbj wdt:P2664 ?obj .} ORDER BY DESC (?obj) LIMIT 1",
+      "answers": [
+        "Q1046812"
+      ],
+      "question": [
+        {
+          "string": "¿Qué serie de videojuegos ha vendido el mayor número de unidades?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 317,
+      "sparql": "SELECT ?obj WHERE { SELECT ?obj (COUNT(?sbj) as ?cnt) WHERE { ?obj wdt:P31 wd:Q7058673 . ?sbj wdt:P179 ?obj . } GROUP BY (?obj) ORDER BY DESC (?numGames) LIMIT 1 }",
+      "answers": [
+        "Q100241262"
+      ],
+      "question": [
+        {
+          "string": "¿Qué serie de videojuegos tiene más videojuegos?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 318,
+      "sparql": "SELECT ?planet WHERE { ?planet wdt:P31/wdt:P279* wd:Q634 . ?planet wdt:P2067 ?mass .} ORDER BY ASC(?mass) LIMIT 1",
+      "answers": [
+        "Q27048796"
+      ],
+      "question": [
+        {
+          "string": "¿Qué planeta tiene menos masa?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 319,
+      "sparql": "SELECT ?artist WHERE { ?artist wdt:P106/wdt:P279* wd:Q1028181 . ?artwork wdt:P170 ?artist . ?artwork wdt:P31/wdt:P279* wd:Q3305213 .} GROUP BY (?artist) ORDER BY DESC(COUNT (DISTINCT ?artwork)) LIMIT 1",
+      "answers": [
+        "Q159758"
+      ],
+      "question": [
+        {
+          "string": "¿Qué pintor ha pintado más obras?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 320,
+      "sparql": "SELECT ?language WHERE { ?language wdt:P31/wdt:P279* wd:Q9143 . ?language wdt:P571 ?fecha . } ORDER BY DESC(?fecha) LIMIT 1",
+      "answers": [
+        "Q132262426"
+      ],
+      "question": [
+        {
+          "string": "¿Cuál fue el último lenguaje de programación creado?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 323,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q7889 . ?sbj wdt:P166 wd:Q104117257 . }",
+      "answers": [
+        "Q111165107",
+        "Q18515944",
+        "Q223341",
+        "Q842146",
+        "Q86919275"
+      ],
+      "question": [
+        {
+          "string": "¿Qué videojuegos han ganado el premio de Mejor Juego de Esports del Año en The Game Awards?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 324,
+      "sparql": "SELECT ?obj WHERE { wd:Q34660 wdt:P569 ?obj }",
+      "answers": [
+        "1965-07-31T00:00:00Z"
+      ],
+      "question": [
+        {
+          "string": "¿Cuándo nació J. K. Rowling?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 325,
+      "sparql": "SELECT ?sbj WHERE { ?sbj wdt:P1444 wd:Q332 }",
+      "answers": [
+        "Q48475"
+      ],
+      "question": [
+        {
+          "string": "¿Qué sondas han explorado Neptuno?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 327,
+      "sparql": "SELECT ?sbj WHERE { { SELECT (MAX(?count) AS ?max) WHERE { SELECT (COUNT(?obj) AS ?count) WHERE { ?sbj wdt:P31/wdt:P279* wd:Q11424 . ?sbj wdt:P57 wd:Q2001 . ?sbj wdt:P166 ?obj . ?obj wdt:P31*/wdt:P279* wd:Q19020 .  } GROUP BY ?sbj } } { SELECT ?sbj (COUNT(?obj) AS ?max) WHERE { ?sbj wdt:P31/wdt:P279* wd:Q11424 . ?sbj wdt:P57 wd:Q2001 . ?sbj wdt:P166 ?obj . ?obj wdt:P31*/wdt:P279* wd:Q19020 .  } GROUP BY ?sbj } }",
+      "answers": [
+        "Q108297",
+        "Q471716"
+      ],
+      "question": [
+        {
+          "string": "¿Qué película dirigida por Stanley Kubrick obtuvo más Premios Óscar?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 328,
+      "sparql": "SELECT DISTINCT ?sbj1 WHERE { ?sbj1 wdt:P31/wdt:P279* wd:Q14645593 . ?sbj2 wdt:P27 wd:Q298 . ?sbj2 wdt:P54 ?sbj1 . }",
+      "answers": [
+        "Q334657",
+        "Q3462531",
+        "Q3651754",
+        "Q4120775",
+        "Q84348017"
+      ],
+      "question": [
+        {
+          "string": "¿Qué equipos de rugby a 15 han tenido jugadores chilenos?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 329,
+      "sparql": "SELECT ?sbj WHERE { ?sbj wdt:P31 wd:Q5 . ?sbj p:P2048/psn:P2048/wikibase:quantityAmount ?obj . } ORDER BY DESC(?obj) LIMIT 1",
+      "answers": [
+        "Q134083825"
+      ],
+      "question": [
+        {
+          "string": "¿Quién es el ser humano más alto de todos los tiempos?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 330,
+      "sparql": "SELECT DISTINCT ?obj WHERE { wd:Q298 wdt:P47 ?obj . ?obj wdt:P31/wdt:P279* wd:Q3624078 }",
+      "answers": [
+        "Q414",
+        "Q419",
+        "Q750"
+      ],
+      "question": [
+        {
+          "string": "¿Con qué países limita Chile?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 331,
+      "sparql": "SELECT ?sbj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q3231690 . ?sbj p:P2052/psn:P2052/wikibase:quantityAmount ?obj. } ORDER BY DESC(?obj) LIMIT 1",
+      "answers": [
+        "Q56248862"
+      ],
+      "question": [
+        {
+          "string": "¿Cuál es el modelo de automóvil más rápido?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 332,
+      "sparql": "SELECT DISTINCT ?obj2 WHERE { wd:Q170645 wdt:P3967 ?obj1 . ?obj1 wdt:P580 ?obj2 . }",
+      "answers": [
+        "2018-07-15T00:00:00Z"
+      ],
+      "question": [
+        {
+          "string": "¿Cuándo fue la final de la Copa Mundial de Fútbol de 2018?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 334,
+      "sparql": "SELECT ?sbj WHERE { ?sbj p:P39 ?obj1 . ?obj1 ps:P39 wd:Q466956 . ?obj1 pq:P580 ?obj2 . } ORDER BY ?obj2 LIMIT 1",
+      "answers": [
+        "Q1331"
+      ],
+      "question": [
+        {
+          "string": "¿Quién fue el primer presidente de Chile?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 335,
+      "sparql": "SELECT ?sbj WHERE { wd:Q615 wdt:P1971 ?obj1 . wd:Q11571 wdt:P1971 ?obj2 . BIND(IF(?obj1 > ?obj2, wd:Q615, wd:Q11571) AS ?sbj) }",
+      "answers": [
+        "Q11571"
+      ],
+      "question": [
+        {
+          "string": "¿Quién tiene más hijos: Lionel Messi o Cristiano Ronaldo?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 336,
+      "sparql": "SELECT (COUNT(?obj) AS ?count) WHERE { wd:Q11571 wdt:P3373 ?obj . }",
+      "answers": [
+        "3"
+      ],
+      "question": [
+        {
+          "string": "¿Cuántos hermanos tiene Cristiano Ronaldo?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 337,
+      "sparql": "SELECT ?sbj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q8502 . ?sbj p:P625/psv:P625/wikibase:geoGlobe wd:Q2 . ?sbj p:P2044/psn:P2044/wikibase:quantityAmount ?obj . } ORDER BY DESC(?obj) LIMIT 1",
+      "answers": [
+        "Q121900437"
+      ],
+      "question": [
+        {
+          "string": "¿Cuál es la montaña más alta del mundo?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 338,
+      "sparql": "SELECT ?obj WHERE { wd:Q846 wdt:P36 ?obj . }",
+      "answers": [
+        "Q3861"
+      ],
+      "question": [
+        {
+          "string": "¿Cuál es la capital de Catar?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 339,
+      "sparql": "SELECT (COUNT(?sbj) as ?cnt) WHERE { ?sbj wdt:P734 wd:Q37485936. ?sbj wdt:P106 wd:Q937857. }",
+      "answers": [
+        "8"
+      ],
+      "question": [
+        {
+          "string": "¿Cuántos jugadores de futbol se apellidan Suazo?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 340,
+      "sparql": "SELECT ?obj2 WHERE { wd:Q615 p:P54 ?obj1 . ?obj1 pq:P1351 ?obj2 . ?obj1 ps:P54 wd:Q7156 }",
+      "answers": [
+        "474.0"
+      ],
+      "question": [
+        {
+          "string": "¿Cuántos goles ha marcado Lionel Messi para el FC Barcelona?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 341,
+      "sparql": "SELECT ?obj3 WHERE {  { SELECT ?obj3 ?obj2 WHERE { wd:Q615 p:P54 ?obj1 . ?obj1 pq:P1351 ?obj2 . ?obj1 ps:P54 ?obj3 } } { SELECT ?obj2 WHERE { wd:Q615 p:P54 ?obj1 . ?obj1 pq:P1351 ?obj2 . ?obj1 ps:P54 ?obj3 } ORDER BY DESC(?obj2) LIMIT 1 } }",
+      "answers": [
+        "Q7156"
+      ],
+      "question": [
+        {
+          "string": "¿Para qué equipo ha marcado Lionel Messi más goles?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 342,
+      "sparql": "SELECT ?year WHERE { wd:Q362 wdt:P580 ?obj BIND(YEAR(?obj) AS ?year) }",
+      "answers": [
+        "1939"
+      ],
+      "question": [
+        {
+          "string": "¿En qué año comenzó la Segunda Guerra Mundial?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 343,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q2621143 }",
+      "answers": [
+        "Q10564935",
+        "Q16000237",
+        "Q18408091",
+        "Q1997428",
+        "Q21657910",
+        "Q21657916",
+        "Q25918150",
+        "Q25927291",
+        "Q28270",
+        "Q53662",
+        "Q55664759",
+        "Q5584733",
+        "Q605394",
+        "Q85406535",
+        "Q85407028"
+      ],
+      "question": [
+        {
+          "string": "¿Qué animales no humanos han sido enviados al espacio?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 344,
+      "sparql": "SELECT ?surname WHERE { ?person wdt:P106 wd:Q937857. ?person wdt:P734 ?surname. } GROUP BY ?surname ORDER BY DESC(COUNT(DISTINCT ?person)) LIMIT 10",
+      "answers": [
+        "Q1158446",
+        "Q13083721",
+        "Q5576697",
+        "Q980636",
+        "Q59853",
+        "Q13421990",
+        "Q11983535",
+        "Q1688722",
+        "Q1158701",
+        "Q6327150"
+      ],
+      "question": [
+        {
+          "string": "¿Cuáles son los 10 apellidos más comunes de futbolistas?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 345,
+      "sparql": "SELECT (COUNT(?obj3) / COUNT(DISTINCT ?sbj) AS ?ratio) WHERE { { SELECT DISTINCT ?sbj ?obj3 WHERE { ?sbj p:P39 ?obj1 . ?obj1 ps:P39 ?obj2 . ?obj2 wdt:P31?/wdt:P279* wd:Q30461 . OPTIONAL { ?obj1 pq:P1534/wdt:P279* ?obj3 . FILTER(?obj3 = wd:Q99521170) } } } }",
+      "answers": [
+        "0.002486187845304"
+      ],
+      "question": [
+        {
+          "string": "¿Cuál es la proporción de presidentes que han muerto ejerciendo su cargo?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 346,
+      "sparql": "SELECT (((COUNT(DISTINCT?tecnicoJugador))/(COUNT(DISTINCT?tecnico))) AS ?p) WHERE { ?tecnico wdt:P6087 wd:Q7156 . ?tecnicoJugador wdt:P6087 wd:Q7156 . ?tecnicoJugador wdt:P54 wd:Q7156 . }",
+      "answers": [
+        "0.5795454545455"
+      ],
+      "question": [
+        {
+          "string": "¿Cuál es la proporción de entrenadores del FC Barcelona que a su vez jugaron por el FC Barcelona?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 347,
+      "sparql": "SELECT DISTINCT ?pokemon WHERE { ?pokemon wdt:P31 wd:Q25930757 . ?pokemon wdt:P31 wd:Q25930490 }",
+      "answers": [
+        "Q1334381",
+        "Q27299994",
+        "Q3827231",
+        "Q4016093",
+        "Q79335533",
+        "Q79335562"
+      ],
+      "question": [
+        {
+          "string": "¿Qué Pokémon son de tipos fuego y bicho?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 349,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P106/wdt:P279* wd:Q57414145 . ?sbj wdt:P69 wd:Q1049470 . }",
+      "answers": [
+        "Q21555185",
+        "Q59240315"
+      ],
+      "question": [
+        {
+          "string": "¿Qué streamers estudiaron en la Universidad de Waterloo?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 350,
+      "sparql": "ASK WHERE { wd:Q317521 p:P26|^p:P26 ?obj1 . ?obj1 ps:P26 ?obj2 . MINUS { ?obj1 pq:P582 ?obj3 . } }",
+      "answers": [
+        false
+      ],
+      "question": [
+        {
+          "string": "¿Está casado Elon Musk?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 351,
+      "sparql": "ASK WHERE { wd:Q317521 p:P26|^p:P26 ?obj1 . ?obj1 ps:P26 ?obj2 . ?obj2 wdt:P21 wd:Q6581072 . MINUS { ?obj1 pq:P582 ?obj3 }  }",
+      "answers": [
+        false
+      ],
+      "question": [
+        {
+          "string": "¿Tiene Elon Musk una esposa?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 352,
+      "sparql": "ASK WHERE { wd:Q317521 p:P26|^p:P26 ?obj1 . ?obj1 ps:P26 ?obj2 . ?obj2 wdt:P21 wd:Q6581097 . MINUS { ?obj1 pq:P582 ?obj3 } }",
+      "answers": [
+        false
+      ],
+      "question": [
+        {
+          "string": "¿Tiene Elon Musk un marido?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 353,
+      "sparql": "SELECT DISTINCT ?obj2 WHERE { wd:Q317521 p:P26|^p:P26 ?obj1 . ?obj1 ps:P26 ?obj2 . ?obj1 pq:P582 ?obj3 . }",
+      "answers": [
+        "Q269309",
+        "Q6318376"
+      ],
+      "question": [
+        {
+          "string": "¿Quiénes son los ex cónyuges de Elon Musk?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 354,
+      "sparql": "ASK WHERE { wd:Q317521 p:P26|^p:P26 ?obj1 . ?obj1 ps:P26 ?obj2 . ?obj1 pq:P582 ?obj3 . }",
+      "answers": [
+        true
+      ],
+      "question": [
+        {
+          "string": "¿Tiene Elon Musk un ex cónyuge?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 355,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P3902/wdt:P279*/wdt:P1056? wd:Q177 . ?sbj wdt:P1196 wd:Q8454 }",
+      "answers": [
+        "Q4865651",
+        "Q6218463",
+        "Q6765065",
+        "Q7341481"
+      ],
+      "question": [
+        {
+          "string": "¿Qué presos condenados a muerte tuvo pizza para su última comida?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 356,
+      "sparql": "SELECT DISTINCT * WHERE { ?x wdt:P166 wd:Q185667 . ?x wdt:P19/wdt:P131*/wdt:P361* wd:Q12585 .  }",
+      "answers": [
+        "Q92626"
+      ],
+      "question": [
+        {
+          "string": "¿Qué ganadores del Premio Turing nacieron en Latinoamérica?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 358,
+      "sparql": "SELECT ?obj WHERE { wd:Q9141 p:P2046/psn:P2046/wikibase:quantityAmount ?obj }",
+      "answers": [
+        "170000.0"
+      ],
+      "question": [
+        {
+          "string": "¿Qué área ocupa el Taj Mahal?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 359,
+      "sparql": "SELECT DISTINCT ?obj WHERE { wd:Q784201 wdt:P5769 ?obj .  }",
+      "answers": [
+        "Q62919"
+      ],
+      "question": [
+        {
+          "string": "¿Quiénes son los editores en jefe de EMMA?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 360,
+      "sparql": "SELECT DISTINCT ?obj WHERE { wd:Q784201 wdt:P98|wdt:P5769 ?obj .  }",
+      "answers": [
+        "Q62919"
+      ],
+      "question": [
+        {
+          "string": "¿Quiénes son los editores de EMMA?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 361,
+      "sparql": "SELECT ?obj WHERE { wd:Q40244 p:P3157/psn:P3157/wikibase:quantityAmount ?obj .  }",
+      "answers": [
+        "42195.0"
+      ],
+      "question": [
+        {
+          "string": "¿Qué distancia tiene un maratón?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 362,
+      "sparql": "ASK WHERE { wd:Q7369 (p:P31/pq:P642)?/(wdt:P279|wdt:P171)* wd:Q7377 }",
+      "answers": [
+        true
+      ],
+      "question": [
+        {
+          "string": "¿Los delfines son mamíferos?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 363,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q7278 . ?sbj wdt:P17 wd:Q115 . ?sbj wdt:P580|wdt:P571 ?obj . FILTER(YEAR(?obj) > 2000) }",
+      "answers": [
+        "Q105552917",
+        "Q1134381",
+        "Q1250751",
+        "Q19605729",
+        "Q280646",
+        "Q4728710",
+        "Q491145",
+        "Q78108696",
+        "Q83393434"
+      ],
+      "question": [
+        {
+          "string": "¿Qué partidos políticos etíopes fueron fundados desde 2000?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 364,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q7278 . ?sbj wdt:P17 wd:Q115 . ?sbj wdt:P576|wdt:P582 ?obj . FILTER(YEAR(?obj) > 2000) }",
+      "answers": [
+        "Q1135310",
+        "Q1186157",
+        "Q1186219",
+        "Q19605729",
+        "Q1966902",
+        "Q257343",
+        "Q280646",
+        "Q491145",
+        "Q766610"
+      ],
+      "question": [
+        {
+          "string": "¿Qué partidos políticos etíopes se han disuelto desde 2000?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 365,
+      "sparql": "SELECT ?obj WHERE { wd:Q7547 wdt:P65 ?obj }",
+      "answers": [
+        "Q11700"
+      ],
+      "question": [
+        {
+          "string": "¿Dónde fue descubierto Fobos?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 366,
+      "sparql": "SELECT ?sbj WHERE { ?sbj wdt:P2578 wd:Q764 }",
+      "answers": [
+        "Q7175"
+      ],
+      "question": [
+        {
+          "string": "¿Cuál es el estudio de los hongos?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 367,
+      "sparql": "SELECT ?obj WHERE { wd:Q7175 wdt:P2578 ?obj }",
+      "answers": [
+        "Q764"
+      ],
+      "question": [
+        {
+          "string": "¿Qué se estudia en la micología?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 369,
+      "sparql": "SELECT ?obj WHERE { wd:Q673308 wdt:P1075 ?obj }",
+      "answers": [
+        "Q2173895"
+      ],
+      "question": [
+        {
+          "string": "¿Quién es el rector de la Universidad de Lucerna?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 370,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P1075 ?obj . ?sbj wdt:P276?/wdt:P131*/wdt:P17?/wdt:P30 wd:Q48 . ?obj wdt:P21 wd:Q6581072 }",
+      "answers": [
+        "Q11374954",
+        "Q12486119",
+        "Q133501177",
+        "Q16182620",
+        "Q20426828",
+        "Q2067552",
+        "Q224802",
+        "Q3919286",
+        "Q4208095",
+        "Q4239224",
+        "Q4239244",
+        "Q4336193",
+        "Q4476709",
+        "Q4479074",
+        "Q4773809",
+        "Q488100",
+        "Q6452203",
+        "Q65234927",
+        "Q749884"
+      ],
+      "question": [
+        {
+          "string": "¿Qué universidades asiáticas tienen rectoras?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 371,
+      "sparql": "SELECT DISTINCT ?obj WHERE { ?sbj wdt:P50 wd:Q34315853 . ?sbj wdt:P1433 ?obj . ?obj wdt:P31/wdt:P279* wd:Q41298 }",
+      "answers": [
+        "Q152037",
+        "Q15708881",
+        "Q15751858",
+        "Q15759214",
+        "Q15816960",
+        "Q15817015",
+        "Q18229272",
+        "Q21015572",
+        "Q27725928",
+        "Q3918707",
+        "Q4724371",
+        "Q4835939",
+        "Q5133783",
+        "Q564954",
+        "Q6294854",
+        "Q924044"
+      ],
+      "question": [
+        {
+          "string": "¿En qué revistas ha publicado Amrapali Zaveri?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 372,
+      "sparql": "SELECT DISTINCT ?obj2 WHERE { ?sbj p:P50 ?obj1 . ?obj1 ps:P50 wd:Q34315853 . ?obj1 pq:P1545 \"1\" . ?sbj wdt:P1433 ?obj2 . ?obj2 wdt:P31/wdt:P279* wd:Q41298 }",
+      "answers": [
+        "Q15708881",
+        "Q15759214",
+        "Q15817015",
+        "Q18229272",
+        "Q4724371",
+        "Q564954",
+        "Q924044"
+      ],
+      "question": [
+        {
+          "string": "¿En qué revistas ha publicado Amrapali Zaveri como primera autora?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 373,
+      "sparql": "SELECT ?sbj WHERE { ?sbj p:P50 ?obj . ?obj ps:P50 wd:Q34315853 . ?obj pq:P1545 \"1\" . }",
+      "answers": [
+        "Q125461875",
+        "Q131765400",
+        "Q34281675",
+        "Q38504695",
+        "Q47543579",
+        "Q55177666",
+        "Q55177667",
+        "Q55177669",
+        "Q55177674",
+        "Q55177675",
+        "Q56160775"
+      ],
+      "question": [
+        {
+          "string": "¿Qué artículos publicó Amrapali Zaveri como primera autora?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 375,
+      "sparql": "SELECT ?obj WHERE { wd:Q3151 wdt:P1122 ?obj }",
+      "answers": [
+        "0.5"
+      ],
+      "question": [
+        {
+          "string": "¿Qué espín tiene un muon?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 377,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P31*/wdt:P279* wd:Q43116 . ?sbj wdt:P517 wd:Q11415 . ?sbj wdt:P517 wd:Q11418 }",
+      "answers": [
+        "Q105580",
+        "Q11905753",
+        "Q11905754",
+        "Q11905755",
+        "Q11905758",
+        "Q18481576",
+        "Q18481607",
+        "Q18732748",
+        "Q2052084",
+        "Q6718",
+        "Q6732",
+        "Q6745",
+        "Q6754",
+        "Q6763",
+        "Q6778",
+        "Q6786"
+      ],
+      "question": [
+        {
+          "string": "¿Qué partículas elementales interactuan con la fuerza fuerte y la fuerza débil?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 381,
+      "sparql": "SELECT ?obj WHERE { wd:Q11457474 wdt:P582 ?obj }",
+      "answers": [
+        "1239-01-01T00:00:00Z"
+      ],
+      "question": [
+        {
+          "string": "¿Cuándo terminó la hambruna de Kangi?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 382,
+      "sparql": "SELECT ?obj WHERE { wd:Q11457474 wdt:P580 ?obj }",
+      "answers": [
+        "1230-01-01T00:00:00Z"
+      ],
+      "question": [
+        {
+          "string": "¿Cuándo empezó la hambruna de Kangi?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 383,
+      "sparql": "ASK WHERE { ?sbj p:P39 ?obj . ?obj ps:P39 wd:Q466956 . ?sbj wdt:P21 wd:Q6581072 . }",
+      "answers": [
+        true
+      ],
+      "question": [
+        {
+          "string": "¿Hubo una presidenta de Chile?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 384,
+      "sparql": "SELECT ?sbj WHERE { ?sbj p:P39 ?obj1 . ?obj1 ps:P39 wd:Q466956 . ?obj1 pq:P580 ?obj2 . ?sbj wdt:P21 wd:Q6581072 . } ORDER BY ?obj2 LIMIT 1",
+      "answers": [
+        "Q320"
+      ],
+      "question": [
+        {
+          "string": "¿Quién fue la primera presidenta de Chile?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 385,
+      "sparql": "SELECT ?sbj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q429088 . ?sbj p:P625/psv:P625/wikibase:geoGlobe wd:Q313 . ?sbj p:P2044/psn:P2044/wikibase:quantityAmount ?obj . } ORDER BY DESC(?obj) LIMIT 1",
+      "answers": [
+        "Q3486102"
+      ],
+      "question": [
+        {
+          "string": "¿Cuál es el mons más alto de Venus?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 386,
+      "sparql": "SELECT DISTINCT ?obj WHERE { wd:Q1423213 wdt:P527 ?obj . ?obj wdt:P31/wdt:P279* wd:Q429088 }",
+      "answers": [
+        "Q499164",
+        "Q704936",
+        "Q735657"
+      ],
+      "question": [
+        {
+          "string": "¿Qués montes forman los Montes de Tharsis?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 387,
+      "sparql": "SELECT ?obj WHERE { wd:Q3320058 wdt:P376 ?obj }",
+      "answers": [
+        "Q313"
+      ],
+      "question": [
+        {
+          "string": "¿En qué planeta está el cráter de Mona Lisa?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 388,
+      "sparql": "ASK WHERE { wd:Q3320058 wdt:P376 ?obj . ?obj wdt:P31/wdt:P279* wd:Q634 }",
+      "answers": [
+        true
+      ],
+      "question": [
+        {
+          "string": "¿El cráter de Mona Lisa está en un planeta?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 389,
+      "sparql": "ASK WHERE { wd:Q615 wdt:P1971 ?obj . wd:Q11571 wdt:P1971 ?obj }",
+      "answers": [
+        false
+      ],
+      "question": [
+        {
+          "string": "¿Tienen Lionel Messi y Cristiano Ronaldo el mismo número de hijos?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 390,
+      "sparql": "SELECT ?obj2 WHERE { wd:Q22686 p:P26 ?obj1 . ?obj1 ps:P26 ?obj2 . ?obj1 pq:P580 ?obj3 . ?obj2 wdt:P21 wd:Q6581072 . } ORDER BY ?obj3 LIMIT 1",
+      "answers": [
+        "Q242351"
+      ],
+      "question": [
+        {
+          "string": "¿Quién fue la primera esposa de Donald Trump?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 391,
+      "sparql": "SELECT ?obj WHERE { wd:Q36101 wdt:P2250 ?obj }",
+      "answers": [
+        "10.0"
+      ],
+      "question": [
+        {
+          "string": "¿Cuál es la esperanza de vida media de un koala?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 392,
+      "sparql": "SELECT ?obj WHERE { wd:Q40244 wdt:P1000 ?obj . }",
+      "answers": [
+        "Q115601844"
+      ],
+      "question": [
+        {
+          "string": "¿Quién tiene el récord de la maratón más rápida?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 393,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q3624078 . ?sbj wdt:P706|wdt:P361|wdt:P131 wd:Q23522 }",
+      "answers": [
+        "Q215",
+        "Q219",
+        "Q221",
+        "Q222",
+        "Q224",
+        "Q225",
+        "Q236",
+        "Q403",
+        "Q41",
+        "Q43"
+      ],
+      "question": [
+        {
+          "string": "¿Qué países están en la región de los Balcanes?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 394,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { { SELECT ?sbj (MAX(?obj2) AS ?obj3) WHERE { ?sbj wdt:P31/wdt:P279* wd:Q3624078 . ?sbj p:P1082 ?obj1 . ?obj1 pq:P585 ?obj2  } GROUP BY ?sbj } { SELECT ?sbj (MAX(?obj2) AS ?obj4) WHERE { ?sbj wdt:P31/wdt:P279* wd:Q3624078 . ?sbj p:P2131 ?obj1 . ?obj1 pq:P585 ?obj2  } GROUP BY ?sbj } ?sbj p:P1082 ?obj5 . ?obj5 pq:P585 ?obj3 . ?obj5 ps:P1082 ?obj6 . ?sbj p:P2131 ?obj7 . ?obj7 pq:P585 ?obj4 . ?obj7 ps:P2131 ?obj8 . BIND(?obj8/?obj6 AS ?obj9) } ORDER BY ?obj9 LIMIT 1",
+      "answers": [
+        "Q967"
+      ],
+      "question": [
+        {
+          "string": "¿Qué país tiene el producto interno bruto nominal más bajo per cápita?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 395,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { { SELECT ?sbj (MAX(?obj2) AS ?obj3) WHERE { ?sbj wdt:P31/wdt:P279* wd:Q3624078 . ?sbj p:P1082 ?obj1 . ?obj1 pq:P585 ?obj2 } GROUP BY ?sbj } { SELECT ?sbj (MAX(?obj2) AS ?obj4) WHERE { ?sbj wdt:P31/wdt:P279* wd:Q3624078 . ?sbj p:P2131 ?obj1 . ?obj1 pq:P585 ?obj2 } GROUP BY ?sbj } ?sbj p:P1082 ?obj5 . ?obj5 pq:P585 ?obj3 . ?obj5 ps:P1082 ?obj6 . ?sbj p:P2131 ?obj7 . ?obj7 pq:P585 ?obj4 . ?obj7 ps:P2131 ?obj8 . ?sbj wdt:P706|wdt:P361|wdt:P131 wd:Q23522 . BIND(?obj8/?obj6 AS ?obj9) } ORDER BY ?obj9 LIMIT 1",
+      "answers": [
+        "Q225"
+      ],
+      "question": [
+        {
+          "string": "¿Qué país en la región de los Balcanes tiene el producto interno bruto nominal más bajo per cápita?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 396,
+      "sparql": "SELECT ?date WHERE {   wd:Q31998763 wdt:P571 ?date . }",
+      "answers": [
+        "2017-01-01T00:00:00Z"
+      ],
+      "question": [
+        {
+          "string": "¿Cuándo fue creado WordLift?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 397,
+      "sparql": "SELECT DISTINCT ?obj2 WHERE { ?sbj (wdt:P31?/(^wdt:P2670)?)|^wdt:P527|wdt:P361|wdt:P179 wd:Q276 . ?sbj wdt:P585 ?obj1 . ?sbj p:P1346/(pq:P17|pq:P1268|ps:P1346|pq:P1532) wd:Q142 .  BIND(YEAR(?obj1) AS ?obj2) } ORDER BY DESC(?obj2) LIMIT 1",
+      "answers": [
+        "1977"
+      ],
+      "question": [
+        {
+          "string": "¿En qué año ganó Francia el Festival de la Canción de Eurovisión por última vez?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 398,
+      "sparql": "SELECT DISTINCT ?obj2 WHERE { ?sbj (wdt:P31?/(^wdt:P2670)?)|^wdt:P527|wdt:P361|wdt:P179 wd:Q276 . ?sbj wdt:P585 ?obj1 . ?sbj p:P1346/(pq:P17|pq:P1268|ps:P1346|pq:P1532) wd:Q142 . BIND(YEAR(?obj1) AS ?obj2) } ORDER BY ?obj2 LIMIT 1",
+      "answers": [
+        "1958"
+      ],
+      "question": [
+        {
+          "string": "¿En qué año ganó Francia el Festival de la Canción de Eurovisión por primera vez?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 399,
+      "sparql": "SELECT DISTINCT ?obj2 WHERE { ?sbj (wdt:P31/wdt:P279*)|^wdt:P527|wdt:P361 wd:Q110288240 . ?sbj wdt:P585 ?obj1 . ?sbj wdt:P276?/wdt:P17 wd:Q142 . BIND(YEAR(?obj1) AS ?obj2) } ORDER BY DESC(?obj2) LIMIT 1",
+      "answers": [
+        "1978"
+      ],
+      "question": [
+        {
+          "string": "¿En qué año patrocinó Francia el Festival de la Canción de Eurovisión por última vez?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 400,
+      "sparql": "ASK WHERE { ?sbj (wdt:P31/wdt:P279*)|^wdt:P527|wdt:P361 wd:Q110288240 . ?sbj p:P1346/(pq:P17|ps:P1346) wd:Q142 . }",
+      "answers": [
+        false
+      ],
+      "question": [
+        {
+          "string": "¿Ha ganado Francia el Festival de la Canción de Eurovisión?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 401,
+      "sparql": "ASK WHERE { ?sbj (wdt:P31/wdt:P279*)|^wdt:P527|wdt:P361 wd:Q110288240 . ?sbj wdt:P276?/wdt:P17 wd:Q142 .}",
+      "answers": [
+        true
+      ],
+      "question": [
+        {
+          "string": "¿Ha patrocinado Francia el Festival de la Canción de Eurovisión?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 402,
+      "sparql": "SELECT DISTINCT ?obj2 WHERE { ?sbj (wdt:P31?/(^wdt:P2670)?)|^wdt:P527|wdt:P361|wdt:P179 wd:Q276 . ?sbj wdt:P585 ?obj1 . ?sbj p:P1346/(pq:P17|pq:P1268|ps:P1346|pq:P1532) wd:Q142 . BIND(YEAR(?obj1) AS ?obj2) } ORDER BY ?obj2 OFFSET 1 LIMIT 1",
+      "answers": [
+        "1960"
+      ],
+      "question": [
+        {
+          "string": "¿En qué año ganó Francia el Festival de la Canción de Eurovisión por segunda vez?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 403,
+      "sparql": "ASK { { SELECT (COUNT(DISTINCT ?sbj) AS ?cnt) { ?sbj (wdt:P31/wdt:P279*)|^wdt:P527|wdt:P361 wd:Q110288240 . ?sbj p:P1346/(pq:P17|ps:P1346) wd:Q142 . } } FILTER(?cnt >= 2) }",
+      "answers": [
+        false
+      ],
+      "question": [
+        {
+          "string": "¿Ha ganado Francia el Festival de la Canción de Eurovisión al menos dos veces?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 404,
+      "sparql": "SELECT DISTINCT ?obj2 WHERE { ?sbj (wdt:P31?/(^wdt:P2670)?)|^wdt:P527|wdt:P361|wdt:P179 wd:Q276 . ?sbj wdt:P585 ?obj1 . ?sbj p:P1346/(pq:P17|pq:P1268|ps:P1346|pq:P1532) wd:Q142 . BIND(YEAR(?obj1) AS ?obj2) } ORDER BY ?obj2 OFFSET 2 LIMIT 1",
+      "answers": [
+        "1962"
+      ],
+      "question": [
+        {
+          "string": "¿En qué año ganó Francia el Festival de la Canción de Eurovisión por tercera vez?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 405,
+      "sparql": "ASK { { SELECT (COUNT(DISTINCT ?sbj) AS ?cnt) { ?sbj (wdt:P31/wdt:P279*)|^wdt:P527|wdt:P361 wd:Q110288240 . ?sbj p:P1346/(pq:P17|ps:P1346) wd:Q142 . } } FILTER(?cnt >= 3) }",
+      "answers": [
+        false
+      ],
+      "question": [
+        {
+          "string": "¿Ha ganado Francia el Festival de la Canción de Eurovisión al menos tres veces?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 406,
+      "sparql": "SELECT (COUNT(DISTINCT ?sbj) AS ?cnt) { ?sbj (wdt:P31/wdt:P279*)|^wdt:P527|wdt:P361 wd:Q110288240 . ?sbj p:P1346/(pq:P17|ps:P1346) wd:Q142 . }",
+      "answers": [
+        "0"
+      ],
+      "question": [
+        {
+          "string": "¿Cuántas veces ha ganado Francia el Festival de la Canción de Eurovisión?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 407,
+      "sparql": "SELECT ?sbj WHERE { VALUES ?sbj { wd:Q30 wd:Q458 } ?sbj wdt:P1082 ?obj . } ORDER BY DESC(?obj) LIMIT 1",
+      "answers": [
+        "Q458"
+      ],
+      "question": [
+        {
+          "string": "¿Cuál de los dos tiene la población más alta: los Estados Unidos o la Unión Europea?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 408,
+      "sparql": "SELECT ?sbj WHERE { VALUES ?sbj { wd:Q30 wd:Q458 } ?sbj wdt:P2046 ?obj . } ORDER BY DESC(?obj) LIMIT 1",
+      "answers": [
+        "Q30"
+      ],
+      "question": [
+        {
+          "string": "¿Cuál de los dos tiene el área más alta: los Estados Unidos o la Unión Europea?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 409,
+      "sparql": "SELECT ?obj WHERE { SELECT ?obj (MIN(?obj2) as ?min) WHERE { wd:Q849477 wdt:P1441 ?obj . ?obj wdt:P577 ?obj2 . ?obj wdt:P31/wdt:P279* wd:Q11424 } GROUP BY ?obj } ORDER BY DESC(?min) LIMIT 1",
+      "answers": [
+        "Q57177410"
+      ],
+      "question": [
+        {
+          "string": "¿Cuál es la película más reciente que tiene Harley Quinn?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 411,
+      "sparql": "SELECT ?obj WHERE { wd:Q1134615 wdt:P740 ?obj }",
+      "answers": [
+        "Q1537"
+      ],
+      "question": [
+        {
+          "string": "¿Dónde formó Violent Femmes?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 412,
+      "sparql": "SELECT ?sbj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q3305213 . ?sbj wdt:P921 ?obj . ?obj wdt:P106 wd:Q11631 }",
+      "answers": [
+        "Q47919959",
+        "Q47511973",
+        "Q47512580",
+        "Q47513131",
+        "Q47513131",
+        "Q47513131",
+        "Q47513558",
+        "Q47917806",
+        "Q47917944",
+        "Q47920084",
+        "Q47920225",
+        "Q47920270",
+        "Q119362206",
+        "Q47510105",
+        "Q47508934",
+        "Q47508829",
+        "Q47510798"
+      ],
+      "question": [
+        {
+          "string": "¿Qué cuadros son de astronautas?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 413,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P2175 wd:Q815819 . ?sbj (wdt:P769|^wdt:P769)/wdt:P3781? wd:Q417740 . }",
+      "answers": [
+        "Q113368879",
+        "Q410061",
+        "Q410291",
+        "Q422229"
+      ],
+      "question": [
+        {
+          "string": "¿Qué fármacos para el tratamiento de la fibrilación atrial están contraindicados en pacientes tomando lovastatina?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 414,
+      "sparql": "SELECT ?obj WHERE { wd:Q181817 wdt:P837 ?obj }",
+      "answers": [
+        "Q2419"
+      ],
+      "question": [
+        {
+          "string": "¿En qué fecha es el Día de San Patricio?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 415,
+      "sparql": "SELECT DISTINCT ?obj WHERE { wd:Q7226 wdt:P841/wdt:P837? ?obj }",
+      "answers": [
+        "Q2590"
+      ],
+      "question": [
+        {
+          "string": "¿En qué fecha es el Día de Santa Juana de Arco?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 417,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { { wd:Q43033 wdt:P3150 ?sbj } UNION { wd:Q43033 wdt:P569 ?obj . ?sbj wdt:P31 wd:Q14795564 . ?sbj p:P361 ?obj1 . ?obj1 ps:P361/p:P31/pq:P1545 ?obj2 . ?obj1 pq:P1545 ?obj3 . FILTER(MONTH(?obj) = xsd:integer(?obj2) && DAY(?obj) = xsd:integer(?obj3)) } }",
+      "answers": [
+        "Q2926"
+      ],
+      "question": [
+        {
+          "string": "¿En qué fecha es el cumpleaños de Desmond Tutu?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 418,
+      "sparql": "SELECT DISTINCT ?sbj1 WHERE { ?sbj1 wdt:P841/wdt:P837? ?sbj2 . ?sbj1 wdt:P411/wdt:P279* wd:Q43115 . { wd:Q43033 wdt:P3150 ?sbj2 } UNION { wd:Q43033 wdt:P569 ?obj . ?sbj2 wdt:P31 wd:Q14795564 . ?sbj2 p:P361 ?obj1 . ?obj1 ps:P361/p:P31/pq:P1545 ?obj2 . ?obj1 pq:P1545 ?obj3 . FILTER(MONTH(?obj) = xsd:integer(?obj2) && DAY(?obj) = xsd:integer(?obj3)) }  }",
+      "answers": [
+        "Q132797",
+        "Q140013",
+        "Q22955657",
+        "Q2488951",
+        "Q278330",
+        "Q2878201",
+        "Q288295",
+        "Q3361486",
+        "Q3604959",
+        "Q3629720",
+        "Q3761223",
+        "Q4417154",
+        "Q6756480"
+      ],
+      "question": [
+        {
+          "string": "¿Qué santos tienen su festividad religiosa en el cumpleaños de Desmond Tutu?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 421,
+      "sparql": "SELECT ?obj WHERE { wd:Q2454624 wdt:P84 ?obj }",
+      "answers": [
+        "Q4724"
+      ],
+      "question": [
+        {
+          "string": "¿Quién fue el arquitecto del Edificio Tsentrosoyuz?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 422,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P149/wdt:P279* wd:Q994776 . ?sbj wdt:P149/wdt:P279* wd:Q47942 . }",
+      "answers": [
+        "Q110977356",
+        "Q115103789",
+        "Q136703697",
+        "Q136731606",
+        "Q137620111",
+        "Q7126217"
+      ],
+      "question": [
+        {
+          "string": "¿Qué edificios combinan funcionalismo y brutalismo?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 426,
+      "sparql": "SELECT ?sbj WHERE { wd:Q2454624 wdt:P84 ?obj . ?sbj wdt:P84 ?obj . ?sbj wdt:P149/wdt:P279* wd:Q47942 . FILTER (?sbj != wd:Q2454624) }",
+      "answers": [
+        "Q940746",
+        "Q7126217"
+      ],
+      "question": [
+        {
+          "string": "¿Qué otros edificios funcionalistas tienen el mismo arquitecto que el Edificio Tsentrosoyuz?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 428,
+      "sparql": "SELECT (COUNT(?obj) AS ?cnt) { wd:Q458 wdt:P37 ?obj }",
+      "answers": [
+        "24"
+      ],
+      "question": [
+        {
+          "string": "¿Cuántos idiomas oficiales hay de la Unión Europea?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 430,
+      "sparql": "SELECT DISTINCT ?obj WHERE { wd:Q458 wdt:P37 ?obj . MINUS { ?obj wdt:P31?/wdt:P279* wd:Q19860 . } }",
+      "answers": [
+        "Q1412",
+        "Q9067",
+        "Q9072",
+        "Q9166"
+      ],
+      "question": [
+        {
+          "string": "¿Qué lenguas oficiales de la Unión Europea no son indoeuropeas?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 431,
+      "sparql": "SELECT (COUNT(?obj) AS ?cnt) WHERE { wd:Q458 wdt:P37 ?obj . MINUS { ?obj wdt:P31?/wdt:P279* wd:Q19860 . } }",
+      "answers": [
+        "4"
+      ],
+      "question": [
+        {
+          "string": "¿Cuántas lenguas oficiales de la Unión Europea no son indoeuropeas?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 432,
+      "sparql": "ASK WHERE { wd:Q458 wdt:P37 ?obj . MINUS { ?obj wdt:P31?/wdt:P279* wd:Q19860 . } }",
+      "answers": [
+        true
+      ],
+      "question": [
+        {
+          "string": "¿Tiene la Unión Europea lenguas oficiales que no son indoeuropeas?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 433,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj p:P166 ?obj . ?obj ps:P166 wd:Q28835 . ?obj pq:P793 wd:Q26252351 . }",
+      "answers": [
+        "Q117346"
+      ],
+      "question": [
+        {
+          "string": "¿Quién ha rechazado una Medalla Fields?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 434,
+      "sparql": "ASK WHERE { wd:Q209518 p:P54/ps:P54 wd:Q205973 }",
+      "answers": [
+        true
+      ],
+      "question": [
+        {
+          "string": "¿Jugó Wayne Gretzky con los Edmonton Oilers?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 435,
+      "sparql": "SELECT (COUNT(DISTINCT ?sbj) AS ?cnt) WHERE { ?sbj wdt:P31*/wdt:P279* wd:Q43116 . ?sbj wdt:P517 wd:Q11415 . ?sbj wdt:P517 wd:Q11418 }",
+      "answers": [
+        "16"
+      ],
+      "question": [
+        {
+          "string": "¿Cuántas partículas elementales interactuan con la fuerza fuerte y la fuerza débil?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 436,
+      "sparql": "SELECT (COUNT(?obj) AS ?cnt) WHERE { wd:Q34261 wdt:P190 ?obj }",
+      "answers": [
+        "5"
+      ],
+      "question": [
+        {
+          "string": "¿Cuántas ciudades están hermanadas con Puerto Príncipe?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 437,
+      "sparql": "SELECT ?obj WHERE { wd:Q105159201 wdt:P21 ?obj }",
+      "answers": [
+        "Q6581072"
+      ],
+      "question": [
+        {
+          "string": "¿De qué género es Lian Tran?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 438,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P19/wdt:P131*/wdt:P17? wd:Q1041 . ?sbj wdt:P54?/wdt:P106 wd:Q937857 . ?sbj wdt:P1532 wd:Q142 . }",
+      "answers": [
+        "Q108924143",
+        "Q111352108",
+        "Q12573096",
+        "Q13304",
+        "Q135152676",
+        "Q1381011",
+        "Q1916",
+        "Q2008639",
+        "Q20089296",
+        "Q2761461",
+        "Q308363",
+        "Q32091",
+        "Q342599",
+        "Q46347",
+        "Q4740598",
+        "Q99973973"
+      ],
+      "question": [
+        {
+          "string": "¿Qué futbolistas que nacieron en Senegal han jugado para Francia?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 439,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P19/wdt:P131*/wdt:P17? wd:Q1041 . ?sbj wdt:P54?/wdt:P106 wd:Q937857 . ?sbj wdt:P54 wd:Q631 . ?sbj wdt:P1532 wd:Q142 . }",
+      "answers": [
+        "Q46347"
+      ],
+      "question": [
+        {
+          "string": "¿Qué futbolistas que nacieron en Senegal han jugado para Francia y para Inter Milan?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 440,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P19/wdt:P131*/wdt:P17? wd:Q1041 . ?sbj wdt:P54?/wdt:P106 wd:Q937857 . ?sbj wdt:P1532 wd:Q142 . ?sbj wdt:P413/wdt:P279* wd:Q193592 }",
+      "answers": [
+        "Q108924143",
+        "Q12573096",
+        "Q1381011",
+        "Q342599",
+        "Q46347"
+      ],
+      "question": [
+        {
+          "string": "¿Qué mediocampistas de fútbol que nacieron en Senegal han jugado para Francia?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 441,
+      "sparql": "SELECT DISTINCT ?obj1 WHERE { wd:Q117 wdt:P47 ?obj1 . wd:Q117 wdt:P1082 ?obj2 . ?obj1 wdt:P1082 ?obj3 . FILTER(?obj3 < ?obj2) }",
+      "answers": [
+        "Q1008",
+        "Q945",
+        "Q965"
+      ],
+      "question": [
+        {
+          "string": "¿Qué países comparten un borde con Ghana y tienen una población menor que Ghana?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 442,
+      "sparql": "SELECT ?sbj { { SELECT ?sbj (COUNT(DISTINCT ?obj) as ?cnt) WHERE { ?sbj wdt:P31/wdt:P279* wd:Q3624078 . ?sbj wdt:P47 ?obj . wd:Q117 wdt:P47 ?sbj  } GROUP BY ?sbj }  { SELECT (COUNT(DISTINCT ?obj) as ?cnt) WHERE { ?sbj wdt:P31/wdt:P279* wd:Q3624078 . ?sbj wdt:P47 ?obj . wd:Q117 wdt:P47 ?sbj } GROUP BY ?sbj ORDER BY DESC (COUNT(DISTINCT ?obj)) LIMIT 1 } }",
+      "answers": [
+        "Q965"
+      ],
+      "question": [
+        {
+          "string": "¿Qué país que comparte un borde con Ghana tiene el mayor número de vecinos?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 443,
+      "sparql": "SELECT DISTINCT ?subj WHERE { ?subj wdt:P31/wdt:P279* wd:Q4213 . ?subj wdt:P17 ?obj . wd:Q298 wdt:P47 ?obj }",
+      "answers": [
+        "Q108790261",
+        "Q120237668",
+        "Q132775017",
+        "Q18379108",
+        "Q18385771",
+        "Q30973477",
+        "Q5015078",
+        "Q9065640"
+      ],
+      "question": [
+        {
+          "string": "¿Qué telescopios están en países que comparten frontera con Chile?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 445,
+      "sparql": "SELECT DISTINCT ?obj WHERE { wd:Q179575 wdt:P1049 ?obj . ?obj wdt:P31/wdt:P279* wd:Q9174 }",
+      "answers": [
+        "Q3303092",
+        "Q9601"
+      ],
+      "question": [
+        {
+          "string": "¿En qué religión es Ahura Mazda venerado?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 446,
+      "sparql": "SELECT DISTINCT ?obj WHERE { wd:Q9601 wdt:P457 ?obj }",
+      "answers": [
+        "Q83426"
+      ],
+      "question": [
+        {
+          "string": "¿Cuál es el texto sagrado principal del zoroastrismo?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 447,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P1086 ?obj . ?sbj wdt:P31/wdt:P279* wd:Q11344 . FILTER(?obj = 19) }",
+      "answers": [
+        "Q703"
+      ],
+      "question": [
+        {
+          "string": "¿Qué elemento tiene el número atómico 19?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 448,
+      "sparql": "SELECT DISTINCT ?obj2 WHERE { ?sbj wdt:P1086 ?obj1 . ?sbj wdt:P31/wdt:P279* wd:Q11344 . FILTER(?obj1 = 19) ?sbj wdt:P246 ?obj2 }",
+      "answers": [
+        "K"
+      ],
+      "question": [
+        {
+          "string": "¿Cuál es el símbolo químico del elemento con el número atómico 19?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 449,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q471790 . ?sbj wdt:P816 ?obj . ?obj wdt:P31/wdt:P279* wd:Q464352 . }",
+      "answers": [
+        "Q1014081",
+        "Q3658304",
+        "Q3658306",
+        "Q3658308"
+      ],
+      "question": [
+        {
+          "string": "¿Qué isótopos de carbono pueden desintegrarse en isótopos de boro?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 450,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q471790 . ?sbj p:P816 ?obj1 . ?obj1 ps:P816 ?obj2 . ?obj2 wdt:P31/wdt:P279* wd:Q464352 . ?obj1 pq:P817 wd:Q109910 }",
+      "answers": [
+        "Q1014081",
+        "Q3658304",
+        "Q3658308"
+      ],
+      "question": [
+        {
+          "string": "¿Qué isótopos de carbono pueden desintegrarse en isótopos de boro mediante la captura electrónica?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 451,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q471790 . ?sbj wdt:P816+ ?obj . ?obj wdt:P31/wdt:P279* wd:Q464352 . }",
+      "answers": [
+        "Q1014081",
+        "Q3658304",
+        "Q3658306",
+        "Q3658308"
+      ],
+      "question": [
+        {
+          "string": "¿Qué isótopos de carbono pueden desintegrarse recursivamente en isótopos de boro?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 452,
+      "sparql": "SELECT (YEAR(NOW())-YEAR(?obj2) - IF(MONTH(NOW())>MONTH(?obj2),0,IF(MONTH(NOW())=MONTH(?obj2) && DAY(NOW())>=DAY(?obj2),0,1)) AS ?age) WHERE { ?sbj wdt:P31/wdt:P279* wd:Q3624078 . ?sbj wdt:P35 ?obj1 . ?obj1 wdt:P569 ?obj2 . FILTER(!isBlank(?obj2)) } ORDER BY DESC(?obj2) LIMIT 1",
+      "answers": [
+        "21"
+      ],
+      "question": [
+        {
+          "string": "¿Qué edad tiene el jefe de estado más joven del mundo?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 453,
+      "sparql": "SELECT DISTINCT ?obj2 WHERE { wd:Q846 wdt:P36 ?obj1 . ?obj1 wdt:P1082 ?obj2 . }",
+      "answers": [
+        "1186023.0"
+      ],
+      "question": [
+        {
+          "string": "¿Cuál es la población de la capital de Catar?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 454,
+      "sparql": "ASK { wd:Q459592 wdt:P577 ?obj1 . wd:Q6511 wdt:P577 ?obj2 . FILTER(?obj1 < ?obj2 ) }",
+      "answers": [
+        true
+      ],
+      "question": [
+        {
+          "string": "¿Fue Dublineses publicado antes de Ulises?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 455,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P7937 wd:Q8261 . ?sbj wdt:P50 wd:Q182658 . ?sbj wdt:P577 ?obj . } ORDER BY DESC(?obj) LIMIT 1",
+      "answers": [
+        "Q18949486"
+      ],
+      "question": [
+        {
+          "string": "¿Cuál fue la última novela publicada por Harper Lee?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 456,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P7937 wd:Q8261 . ?sbj wdt:P50 wd:Q182658 . ?sbj wdt:P577 ?obj . } ORDER BY ?obj LIMIT 1",
+      "answers": [
+        "Q212340"
+      ],
+      "question": [
+        {
+          "string": "¿Cuál fue la primera novela publicada por Harper Lee?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 457,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P7937 wd:Q8261 . ?sbj wdt:P50 wd:Q182658 . ?sbj wdt:P577 ?obj . } ORDER BY ?obj OFFSET 1 LIMIT 1",
+      "answers": [
+        "Q18949486"
+      ],
+      "question": [
+        {
+          "string": "¿Cuál fue la segunda novela publicada por Harper Lee?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 458,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P7937 wd:Q8261 . ?sbj wdt:P50 wd:Q182658 . }",
+      "answers": [
+        "Q18949486",
+        "Q212340"
+      ],
+      "question": [
+        {
+          "string": "¿Qué novelas fueron escritas por Harper Lee?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 459,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P7937 wd:Q8261 . ?sbj wdt:P50 wd:Q182658 . ?obj wdt:P144 ?sbj . ?obj wdt:P31/wdt:P279* wd:Q11424 }",
+      "answers": [
+        "Q212340"
+      ],
+      "question": [
+        {
+          "string": "¿Qué novelas escritas por Harper Lee fueron adaptadas al cine?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 460,
+      "sparql": "SELECT ?val WHERE { wd:Q846 wdt:P1082 ?obj1 . wd:Q846 wdt:P36 ?obj2 . ?obj2 wdt:P1082 ?obj3 . BIND(?obj3 / ?obj1 AS ?val) }",
+      "answers": [
+        "0.4493854413308"
+      ],
+      "question": [
+        {
+          "string": "¿Qué cociente de la población de Catar vive en su capital?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 461,
+      "sparql": "SELECT ?obj WHERE { wd:Q1092602 wdt:P577 ?obj }",
+      "answers": [
+        "2010-01-21T00:00:00Z"
+      ],
+      "question": [
+        {
+          "string": "¿Cuándo fue publicado Citizens United v. Federal Election Commission?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 462,
+      "sparql": "SELECT ?obj WHERE { wd:Q1092602 wdt:P5826 ?obj }",
+      "answers": [
+        "Q11171"
+      ],
+      "question": [
+        {
+          "string": "¿Quién escribió la opinión mayoritaria de Citizens United v. Federal Election Commission?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 463,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P463 wd:Q19771 . ?sbj wdt:P31/wdt:P279* wd:Q3624078 . }",
+      "answers": [
+        "Q142",
+        "Q145",
+        "Q148",
+        "Q155",
+        "Q159",
+        "Q16",
+        "Q17",
+        "Q183",
+        "Q252",
+        "Q258",
+        "Q30",
+        "Q38",
+        "Q408",
+        "Q414",
+        "Q43",
+        "Q668",
+        "Q851",
+        "Q884",
+        "Q96"
+      ],
+      "question": [
+        {
+          "string": "¿Qué países forman parte de la G20?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 464,
+      "sparql": "SELECT ?sbj WHERE { ?sbj wdt:P463 wd:Q19771 . }",
+      "answers": [
+        "Q142",
+        "Q145",
+        "Q148",
+        "Q155",
+        "Q159",
+        "Q16",
+        "Q17",
+        "Q183",
+        "Q252",
+        "Q258",
+        "Q30",
+        "Q38",
+        "Q408",
+        "Q414",
+        "Q43",
+        "Q458",
+        "Q668",
+        "Q851",
+        "Q884",
+        "Q96"
+      ],
+      "question": [
+        {
+          "string": "¿Cuáles son los miembros de la G20?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 465,
+      "sparql": "SELECT (COUNT(?sbj) AS ?cnt) WHERE { ?sbj wdt:P463 wd:Q19771 . }",
+      "answers": [
+        "20"
+      ],
+      "question": [
+        {
+          "string": "¿Cuántos integrantes hay de la G20?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 466,
+      "sparql": "SELECT (COUNT(DISTINCT ?sbj) AS ?cnt) WHERE { ?sbj wdt:P463 wd:Q19771 . ?sbj wdt:P31/wdt:P279* wd:Q3624078 . }",
+      "answers": [
+        "19"
+      ],
+      "question": [
+        {
+          "string": "¿Cuántos países son miembros de la G20?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 467,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P463 wd:Q19771 . ?sbj wdt:P463 wd:Q7172 . ?sbj wdt:P31/wdt:P279* wd:Q3624078 }",
+      "answers": [
+        "Q851"
+      ],
+      "question": [
+        {
+          "string": "¿Qué países forman parte de la G20 y la Liga Árabe?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 468,
+      "sparql": "SELECT (COUNT (DISTINCT ?sbj) AS ?cnt) WHERE { ?sbj wdt:P463 wd:Q19771 . ?sbj wdt:P463 wd:Q7172 . ?sbj wdt:P31/wdt:P279* wd:Q3624078 }",
+      "answers": [
+        "1"
+      ],
+      "question": [
+        {
+          "string": "¿Cuántos países forman parte de la G20 y la Liga Árabe?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 469,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P463 wd:Q19771 . ?sbj wdt:P31/wdt:P279* wd:Q3624078 . FILTER NOT EXISTS { ?sbj wdt:P463 wd:Q7172 . } }",
+      "answers": [
+        "Q142",
+        "Q145",
+        "Q148",
+        "Q155",
+        "Q159",
+        "Q16",
+        "Q17",
+        "Q183",
+        "Q252",
+        "Q258",
+        "Q30",
+        "Q38",
+        "Q408",
+        "Q414",
+        "Q43",
+        "Q668",
+        "Q884",
+        "Q96"
+      ],
+      "question": [
+        {
+          "string": "¿Qué países forman parte de la G20 pero no la Liga Árabe?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 470,
+      "sparql": "SELECT (COUNT(DISTINCT ?sbj) AS ?cnt) WHERE { ?sbj wdt:P463 wd:Q19771 . ?sbj wdt:P31/wdt:P279* wd:Q3624078 . FILTER NOT EXISTS { ?sbj wdt:P463 wd:Q7172 . } }",
+      "answers": [
+        "18"
+      ],
+      "question": [
+        {
+          "string": "¿Cuántos países forman parte de la G20 pero no la Liga Árabe?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 471,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P35 ?obj1 . ?sbj wdt:P31/wdt:P279* wd:Q3624078 . ?obj1 wdt:P21 wd:Q6581072 . ?sbj wdt:P30 wd:Q48 }",
+      "answers": [
+        "Q668"
+      ],
+      "question": [
+        {
+          "string": "¿Qué países asiáticos tienen una mujer como jefa de estado?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 472,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P35 ?obj1 . ?sbj wdt:P31/wdt:P279* wd:Q3624078 . ?obj1 wdt:P21 wd:Q6581072 . ?sbj wdt:P30 wd:Q48 }",
+      "answers": [
+        "Q668"
+      ],
+      "question": [
+        {
+          "string": "¿Cuántos países tienen una mujer como jefa de estado?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 474,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q3918 . ?sbj wdt:P17 wd:Q419 . ?sbj wdt:P571 ?obj . FILTER(YEAR(?obj) < 1950) }",
+      "answers": [
+        "Q1634051",
+        "Q200601",
+        "Q270145",
+        "Q3551703",
+        "Q3551806",
+        "Q5202236",
+        "Q5202403",
+        "Q539811",
+        "Q5576631",
+        "Q5784190",
+        "Q6156603",
+        "Q6979244",
+        "Q7171165",
+        "Q7413580",
+        "Q7449465",
+        "Q916367"
+      ],
+      "question": [
+        {
+          "string": "¿Qué universidades en Perú fueron establecidas antes de 1950?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 475,
+      "sparql": "SELECT (COUNT(DISTINCT ?sbj) AS ?cnt) WHERE { ?sbj wdt:P31/wdt:P279* wd:Q3918 . ?sbj wdt:P17 wd:Q419 }",
+      "answers": [
+        "136"
+      ],
+      "question": [
+        {
+          "string": "¿Cuántas universidades hay en Perú?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 478,
+      "sparql": "ASK WHERE { wd:Q615 p:P54/ps:P54 wd:Q7156 }",
+      "answers": [
+        true
+      ],
+      "question": [
+        {
+          "string": "¿Jugaba Lionel Messi en el FC Barcelona?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 479,
+      "sparql": "SELECT ?obj2 WHERE { wd:Q615 p:P54 ?obj1 . ?obj1 pq:P1350 ?obj2 . ?obj1 ps:P54 wd:Q7156 }",
+      "answers": [
+        "520.0"
+      ],
+      "question": [
+        {
+          "string": "¿Cuántos partidos jugó Lionel Messi para FC Barcelona?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 480,
+      "sparql": "SELECT ?sbj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q22698 . ?sbj wdt:P131+ wd:Q3183 . ?sbj wdt:P1435 wd:Q56052054 }",
+      "answers": [
+        "Q14935818"
+      ],
+      "question": [
+        {
+          "string": "¿Qué parques en Perth son State Registered Places?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 481,
+      "sparql": "SELECT ?sbj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q22698 . ?sbj wdt:P131+ wd:Q3183 . MINUS { ?sbj wdt:P1435 wd:Q56052054 } }",
+      "answers": [
+        "Q21933821",
+        "Q21933821",
+        "Q21972312",
+        "Q21972404",
+        "Q21972681"
+      ],
+      "question": [
+        {
+          "string": "¿Qué parques en Perth no son State Registered Places?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 482,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P31*/wdt:P279* wd:Q43116 . ?sbj wdt:P517 wd:Q11415 . ?sbj wdt:P517 wd:Q11418 . ?sbj wdt:P2200 ?obj . FILTER(?obj < 0) }",
+      "answers": [
+        "Q11905753",
+        "Q11905754",
+        "Q18481607",
+        "Q6745",
+        "Q6763",
+        "Q6786"
+      ],
+      "question": [
+        {
+          "string": "¿Qué partículas elementales con carga negativa interactuan con la fuerza fuerte y la fuerza débil?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 483,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P31*/wdt:P279* wd:Q43116 . ?sbj wdt:P517 wd:Q11415 . ?sbj wdt:P517 wd:Q11418 . ?sbj wdt:P2200 ?obj . FILTER(?obj >= 0) }",
+      "answers": [
+        "Q11905755",
+        "Q11905758",
+        "Q18481576",
+        "Q6732",
+        "Q6778"
+      ],
+      "question": [
+        {
+          "string": "¿Qué partículas elementales con carga neutra o positiva interactuan con la fuerza fuerte y la fuerza débil?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 485,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q836270 . ?sbj wdt:P31/wdt:P279* wd:Q1486643 . ?sbj wdt:P1181 ?obj . FILTER(?obj < 100) }",
+      "answers": [
+        "Q23488",
+        "Q36977",
+        "Q42817",
+        "Q812996"
+      ],
+      "question": [
+        {
+          "string": "¿Qué números poligonales menores que 100 también son prónicos?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 487,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P31*/wdt:P279* wd:Q17558136 . ?sbj wdt:P921/wdt:P279* wd:Q395 . ?sbj p:P8687 ?obj1 . ?obj1 ps:P8687 ?obj2 . ?obj1 pq:P2397 ?obj3 . FILTER(?obj2 > 500000) }",
+      "answers": [
+        "Q115556726",
+        "Q55100562",
+        "Q55345122",
+        "Q66565938"
+      ],
+      "question": [
+        {
+          "string": "¿Qué canales de YouTube con más de 500.000 seguidores hablan de las matemáticas?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 488,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj (wdt:P31|wdt:P279)* wd:Q178359 . ?sbj wdt:P138 ?obj . ?obj wdt:P31/wdt:P279* wd:Q515 }",
+      "answers": [
+        "Q116158085",
+        "Q1162965",
+        "Q1361859",
+        "Q2019007",
+        "Q2369993",
+        "Q4886791",
+        "Q5104402",
+        "Q586770",
+        "Q6728543"
+      ],
+      "question": [
+        {
+          "string": "¿Qué salsas deben sus nombres a ciudades italianas?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 489,
+      "sparql": "SELECT DISTINCT ?obj2 WHERE { wd:Q80 p:P108|p:P1416 ?obj1 . ?obj1 ps:P108|ps:P1416 ?obj2 . }",
+      "answers": [
+        "Q37033",
+        "Q42944",
+        "Q49108",
+        "Q7095994",
+        "Q7204713",
+        "Q7432436"
+      ],
+      "question": [
+        {
+          "string": "¿Dónde ha trabajado Tim Berners-Lee?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 490,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj (wdt:P31|wdt:P279)* wd:Q178359 . ?sbj wdt:P138 ?obj . ?obj wdt:P31/wdt:P279* wd:Q515 . ?obj wdt:P17 wd:Q38 }",
+      "answers": [
+        "Q1162965",
+        "Q4886791",
+        "Q586770"
+      ],
+      "question": [
+        {
+          "string": "¿Qué salsas italianas deben sus nombres a ciudades italianas?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 491,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q50053 . ?sbj wdt:P31/wdt:P279* wd:Q4202 . ?sbj wdt:P59 wd:Q8865 }",
+      "answers": [
+        "Q75998249",
+        "Q76563373"
+      ],
+      "question": [
+        {
+          "string": "¿Qué estrellas binarias de neutrones están en la constelación Escorpio?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 492,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P170 wd:Q134741 . ?sbj wdt:P31/wdt:P279* wd:Q3305213 . ?sbj wdt:P793 ?obj . ?obj (wdt:P31|wdt:P279)* wd:Q2727213 }",
+      "answers": [
+        "Q121088797",
+        "Q16984993",
+        "Q17491806",
+        "Q1810348",
+        "Q21290014",
+        "Q22115548",
+        "Q29842733"
+      ],
+      "question": [
+        {
+          "string": "¿Qué pinturas de Camille Pissarro fueron robadas?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 493,
+      "sparql": "SELECT DISTINCT ?obj WHERE { wd:Q317521 p:P27/ps:P27 ?obj }",
+      "answers": [
+        "Q16",
+        "Q258",
+        "Q30"
+      ],
+      "question": [
+        {
+          "string": "¿En qué países es Elon Musk un ciudadano?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 494,
+      "sparql": "SELECT DISTINCT ?obj WHERE { wd:Q317521 p:P27 ?sbj . ?sbj ps:P27 ?obj . ?sbj pq:P828 wd:Q841440 }",
+      "answers": [
+        "Q16",
+        "Q30"
+      ],
+      "question": [
+        {
+          "string": "¿En qué países es Elon Musk un ciudadano naturalizado?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 495,
+      "sparql": "SELECT ?sbj WHERE { ?sbj p:P166 ?obj1 . ?obj1 ps:P166 wd:Q102427 . ?obj1 pq:P585 ?obj2 . ?sbj wdt:P462 wd:Q838368 MINUS { ?sbj wdt:P462 wd:Q22006653 } } ORDER BY DESC(?obj2) LIMIT 1",
+      "answers": [
+        "Q171861"
+      ],
+      "question": [
+        {
+          "string": "¿Cuál fue la última película enteramente en blanco y negro que ganó un Óscar a la mejor película?",
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": 496,
+      "sparql": "SELECT ?sbj WHERE { ?sbj p:P166 ?obj1 . ?obj1 ps:P166 wd:Q102427 . ?obj1 pq:P585 ?obj2 . ?sbj wdt:P462 wd:Q838368 } ORDER BY DESC(?obj2) LIMIT 1",
+      "answers": [
+        "Q108839994"
+      ],
+      "question": [
+        {
+          "string": "¿Cuál fue la última película entera o parcialmente en blanco y negro que ganó un Óscar a la mejor película?",
+          "language": "es"
+        }
+      ]
+    }
+  ]
+}
