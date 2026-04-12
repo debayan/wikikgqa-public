@@ -8,8 +8,8 @@
       ],
       "question": [
         {
-          "string": "Who played Eleven in Stranger Things?",
-          "language": "en"
+          "string": "¿Quién interpretó el personaje Eleven en Stranger Things?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -77,8 +77,8 @@
       ],
       "question": [
         {
-          "string": "What is the largest country in Africa by population?",
-          "language": "en"
+          "string": "¿Cuál es el país más grande en África por población?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -138,8 +138,8 @@
       ],
       "question": [
         {
-          "string": "What is the largest country in Africa by area?",
-          "language": "en"
+          "string": "¿Cuál es el país más grande en África por área?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -199,8 +199,8 @@
       ],
       "question": [
         {
-          "string": "What is the capital of Ireland?",
-          "language": "en"
+          "string": "¿Cuál es la capital de Irlanda?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -236,8 +236,8 @@
       ],
       "question": [
         {
-          "string": "Who wrote The Hitchhiker's Guide to the Galaxy?",
-          "language": "en"
+          "string": "¿Quién es el autor de Guía del autoestopista galáctico?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -287,8 +287,8 @@
       ],
       "question": [
         {
-          "string": "Is Stan Lee alive?",
-          "language": "en"
+          "string": "¿Está viva Stan Lee?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -326,8 +326,8 @@
       ],
       "question": [
         {
-          "string": "Is Stan Lee dead?",
-          "language": "en"
+          "string": "¿Está muerto Stan Lee?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -379,8 +379,8 @@
       ],
       "question": [
         {
-          "string": "When did Stan Lee die?",
-          "language": "en"
+          "string": "¿Cuándo murió Stan Lee?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -419,8 +419,8 @@
       ],
       "question": [
         {
-          "string": "What age was Stan Lee when he died?",
-          "language": "en"
+          "string": "¿Cuántos años tenía Stan Lee cuando murió?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -472,8 +472,8 @@
       ],
       "question": [
         {
-          "string": "What age is Stan Lee?",
-          "language": "en"
+          "string": "¿Cuántos años tiene Stan Lee?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -507,8 +507,8 @@
       ],
       "question": [
         {
-          "string": "What age would Stan Lee be if he were still alive?",
-          "language": "en"
+          "string": "¿Cuántos años tendría Stan Lee si todavía estuviera vivo?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -552,8 +552,8 @@
       ],
       "question": [
         {
-          "string": "Who is the president of Poland?",
-          "language": "en"
+          "string": "¿Quién es el presidente de Polonia?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -601,8 +601,8 @@
       ],
       "question": [
         {
-          "string": "Does Poland have a president?",
-          "language": "en"
+          "string": "¿Tiene Polonia un presidente?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -640,8 +640,8 @@
       ],
       "question": [
         {
-          "string": "Who is the head of state of Poland?",
-          "language": "en"
+          "string": "¿Quién es el jefe de estado de Polonia?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -677,8 +677,8 @@
       ],
       "question": [
         {
-          "string": "How many Turing Awards have people from Austria won?",
-          "language": "en"
+          "string": "¿Cuántos Premios Turing han ganado personas de Austria?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -763,8 +763,8 @@
       ],
       "question": [
         {
-          "string": "Which countries have won a FIFA World Cup?",
-          "language": "en"
+          "string": "¿Qué países han ganado la Copa Mundial de FIFA?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -849,8 +849,8 @@
       ],
       "question": [
         {
-          "string": "Which countries have won a Cricket World Cup?",
-          "language": "en"
+          "string": "¿Qué países han ganado una Copa Mundial de Críquet?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -919,8 +919,8 @@
       ],
       "question": [
         {
-          "string": "Which countries have won a Rugby World Cup?",
-          "language": "en"
+          "string": "¿Qué países han ganado la Copa Mundial de Rugby?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -988,8 +988,8 @@
       ],
       "question": [
         {
-          "string": "What is the population of Qatar?",
-          "language": "en"
+          "string": "¿Cuál es la población de Catar?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -1025,8 +1025,8 @@
       ],
       "question": [
         {
-          "string": "Who is the author of the manga One Piece?",
-          "language": "en"
+          "string": "¿Quién es el autor de la manga One Piece?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -1101,8 +1101,8 @@
       ],
       "question": [
         {
-          "string": "How many movies has Tarantino directed?",
-          "language": "en"
+          "string": "¿Cuántas películas ha dirigido Tarantino?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -1150,8 +1150,8 @@
       ],
       "question": [
         {
-          "string": "Is New York bigger than Beijing in terms of population?",
-          "language": "en"
+          "string": "¿Es Nueva York más grande que Pekín en términos de población?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -1197,8 +1197,8 @@
       ],
       "question": [
         {
-          "string": "Is New York bigger than Beijing in terms of area?",
-          "language": "en"
+          "string": "¿Es Nueva York más grande que Pekín en términos de área?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -1244,8 +1244,8 @@
       ],
       "question": [
         {
-          "string": "Is Leonardo DiCaprio older than Joaquin Phoenix?",
-          "language": "en"
+          "string": "¿Es Leonardo DiCaprio mayor que Joaquin Phoenix?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -1289,8 +1289,8 @@
       ],
       "question": [
         {
-          "string": "In which country is the Museo del Prado located?",
-          "language": "en"
+          "string": "¿En qué país está ubicado el Museo del Prado?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -1342,8 +1342,8 @@
       ],
       "question": [
         {
-          "string": "When did Caesars Palace open?",
-          "language": "en"
+          "string": "¿Cuándo abrió Caesars Palace?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -1386,8 +1386,8 @@
       ],
       "question": [
         {
-          "string": "Which political parties was Abraham Lincoln a member of?",
-          "language": "en"
+          "string": "¿De qué partidos políticos fue Abraham Lincoln un miembro?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -1456,8 +1456,8 @@
       ],
       "question": [
         {
-          "string": "Which paintings feature a banana?",
-          "language": "en"
+          "string": "¿Qué cuadros tienen un plátano?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -1501,8 +1501,8 @@
       ],
       "question": [
         {
-          "string": "Do any national flags use pink?",
-          "language": "en"
+          "string": "¿Existe una bandera nacional con el color rosa?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -1556,8 +1556,8 @@
       ],
       "question": [
         {
-          "string": "When did Ian Curtis commit suicide?",
-          "language": "en"
+          "string": "¿Cuándo se suicidó Ian Curtis?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -1595,8 +1595,8 @@
       ],
       "question": [
         {
-          "string": "Did Ian Curtis commit suicide?",
-          "language": "en"
+          "string": "¿Se suicidó Ian Curtis?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -1630,8 +1630,8 @@
       ],
       "question": [
         {
-          "string": "When did Ian Curtis die?",
-          "language": "en"
+          "string": "¿Cuándo murió Ian Curtis?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -1670,8 +1670,8 @@
       ],
       "question": [
         {
-          "string": "Is Ian Curtis dead?",
-          "language": "en"
+          "string": "¿Está muerto Ian Curtis?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -1714,8 +1714,8 @@
       ],
       "question": [
         {
-          "string": "In which movies did Al Pacino and Robert de Niro appear together?",
-          "language": "en"
+          "string": "¿En qué películas aparecen Al Pacino y Robert de Niro juntos?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -1803,8 +1803,8 @@
       ],
       "question": [
         {
-          "string": "Who is the youngest head of state in the world?",
-          "language": "en"
+          "string": "¿Quién es el jefe de estado más joven del mundo?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -1852,8 +1852,8 @@
       ],
       "question": [
         {
-          "string": "How many astronauts studied at MIT?",
-          "language": "en"
+          "string": "¿Cuántos astronautas estudiaron en MIT?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -1909,8 +1909,8 @@
       ],
       "question": [
         {
-          "string": "When was the first exoplanet discovered?",
-          "language": "en"
+          "string": "¿Cuándo fue descubierto el primer exoplaneta?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -1966,8 +1966,8 @@
       ],
       "question": [
         {
-          "string": "What buildings are named after JFK?",
-          "language": "en"
+          "string": "¿Qué edificios deben sus nombres a JFK?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -2023,8 +2023,8 @@
       ],
       "question": [
         {
-          "string": "When was Hey Jude released?",
-          "language": "en"
+          "string": "¿Cuándo se lanzó Hey Jude?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -2084,8 +2084,8 @@
       ],
       "question": [
         {
-          "string": "Which countries currently have multiple capitals?",
-          "language": "en"
+          "string": "¿Qué países actualmente tienen múltiples capitales?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -2152,8 +2152,8 @@
       ],
       "question": [
         {
-          "string": "Which video games are known to be NP-complete?",
-          "language": "en"
+          "string": "¿Qué videojuegos son NP-completos?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -2187,8 +2187,8 @@
       ],
       "question": [
         {
-          "string": "Which countries are named after plants?",
-          "language": "en"
+          "string": "¿Qué países deben su nombre a una planta?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -2244,8 +2244,8 @@
       ],
       "question": [
         {
-          "string": "What is the chemical symbol for Potassium?",
-          "language": "en"
+          "string": "¿Cuál es el símbolo químico de potasio?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -2293,8 +2293,8 @@
       ],
       "question": [
         {
-          "string": "What is the Twitter account of Elon Musk?",
-          "language": "en"
+          "string": "¿Cuál es la cuenta Twitter de Elon Musk?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -2369,8 +2369,8 @@
       ],
       "question": [
         {
-          "string": "Which alkali metals are in period 4?",
-          "language": "en"
+          "string": "¿Qué metales alcalinos están en el periodo 4?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -2423,8 +2423,8 @@
       ],
       "question": [
         {
-          "string": "Where are platypuses endemic?",
-          "language": "en"
+          "string": "¿En qué lugares son endémicos los ornitorrincos?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -2474,8 +2474,8 @@
       ],
       "question": [
         {
-          "string": "Which species endemic to Chile are endangered?",
-          "language": "en"
+          "string": "¿Qué especies endémicas a Chile están en peligro de extinción?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -2541,8 +2541,8 @@
       ],
       "question": [
         {
-          "string": "What country has the most nuclear power plants?",
-          "language": "en"
+          "string": "¿Qué país tiene el número máximo de centrales nucleares?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -2598,8 +2598,8 @@
       ],
       "question": [
         {
-          "string": "Which country has the most official languages?",
-          "language": "en"
+          "string": "¿Qué país tiene el número máximo de idiomas oficiales?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -2660,8 +2660,8 @@
       ],
       "question": [
         {
-          "string": "When did ICLR start?",
-          "language": "en"
+          "string": "¿Cuándo empezó ICLR?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -2702,8 +2702,8 @@
       ],
       "question": [
         {
-          "string": "Which countries that do not border Germany have German as an official language?",
-          "language": "en"
+          "string": "¿Qué países sin frontera con Alemania tiene el alemán como un idioma oficial?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -2791,8 +2791,8 @@
       ],
       "question": [
         {
-          "string": "What is the national anthem of Greece?",
-          "language": "en"
+          "string": "¿Cuál es el himno nacional de Grecia?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -2828,8 +2828,8 @@
       ],
       "question": [
         {
-          "string": "Which company makes Twix?",
-          "language": "en"
+          "string": "¿Qué empresa fabrica Twix?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -2877,8 +2877,8 @@
       ],
       "question": [
         {
-          "string": "What is the nearest black hole to Earth?",
-          "language": "en"
+          "string": "¿Qué agujero negro está más cercano a la Tierra?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -2937,8 +2937,8 @@
       ],
       "question": [
         {
-          "string": "Which conferences focus on Machine Learning?",
-          "language": "en"
+          "string": "¿Qué conferencias se enfocan en el aprendizaje de máquinas?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -3004,8 +3004,8 @@
       ],
       "question": [
         {
-          "string": "Which cities are named after an apostle?",
-          "language": "en"
+          "string": "¿Qué ciudades deben su nombre a un apóstol?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -3081,8 +3081,8 @@
       ],
       "question": [
         {
-          "string": "What chocolate bars are made by Nestlé?",
-          "language": "en"
+          "string": "¿Qué barras de chocolate se fabrican por Nestlé?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -3139,8 +3139,8 @@
       ],
       "question": [
         {
-          "string": "Who was the US president before Richard Nixon?",
-          "language": "en"
+          "string": "¿Quién fue el presidente de los EEUU antes que Richard Nixon?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -3213,8 +3213,8 @@
       ],
       "question": [
         {
-          "string": "How many books are in The Hitchhiker's Guide to the Galaxy series?",
-          "language": "en"
+          "string": "¿Cuántos libros hay en la serie Guía del autoestopista galáctico?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -3286,8 +3286,8 @@
       ],
       "question": [
         {
-          "string": "Which Simpsons characters were not born in Springfield?",
-          "language": "en"
+          "string": "¿Qué caracteres en Los Simpson no nacieron en Springfield?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -3365,8 +3365,8 @@
       ],
       "question": [
         {
-          "string": "When was sparkling water invented?",
-          "language": "en"
+          "string": "¿Cuándo se inventó agua con gas?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -3410,8 +3410,8 @@
       ],
       "question": [
         {
-          "string": "Who is the tallest professional basketball player of all time?",
-          "language": "en"
+          "string": "¿Quién es el jugador profesional de básquetbol más alto de todos los tiempos?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -3469,8 +3469,8 @@
       ],
       "question": [
         {
-          "string": "What age is Justin Bieber?",
-          "language": "en"
+          "string": "¿Cuántos años tiene Justin Bieber?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -3504,8 +3504,8 @@
       ],
       "question": [
         {
-          "string": "Is Justin Bieber alive?",
-          "language": "en"
+          "string": "¿Está vivo Justin Bieber?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -3557,8 +3557,8 @@
       ],
       "question": [
         {
-          "string": "Is Justin Bieber dead?",
-          "language": "en"
+          "string": "¿Está muerto Justin Bieber?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -3610,8 +3610,8 @@
       ],
       "question": [
         {
-          "string": "What age would Justin Bieber be if he were still alive?",
-          "language": "en"
+          "string": "¿Cuántos años tendría Justin Bieber si todavía estuviera vivo?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -3673,8 +3673,8 @@
       ],
       "question": [
         {
-          "string": "Is Michael Jackson the oldest child?",
-          "language": "en"
+          "string": "¿Es Michael Jackson el hijo mayor?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -3722,8 +3722,8 @@
       ],
       "question": [
         {
-          "string": "Which element precedes tin in the periodic table?",
-          "language": "en"
+          "string": "¿Qué elemento precede el estaño en la tabla periódica?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -3779,8 +3779,8 @@
       ],
       "question": [
         {
-          "string": "Which element has the lowest melting point?",
-          "language": "en"
+          "string": "¿Qué elemento tiene el punto de fusión más bajo?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -3828,8 +3828,8 @@
       ],
       "question": [
         {
-          "string": "Which language is the official language of the most countries?",
-          "language": "en"
+          "string": "¿Qué idioma es oficial en el mayor número de países?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -3893,8 +3893,8 @@
       ],
       "question": [
         {
-          "string": "Which honorary mayors were not human?",
-          "language": "en"
+          "string": "¿Qué alcaldes honorarios no fueron humanos?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -3949,8 +3949,8 @@
       ],
       "question": [
         {
-          "string": "Which polygonal numbers are also pronic?",
-          "language": "en"
+          "string": "¿Qué números poligonales también son prónicos?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -4004,8 +4004,8 @@
       ],
       "question": [
         {
-          "string": "What's the next prime after 51?",
-          "language": "en"
+          "string": "¿Cuál es el próximo primo después de 51?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -4063,8 +4063,8 @@
       ],
       "question": [
         {
-          "string": "What animal can hear the highest frequency?",
-          "language": "en"
+          "string": "¿Qué animal puede oír la frecuencia más alta?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -4121,8 +4121,8 @@
       ],
       "question": [
         {
-          "string": "Who has won more than one type of Nobel Prize?",
-          "language": "en"
+          "string": "¿Quién ha ganado más de un tipo de Premio Nobel?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -4188,8 +4188,8 @@
       ],
       "question": [
         {
-          "string": "Which city has the most cathedrals?",
-          "language": "en"
+          "string": "¿Qué ciudad tiene el número máximo de catedrales?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -4241,8 +4241,8 @@
       ],
       "question": [
         {
-          "string": "What make of car is a Corolla?",
-          "language": "en"
+          "string": "¿De qué marca es el auto Corolla?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -4294,8 +4294,8 @@
       ],
       "question": [
         {
-          "string": "What is the tallest mountain in the Andes?",
-          "language": "en"
+          "string": "¿Cuál es la montaña más alta de Los Andes?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -4366,8 +4366,8 @@
       ],
       "question": [
         {
-          "string": "Which U.S. president had the most spouses?",
-          "language": "en"
+          "string": "¿Qué presidente de los EEUU tuvo el número máximo de esposos?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -4436,8 +4436,8 @@
       ],
       "question": [
         {
-          "string": "When was the Rubik's cube invented?",
-          "language": "en"
+          "string": "¿Cuándo se inventó el cubo de Rubik?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -4501,8 +4501,8 @@
       ],
       "question": [
         {
-          "string": "Which conferences were organized by Turing Award winners?",
-          "language": "en"
+          "string": "¿Qué conferencias fueron organizadas por un ganador del Premio Turing?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -4593,8 +4593,8 @@
       ],
       "question": [
         {
-          "string": "What video games are made by the developer of League of Legends?",
-          "language": "en"
+          "string": "¿Qué juegos de video son del desarrollador de League of Legends?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -4653,8 +4653,8 @@
       ],
       "question": [
         {
-          "string": "Which writers speak French, Arabic and Japanese?",
-          "language": "en"
+          "string": "¿Qué autores hablan francés, árabe y japonés?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -4730,8 +4730,8 @@
       ],
       "question": [
         {
-          "string": "What whisky distilleries are based in Ireland?",
-          "language": "en"
+          "string": "¿Qué destilerías de whisky están en Irlanda?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -4805,8 +4805,8 @@
       ],
       "question": [
         {
-          "string": "How many regions of France are there?",
-          "language": "en"
+          "string": "¿Cuántas regiones de Francia hay?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -4860,8 +4860,8 @@
       ],
       "question": [
         {
-          "string": "Which living people have an element named after them?",
-          "language": "en"
+          "string": "¿Qué personas vivas han dado su nombre a un elemento?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -4973,8 +4973,8 @@
       ],
       "question": [
         {
-          "string": "Which Chilean companies have U.S. parent companies?",
-          "language": "en"
+          "string": "¿Qué empresas chilenas tienen una empresa matriz estadounidense?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -5073,8 +5073,8 @@
       ],
       "question": [
         {
-          "string": "Did Tarantino direct a movie last year?",
-          "language": "en"
+          "string": "¿Dirigió Tarantino una película el año pasado?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -5130,8 +5130,8 @@
       ],
       "question": [
         {
-          "string": "Which movie of the last ten years has won the most Academy Awards?",
-          "language": "en"
+          "string": "¿Qué película de los últimos diez años ha ganado más Premios Óscar?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -5215,8 +5215,8 @@
       ],
       "question": [
         {
-          "string": "Who was the winner of the latest Fields Medal?",
-          "language": "en"
+          "string": "¿Quién fue el galardonado o la galardonada de la última Medalla Fields?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -5319,8 +5319,8 @@
       ],
       "question": [
         {
-          "string": "Who wrote The Old Man and the Sea?",
-          "language": "en"
+          "string": "¿Quién escribió El viejo y el mar?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -5376,8 +5376,8 @@
       ],
       "question": [
         {
-          "string": "Which YouTube channels talk about math?",
-          "language": "en"
+          "string": "¿Qué canales de YouTube hablan de las matemáticas?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -5443,8 +5443,8 @@
       ],
       "question": [
         {
-          "string": "What diseases are associated with the gene FGF14?",
-          "language": "en"
+          "string": "¿Qué enfermedades se asocian con el gen FGF14?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -5500,8 +5500,8 @@
       ],
       "question": [
         {
-          "string": "What ultra-cool dwarfs have been found in the constellation Aquarius?",
-          "language": "en"
+          "string": "¿Qué enanas ultra-frías se han encontrado en la constelación  Acuario?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -5559,8 +5559,8 @@
       ],
       "question": [
         {
-          "string": "Kim Deal played with which bands?",
-          "language": "en"
+          "string": "¿Kim Deal ha tocado con qué bandas?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -5604,8 +5604,8 @@
       ],
       "question": [
         {
-          "string": "Who supervised the PhD of Alan Turing?",
-          "language": "en"
+          "string": "¿Quién dirigió el doctorado de Alan Turing?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -5679,8 +5679,8 @@
       ],
       "question": [
         {
-          "string": "Which movies directed by Chloé Zhao are not MPAA-rated R?",
-          "language": "en"
+          "string": "¿Qué películas dirigidas por Chloé Zhao no tienen una clasificación MPAA de R?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -5770,8 +5770,8 @@
       ],
       "question": [
         {
-          "string": "Who is the Hindu deity of knowledge?",
-          "language": "en"
+          "string": "¿Quién es la deidad hindú del conocimiento?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -5824,8 +5824,8 @@
       ],
       "question": [
         {
-          "string": "Which science fiction movies star Uma Thurman?",
-          "language": "en"
+          "string": "¿En qué películas de ciencia ficción protagonizó Uma Thurman?",
+          "language": "es"
         }
       ],
       "mentions": [
@@ -5916,8 +5916,8 @@
       ],
       "question": [
         {
-          "string": "Which relational database management systems are open source?",
-          "language": "en"
+          "string": "¿Qué sistemas de gestión de bases de datos relacionales son de fuente abierta?",
+          "language": "es"
         }
       ],
       "mentions": [

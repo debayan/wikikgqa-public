@@ -11,62 +11,6 @@
           "string": "Who played Eleven in Stranger Things?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "Eleven",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q27955792"
-        },
-        {
-          "string": "Stranger Things",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q19798734"
-        },
-        {
-          "string": "played",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q222749",
-          "property": "http://www.wikidata.org/prop/P175",
-          "inverse": true
-        },
-        {
-          "string": "played",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q222749",
-          "property": "http://www.wikidata.org/prop/P161",
-          "inverse": true
-        },
-        {
-          "string": "Eleven",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q27955792"
-        },
-        {
-          "string": "Stranger Things",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q19798734"
-        },
-        {
-          "string": "interpretó",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q222749",
-          "property": "http://www.wikidata.org/prop/P175",
-          "inverse": true
-        },
-        {
-          "string": "interpretó",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q222749",
-          "property": "http://www.wikidata.org/prop/P453",
-          "inverse": true
-        },
-        {
-          "string": "personaje",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q95074",
-          "property": "http://www.wikidata.org/prop/P453"
-        }
       ]
     },
     {
@@ -79,54 +23,6 @@
         {
           "string": "What is the largest country in Africa by population?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "Africa",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q15",
-          "property": "http://www.wikidata.org/prop/P30",
-          "mention": "implicit"
-        },
-        {
-          "string": "country",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q3624078"
-        },
-        {
-          "string": "country",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q6256"
-        },
-        {
-          "string": "population",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q33829",
-          "property": "http://www.wikidata.org/prop/P1082"
-        },
-        {
-          "string": "África",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q15",
-          "property": "http://www.wikidata.org/prop/P30",
-          "mention": "implicit"
-        },
-        {
-          "string": "país",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q3624078"
-        },
-        {
-          "string": "país",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q6256"
-        },
-        {
-          "string": "población",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q33829",
-          "property": "http://www.wikidata.org/prop/P1082"
         }
       ]
     },
@@ -141,54 +37,6 @@
           "string": "What is the largest country in Africa by area?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "Africa",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q15",
-          "property": "http://www.wikidata.org/prop/P30",
-          "mention": "implicit"
-        },
-        {
-          "string": "country",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q3624078"
-        },
-        {
-          "string": "country",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q6256"
-        },
-        {
-          "string": "area",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q11500",
-          "property": "http://www.wikidata.org/prop/P2046"
-        },
-        {
-          "string": "África",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q15",
-          "property": "http://www.wikidata.org/prop/P30",
-          "mention": "implicit"
-        },
-        {
-          "string": "país",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q3624078"
-        },
-        {
-          "string": "país",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q6256"
-        },
-        {
-          "string": "área",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q11500",
-          "property": "http://www.wikidata.org/prop/P2046"
-        }
       ]
     },
     {
@@ -201,30 +49,6 @@
         {
           "string": "What is the capital of Ireland?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "Ireland",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q27"
-        },
-        {
-          "string": "capital",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q5119",
-          "property": "http://www.wikidata.org/prop/P36"
-        },
-        {
-          "string": "Irlanda",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q27"
-        },
-        {
-          "string": "capital",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q5119",
-          "property": "http://www.wikidata.org/prop/P36"
         }
       ]
     },
@@ -239,44 +63,6 @@
           "string": "Who wrote The Hitchhiker's Guide to the Galaxy?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "The Hitchhiker's Guide to the Galaxy",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q3107329"
-        },
-        {
-          "string": "wrote",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q2250012",
-          "property": "http://www.wikidata.org/prop/P50",
-          "inverse": true
-        },
-        {
-          "string": "wrote",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q36180",
-          "property": "http://www.wikidata.org/prop/P50",
-          "inverse": true
-        },
-        {
-          "string": "Guía del autoestopista galáctico",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q3107329"
-        },
-        {
-          "string": "autor",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q36180",
-          "property": "http://www.wikidata.org/prop/P50"
-        },
-        {
-          "string": "autor de",
-          "language": "es",
-          "property": "http://www.wikidata.org/prop/P50",
-          "inverse": true
-        }
       ]
     },
     {
@@ -289,32 +75,6 @@
         {
           "string": "Is Stan Lee alive?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "Stan Lee",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q181900"
-        },
-        {
-          "string": "alive",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q21075715",
-          "property": "http://www.wikidata.org/prop/P570",
-          "quantifier": "not exists"
-        },
-        {
-          "string": "alive",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q21075715",
-          "property": "http://www.wikidata.org/prop/P20",
-          "quantifier": "not exists"
-        },
-        {
-          "string": "Stan Lee",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q181900"
         }
       ]
     },
@@ -329,46 +89,6 @@
           "string": "Is Stan Lee dead?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "Stan Lee",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q181900"
-        },
-        {
-          "string": "dead",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q4",
-          "property": "http://www.wikidata.org/prop/P570",
-          "quantifier": "exists"
-        },
-        {
-          "string": "dead",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q4",
-          "property": "http://www.wikidata.org/prop/P20",
-          "quantifier": "exists"
-        },
-        {
-          "string": "Stan Lee",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q181900"
-        },
-        {
-          "string": "muerto",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q4",
-          "property": "http://www.wikidata.org/prop/P570",
-          "quantifier": "exists"
-        },
-        {
-          "string": "muerto",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q4",
-          "property": "http://www.wikidata.org/prop/P20",
-          "quantifier": "exists"
-        }
       ]
     },
     {
@@ -381,33 +101,6 @@
         {
           "string": "When did Stan Lee die?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "Stan Lee",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q181900"
-        },
-        {
-          "string": "die",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q4"
-        },
-        {
-          "string": "Stan Lee",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q181900"
-        },
-        {
-          "string": "murió",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q4"
-        },
-        {
-          "string": "Cuándo murió",
-          "language": "es",
-          "property": "http://www.wikidata.org/prop/P570"
         }
       ]
     },
@@ -422,46 +115,6 @@
           "string": "What age was Stan Lee when he died?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "Stan Lee",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q181900"
-        },
-        {
-          "string": "age",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q185836"
-        },
-        {
-          "string": "die",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q4",
-          "property": "http://www.wikidata.org/prop/P570"
-        },
-        {
-          "string": "died",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q4",
-          "property": "http://www.wikidata.org/prop/P570"
-        },
-        {
-          "string": "Stan Lee",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q181900"
-        },
-        {
-          "string": "años",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q577"
-        },
-        {
-          "string": "murió",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q4",
-          "property": "http://www.wikidata.org/prop/P570"
-        }
       ]
     },
     {
@@ -474,28 +127,6 @@
         {
           "string": "What age is Stan Lee?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "Stan Lee",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q181900"
-        },
-        {
-          "string": "age",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q185836"
-        },
-        {
-          "string": "Stan Lee",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q181900"
-        },
-        {
-          "string": "años",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q577"
         }
       ]
     },
@@ -510,38 +141,6 @@
           "string": "What age would Stan Lee be if he were still alive?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "Stan Lee",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q181900"
-        },
-        {
-          "string": "age",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q185836"
-        },
-        {
-          "string": "alive",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q21075715"
-        },
-        {
-          "string": "Stan Lee",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q181900"
-        },
-        {
-          "string": "años",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q577"
-        },
-        {
-          "string": "vivo",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q21075715"
-        }
       ]
     },
     {
@@ -554,42 +153,6 @@
         {
           "string": "Who is the president of Poland?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "president of Poland",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q1054799"
-        },
-        {
-          "string": "Poland",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q36"
-        },
-        {
-          "string": "president",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q30461",
-          "property": "http://www.wikidata.org/prop/P35",
-          "mention": "subproperty"
-        },
-        {
-          "string": "presidente de Polonia",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q1054799"
-        },
-        {
-          "string": "Polonia",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q36"
-        },
-        {
-          "string": "presidente",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q30461",
-          "property": "http://www.wikidata.org/prop/P35",
-          "mention": "subproperty"
         }
       ]
     },
@@ -604,32 +167,6 @@
           "string": "Does Poland have a president?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "Poland",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q36"
-        },
-        {
-          "string": "president",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q30461",
-          "property": "http://www.wikidata.org/prop/P1906",
-          "mention": "implicit"
-        },
-        {
-          "string": "Polonia",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q36"
-        },
-        {
-          "string": "presidente",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q30461",
-          "property": "http://www.wikidata.org/prop/P1906",
-          "mention": "implicit"
-        }
       ]
     },
     {
@@ -643,30 +180,6 @@
           "string": "Who is the head of state of Poland?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "Poland",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q36"
-        },
-        {
-          "string": "head of state",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q48352",
-          "property": "http://www.wikidata.org/prop/P35"
-        },
-        {
-          "string": "Polonia",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q36"
-        },
-        {
-          "string": "jefe de estado",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q48352",
-          "property": "http://www.wikidata.org/prop/P35"
-        }
       ]
     },
     {
@@ -679,72 +192,6 @@
         {
           "string": "How many Turing Awards have people from Austria won?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "Turing Awards",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q185667"
-        },
-        {
-          "string": "Austria",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q40"
-        },
-        {
-          "string": "people",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q5"
-        },
-        {
-          "string": "won",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q50000",
-          "property": "http://www.wikidata.org/prop/P166"
-        },
-        {
-          "string": "Awards",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q618779",
-          "property": "http://www.wikidata.org/prop/P166"
-        },
-        {
-          "string": "Turing",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q7251"
-        },
-        {
-          "string": "Premios Turing",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q185667"
-        },
-        {
-          "string": "Austria",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q40"
-        },
-        {
-          "string": "personas",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q5"
-        },
-        {
-          "string": "ganado",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q50000",
-          "property": "http://www.wikidata.org/prop/P166"
-        },
-        {
-          "string": "Premios",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q618779",
-          "property": "http://www.wikidata.org/prop/P166"
-        },
-        {
-          "string": "Turing",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q7251"
         }
       ]
     },
@@ -765,60 +212,6 @@
         {
           "string": "Which countries have won a FIFA World Cup?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "FIFA World Cup",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q19317"
-        },
-        {
-          "string": "countries",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q6256"
-        },
-        {
-          "string": "countries",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q3624078"
-        },
-        {
-          "string": "FIFA",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q253414"
-        },
-        {
-          "string": "won",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q50000",
-          "property": "http://www.wikidata.org/prop/P1346"
-        },
-        {
-          "string": "Copa Mundial de FIFA",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q19317"
-        },
-        {
-          "string": "países",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q6256"
-        },
-        {
-          "string": "países",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q3624078"
-        },
-        {
-          "string": "FIFA",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q253414"
-        },
-        {
-          "string": "ganado",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q50000",
-          "property": "http://www.wikidata.org/prop/P1346"
         }
       ]
     },
@@ -852,60 +245,6 @@
           "string": "Which countries have won a Cricket World Cup?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "countries",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q6256"
-        },
-        {
-          "string": "countries",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q3624078"
-        },
-        {
-          "string": "Cricket World Cup",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q192202"
-        },
-        {
-          "string": "Cricket",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q5375"
-        },
-        {
-          "string": "won",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q50000",
-          "property": "http://www.wikidata.org/prop/P1346"
-        },
-        {
-          "string": "países",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q6256"
-        },
-        {
-          "string": "países",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q3624078"
-        },
-        {
-          "string": "Copa Mundial de Críquet",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q192202"
-        },
-        {
-          "string": "Críquet",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q5375"
-        },
-        {
-          "string": "ganado",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q50000",
-          "property": "http://www.wikidata.org/prop/P1346"
-        }
       ]
     },
     {
@@ -922,62 +261,6 @@
           "string": "Which countries have won a Rugby World Cup?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "countries",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q6256"
-        },
-        {
-          "string": "countries",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q3624078"
-        },
-        {
-          "string": "Rugby World Cup",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q16640"
-        },
-        {
-          "string": "Rugby",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q5378"
-        },
-        {
-          "string": "won",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q50000",
-          "property": "http://www.wikidata.org/prop/P1346",
-          "inverse": true
-        },
-        {
-          "string": "países",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q6256"
-        },
-        {
-          "string": "países",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q3624078"
-        },
-        {
-          "string": "Copa Mundial de Rugby",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q16640"
-        },
-        {
-          "string": "Rugby",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q5378"
-        },
-        {
-          "string": "ganado",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q50000",
-          "property": "http://www.wikidata.org/prop/P1346",
-          "inverse": true
-        }
       ]
     },
     {
@@ -991,30 +274,6 @@
           "string": "What is the population of Qatar?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "population",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q33829",
-          "property": "http://www.wikidata.org/prop/P1082"
-        },
-        {
-          "string": "Qatar",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q846"
-        },
-        {
-          "string": "población",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q33829",
-          "property": "http://www.wikidata.org/prop/P1082"
-        },
-        {
-          "string": "Catar",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q846"
-        }
       ]
     },
     {
@@ -1027,52 +286,6 @@
         {
           "string": "Who is the author of the manga One Piece?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "One Piece",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q28667972"
-        },
-        {
-          "string": "manga",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q8274"
-        },
-        {
-          "string": "author",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q36180",
-          "property": "http://www.wikidata.org/prop/P50"
-        },
-        {
-          "string": "author of",
-          "language": "en",
-          "property": "http://www.wikidata.org/prop/P50",
-          "inverse": true
-        },
-        {
-          "string": "One Piece",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q28667972"
-        },
-        {
-          "string": "manga",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q8274"
-        },
-        {
-          "string": "autor",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q36180",
-          "property": "http://www.wikidata.org/prop/P50"
-        },
-        {
-          "string": "autor de",
-          "language": "es",
-          "property": "http://www.wikidata.org/prop/P50",
-          "inverse": true
         }
       ]
     },
@@ -1104,42 +317,6 @@
           "string": "How many movies has Tarantino directed?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "Tarantino",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q3772"
-        },
-        {
-          "string": "movies",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q11424"
-        },
-        {
-          "string": "directed",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q2526255",
-          "property": "http://www.wikidata.org/prop/P57",
-          "inverse": true
-        },
-        {
-          "string": "Tarantino",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q3772"
-        },
-        {
-          "string": "películas",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q11424"
-        },
-        {
-          "string": "dirigido",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q2526255",
-          "property": "http://www.wikidata.org/prop/P57",
-          "inverse": true
-        }
       ]
     },
     {
@@ -1152,40 +329,6 @@
         {
           "string": "Is New York bigger than Beijing in terms of population?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "New York",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q60"
-        },
-        {
-          "string": "Beijing",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q956"
-        },
-        {
-          "string": "population",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q33829",
-          "property": "http://www.wikidata.org/prop/P1082"
-        },
-        {
-          "string": "Nueva York",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q60"
-        },
-        {
-          "string": "Pekín",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q956"
-        },
-        {
-          "string": "población",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q33829",
-          "property": "http://www.wikidata.org/prop/P1082"
         }
       ]
     },
@@ -1200,40 +343,6 @@
           "string": "Is New York bigger than Beijing in terms of area?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "New York",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q60"
-        },
-        {
-          "string": "Beijing",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q956"
-        },
-        {
-          "string": "area",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q11500",
-          "property": "http://www.wikidata.org/prop/P2046"
-        },
-        {
-          "string": "Nueva York",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q60"
-        },
-        {
-          "string": "Pekín",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q956"
-        },
-        {
-          "string": "área",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q11500",
-          "property": "http://www.wikidata.org/prop/P2046"
-        }
       ]
     },
     {
@@ -1246,38 +355,6 @@
         {
           "string": "Is Leonardo DiCaprio older than Joaquin Phoenix?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "Leonardo DiCaprio",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q38111"
-        },
-        {
-          "string": "Joaquin Phoenix",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q185140"
-        },
-        {
-          "string": "older",
-          "language": "en",
-          "property": "http://www.wikidata.org/prop/P569"
-        },
-        {
-          "string": "Leonardo DiCaprio",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q38111"
-        },
-        {
-          "string": "Joaquin Phoenix",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q185140"
-        },
-        {
-          "string": "mayor",
-          "language": "es",
-          "property": "http://www.wikidata.org/prop/P569"
         }
       ]
     },
@@ -1292,46 +369,6 @@
           "string": "In which country is the Museo del Prado located?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "Museo del Prado",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q160112"
-        },
-        {
-          "string": "country",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q3624078"
-        },
-        {
-          "string": "located",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q2221906",
-          "property": "http://www.wikidata.org/prop/P17"
-        },
-        {
-          "string": "Museo del Prado",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q160112"
-        },
-        {
-          "string": "país",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q3624078"
-        },
-        {
-          "string": "ubicado",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q2221906",
-          "property": "http://www.wikidata.org/prop/P17"
-        },
-        {
-          "string": "está",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q2221906",
-          "property": "http://www.wikidata.org/prop/P17"
-        }
       ]
     },
     {
@@ -1344,35 +381,6 @@
         {
           "string": "When did Caesars Palace open?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "Caesars Palace",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q569978"
-        },
-        {
-          "string": "open",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q15051339",
-          "property": "http://www.wikidata.org/prop/P571"
-        },
-        {
-          "string": "Caesars Palace",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q569978"
-        },
-        {
-          "string": "abrió",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q15051339",
-          "property": "http://www.wikidata.org/prop/P571"
-        },
-        {
-          "string": "Cuándo abrió",
-          "language": "es",
-          "property": "http://www.wikidata.org/prop/P571"
         }
       ]
     },
@@ -1388,47 +396,6 @@
         {
           "string": "Which political parties was Abraham Lincoln a member of?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "Abraham Lincoln",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q91"
-        },
-        {
-          "string": "political parties",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q7278"
-        },
-        {
-          "string": "member",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q9200127",
-          "property": "http://www.wikidata.org/prop/P463",
-          "inverse": true
-        },
-        {
-          "string": "member of",
-          "language": "en",
-          "property": "http://www.wikidata.org/prop/P463"
-        },
-        {
-          "string": "Abraham Lincoln",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q91"
-        },
-        {
-          "string": "partidos políticos",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q7278"
-        },
-        {
-          "string": "miembro",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q9200127",
-          "property": "http://www.wikidata.org/prop/P463",
-          "inverse": true
         }
       ]
     },
@@ -1459,38 +426,6 @@
           "string": "Which paintings feature a banana?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "banana",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q503"
-        },
-        {
-          "string": "paintings",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q3305213"
-        },
-        {
-          "string": "feature",
-          "language": "en",
-          "property": "http://www.wikidata.org/prop/P180"
-        },
-        {
-          "string": "plátano",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q503"
-        },
-        {
-          "string": "cuadros",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q3305213"
-        },
-        {
-          "string": "tienen",
-          "language": "es",
-          "property": "http://www.wikidata.org/prop/P180"
-        }
       ]
     },
     {
@@ -1503,48 +438,6 @@
         {
           "string": "Do any national flags use pink?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "national flags",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q186516"
-        },
-        {
-          "string": "pink",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q429220"
-        },
-        {
-          "string": "flag",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q14660"
-        },
-        {
-          "string": "bandera nacional",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q186516"
-        },
-        {
-          "string": "rosa",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q429220"
-        },
-        {
-          "string": "bandera",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q14660"
-        },
-        {
-          "string": "con el color",
-          "language": "es",
-          "property": "http://www.wikidata.org/prop/P462"
-        },
-        {
-          "string": "color",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q1075"
         }
       ]
     },
@@ -1559,32 +452,6 @@
           "string": "When did Ian Curtis commit suicide?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "Ian Curtis",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q207867"
-        },
-        {
-          "string": "suicide",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q10737",
-          "property": "http://www.wikidata.org/prop/P570",
-          "mention": "implicit"
-        },
-        {
-          "string": "Ian Curtis",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q207867"
-        },
-        {
-          "string": "suicidó",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q10737",
-          "property": "http://www.wikidata.org/prop/P570",
-          "mention": "implicit"
-        }
       ]
     },
     {
@@ -1597,28 +464,6 @@
         {
           "string": "Did Ian Curtis commit suicide?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "Ian Curtis",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q207867"
-        },
-        {
-          "string": "suicide",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q10737"
-        },
-        {
-          "string": "suicidó",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q10737"
-        },
-        {
-          "string": "Ian Curtis",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q207867"
         }
       ]
     },
@@ -1633,33 +478,6 @@
           "string": "When did Ian Curtis die?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "Ian Curtis",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q207867"
-        },
-        {
-          "string": "die",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q4"
-        },
-        {
-          "string": "Ian Curtis",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q207867"
-        },
-        {
-          "string": "murió",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q4"
-        },
-        {
-          "string": "Cuándo murió",
-          "language": "es",
-          "property": "http://www.wikidata.org/prop/P570"
-        }
       ]
     },
     {
@@ -1672,30 +490,6 @@
         {
           "string": "Is Ian Curtis dead?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "Ian Curtis",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q207867"
-        },
-        {
-          "string": "dead",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q4",
-          "property": "http://www.wikidata.org/prop/P570"
-        },
-        {
-          "string": "Ian Curtis",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q207867"
-        },
-        {
-          "string": "muerto",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q4",
-          "property": "http://www.wikidata.org/prop/P570"
         }
       ]
     },
@@ -1717,82 +511,6 @@
           "string": "In which movies did Al Pacino and Robert de Niro appear together?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "Al Pacino",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q41163"
-        },
-        {
-          "string": "Robert de Niro",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q36949"
-        },
-        {
-          "string": "movies",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q11424"
-        },
-        {
-          "string": "Pacino",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q41163"
-        },
-        {
-          "string": "de Niro",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q36949"
-        },
-        {
-          "string": "appear",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q222749",
-          "property": "http://www.wikidata.org/prop/P161",
-          "inverse": true
-        },
-        {
-          "string": "movie",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q11424"
-        },
-        {
-          "string": "Al Pacino",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q41163"
-        },
-        {
-          "string": "Robert de Niro",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q36949"
-        },
-        {
-          "string": "películas",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q11424"
-        },
-        {
-          "string": "Pacino",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q41163"
-        },
-        {
-          "string": "de Niro",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q36949"
-        },
-        {
-          "string": "aparecen",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q222749",
-          "property": "http://www.wikidata.org/prop/P161",
-          "inverse": true
-        },
-        {
-          "string": "película",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q11424"
-        }
       ]
     },
     {
@@ -1805,42 +523,6 @@
         {
           "string": "Who is the youngest head of state in the world?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "world",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q2"
-        },
-        {
-          "string": "head of state",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q48352",
-          "property": "http://www.wikidata.org/prop/P35"
-        },
-        {
-          "string": "youngest",
-          "language": "en",
-          "property": "http://www.wikidata.org/prop/P569",
-          "superlative": "max"
-        },
-        {
-          "string": "mundo",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q2"
-        },
-        {
-          "string": "jefe de estado",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q48352",
-          "property": "http://www.wikidata.org/prop/P35"
-        },
-        {
-          "string": "más joven",
-          "language": "es",
-          "property": "http://www.wikidata.org/prop/P569",
-          "superlative": "max"
         }
       ]
     },
@@ -1855,50 +537,6 @@
           "string": "How many astronauts studied at MIT?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "astronauts",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q11631"
-        },
-        {
-          "string": "MIT",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q49108"
-        },
-        {
-          "string": "studied",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q9347372",
-          "property": "http://www.wikidata.org/prop/P69"
-        },
-        {
-          "string": "studied at",
-          "language": "en",
-          "property": "http://www.wikidata.org/prop/P69"
-        },
-        {
-          "string": "astronautas",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q11631"
-        },
-        {
-          "string": "MIT",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q49108"
-        },
-        {
-          "string": "estudiaron",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q9347372",
-          "property": "http://www.wikidata.org/prop/P69"
-        },
-        {
-          "string": "estudiaron en",
-          "language": "es",
-          "property": "http://www.wikidata.org/prop/P69"
-        }
       ]
     },
     {
@@ -1911,35 +549,6 @@
         {
           "string": "When was the first exoplanet discovered?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "exoplanet",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q44559"
-        },
-        {
-          "string": "discovered",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q12772819",
-          "property": "http://www.wikidata.org/prop/P575"
-        },
-        {
-          "string": "exoplaneta",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q44559"
-        },
-        {
-          "string": "descubierto",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q12772819",
-          "property": "http://www.wikidata.org/prop/P575"
-        },
-        {
-          "string": "Cuándo fue descubierto",
-          "language": "es",
-          "property": "http://www.wikidata.org/prop/P575"
         }
       ]
     },
@@ -1969,50 +578,6 @@
           "string": "What buildings are named after JFK?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "buildings",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q41176"
-        },
-        {
-          "string": "JFK",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q9696"
-        },
-        {
-          "string": "named after",
-          "language": "en",
-          "property": "http://www.wikidata.org/prop/P138"
-        },
-        {
-          "string": "named",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q82799",
-          "property": "http://www.wikidata.org/prop/P138"
-        },
-        {
-          "string": "edificios",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q41176"
-        },
-        {
-          "string": "JFK",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q9696"
-        },
-        {
-          "string": "deben sus nombres a",
-          "language": "es",
-          "property": "http://www.wikidata.org/prop/P138"
-        },
-        {
-          "string": "nombres",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q82799",
-          "property": "http://www.wikidata.org/prop/P138"
-        }
       ]
     },
     {
@@ -2025,47 +590,6 @@
         {
           "string": "When was Hey Jude released?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "Hey Jude",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q607742"
-        },
-        {
-          "string": "released",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q2031291",
-          "property": "http://www.wikidata.org/prop/P577"
-        },
-        {
-          "string": "released",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q732577",
-          "property": "http://www.wikidata.org/prop/P577"
-        },
-        {
-          "string": "Hey Jude",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q607742"
-        },
-        {
-          "string": "lanzó",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q2031291",
-          "property": "http://www.wikidata.org/prop/P577"
-        },
-        {
-          "string": "lanzó",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q732577",
-          "property": "http://www.wikidata.org/prop/P577"
-        },
-        {
-          "string": "Cuándo se lanzó",
-          "language": "es",
-          "property": "http://www.wikidata.org/prop/P577"
         }
       ]
     },
@@ -2086,52 +610,6 @@
         {
           "string": "Which countries currently have multiple capitals?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "countries",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q3624078"
-        },
-        {
-          "string": "countries",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q6256"
-        },
-        {
-          "string": "capitals",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q5119",
-          "property": "http://www.wikidata.org/prop/P36"
-        },
-        {
-          "string": "capital",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q5119",
-          "property": "http://www.wikidata.org/prop/P36"
-        },
-        {
-          "string": "países",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q3624078"
-        },
-        {
-          "string": "países",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q6256"
-        },
-        {
-          "string": "capitales",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q5119",
-          "property": "http://www.wikidata.org/prop/P36"
-        },
-        {
-          "string": "capital",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q5119",
-          "property": "http://www.wikidata.org/prop/P36"
         }
       ]
     },
@@ -2155,28 +633,6 @@
           "string": "Which video games are known to be NP-complete?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "video games",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q7889"
-        },
-        {
-          "string": "NP-complete",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q215206"
-        },
-        {
-          "string": "videojuegos",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q7889"
-        },
-        {
-          "string": "NP-completo",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q215206"
-        }
       ]
     },
     {
@@ -2189,50 +645,6 @@
         {
           "string": "Which countries are named after plants?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "countries",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q3624078"
-        },
-        {
-          "string": "plants",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q756"
-        },
-        {
-          "string": "named after",
-          "language": "en",
-          "property": "http://www.wikidata.org/prop/P138"
-        },
-        {
-          "string": "named",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q82799",
-          "property": "http://www.wikidata.org/prop/P138"
-        },
-        {
-          "string": "países",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q3624078"
-        },
-        {
-          "string": "planta",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q756"
-        },
-        {
-          "string": "deben su nombre a",
-          "language": "es",
-          "property": "http://www.wikidata.org/prop/P138"
-        },
-        {
-          "string": "nombre",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q82799",
-          "property": "http://www.wikidata.org/prop/P138"
         }
       ]
     },
@@ -2247,42 +659,6 @@
           "string": "What is the chemical symbol for Potassium?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "Potassium",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q703"
-        },
-        {
-          "string": "chemical symbol",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q102500",
-          "property": "http://www.wikidata.org/prop/P246"
-        },
-        {
-          "string": "symbol",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q102500",
-          "property": "http://www.wikidata.org/prop/P246"
-        },
-        {
-          "string": "potasio",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q703"
-        },
-        {
-          "string": "símbolo químico",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q102500",
-          "property": "http://www.wikidata.org/prop/P246"
-        },
-        {
-          "string": "símbolo",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q102500",
-          "property": "http://www.wikidata.org/prop/P246"
-        }
       ]
     },
     {
@@ -2295,69 +671,6 @@
         {
           "string": "What is the Twitter account of Elon Musk?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "Elon Musk",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q317521"
-        },
-        {
-          "string": "Musk",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q317521"
-        },
-        {
-          "string": "Twitter",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q918",
-          "property": "http://www.wikidata.org/prop/P2002"
-        },
-        {
-          "string": "Twitter",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q63976454",
-          "property": "http://www.wikidata.org/prop/P2002"
-        },
-        {
-          "string": "account",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q102345381"
-        },
-        {
-          "string": "Twitter account",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q63976454",
-          "property": "http://www.wikidata.org/prop/P2002"
-        },
-        {
-          "string": "Elon Musk",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q317521"
-        },
-        {
-          "string": "Musk",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q317521"
-        },
-        {
-          "string": "cuenta Twitter",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q63976454",
-          "property": "http://www.wikidata.org/prop/P2002"
-        },
-        {
-          "string": "Twitter",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q63976454",
-          "property": "http://www.wikidata.org/prop/P2002"
-        },
-        {
-          "string": "Twitter",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q918",
-          "property": "http://www.wikidata.org/prop/P2002"
         }
       ]
     },
@@ -2372,47 +685,6 @@
           "string": "Which alkali metals are in period 4?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "alkali metals",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q19557"
-        },
-        {
-          "string": "alkali metal",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q19557"
-        },
-        {
-          "string": "period 4",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q239825",
-          "property": "http://www.wikidata.org/prop/P361",
-          "mention": "implicit"
-        },
-        {
-          "string": "are in",
-          "language": "en",
-          "property": "http://www.wikidata.org/prop/P361"
-        },
-        {
-          "string": "metales alcalinos",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q19557"
-        },
-        {
-          "string": "periodo 4",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q239825",
-          "property": "http://www.wikidata.org/prop/P361",
-          "mention": "implicit"
-        },
-        {
-          "string": "están en",
-          "language": "es",
-          "property": "http://www.wikidata.org/prop/P361"
-        }
       ]
     },
     {
@@ -2425,35 +697,6 @@
         {
           "string": "Where are platypuses endemic?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "platypuses",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q15343"
-        },
-        {
-          "string": "endemic",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q123452",
-          "property": "http://www.wikidata.org/prop/P183"
-        },
-        {
-          "string": "Where are",
-          "language": "en",
-          "property": "http://www.wikidata.org/prop/P183"
-        },
-        {
-          "string": "ornitorrincos",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q15343"
-        },
-        {
-          "string": "endémicos",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q123452",
-          "property": "http://www.wikidata.org/prop/P183"
         }
       ]
     },
@@ -2477,60 +720,6 @@
           "string": "Which species endemic to Chile are endangered?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "endangered",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q11394"
-        },
-        {
-          "string": "endangered",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q96377276"
-        },
-        {
-          "string": "Chile",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q298"
-        },
-        {
-          "string": "species",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q7432"
-        },
-        {
-          "string": "endemic",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q123452",
-          "property": "http://www.wikidata.org/prop/P183"
-        },
-        {
-          "string": "en peligro de extinción",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q11394"
-        },
-        {
-          "string": "en peligro de extinción",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q96377276"
-        },
-        {
-          "string": "especies",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q7432"
-        },
-        {
-          "string": "endémicas",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q123452",
-          "property": "http://www.wikidata.org/prop/P183"
-        },
-        {
-          "string": "Chile",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q298"
-        }
       ]
     },
     {
@@ -2543,50 +732,6 @@
         {
           "string": "What country has the most nuclear power plants?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "nuclear power plants",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q134447"
-        },
-        {
-          "string": "country",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q6256"
-        },
-        {
-          "string": "country",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q3624078"
-        },
-        {
-          "string": "has",
-          "language": "en",
-          "property": "http://www.wikidata.org/prop/P17",
-          "inverse": true
-        },
-        {
-          "string": "centrales nucleares",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q134447"
-        },
-        {
-          "string": "país",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q6256"
-        },
-        {
-          "string": "país",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q3624078"
-        },
-        {
-          "string": "tiene",
-          "language": "es",
-          "property": "http://www.wikidata.org/prop/P17",
-          "inverse": true
         }
       ]
     },
@@ -2601,55 +746,6 @@
           "string": "Which country has the most official languages?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "country",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q6256"
-        },
-        {
-          "string": "country",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q3624078"
-        },
-        {
-          "string": "languages",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q34770"
-        },
-        {
-          "string": "official languages",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q23492",
-          "property": "http://www.wikidata.org/prop/P37"
-        },
-        {
-          "string": "país",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q6256"
-        },
-        {
-          "string": "país",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q3624078"
-        },
-        {
-          "string": "idiomas",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q34770"
-        },
-        {
-          "string": "idiomas oficiales",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q23492",
-          "property": "http://www.wikidata.org/prop/P37"
-        },
-        {
-          "string": "número",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q11563"
-        }
       ]
     },
     {
@@ -2662,30 +758,6 @@
         {
           "string": "When did ICLR start?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "ICLR",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q30108190"
-        },
-        {
-          "string": "start",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q529711",
-          "property": "http://www.wikidata.org/prop/P571"
-        },
-        {
-          "string": "ICLR",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q30108190"
-        },
-        {
-          "string": "empezó",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q529711",
-          "property": "http://www.wikidata.org/prop/P571"
         }
       ]
     },
@@ -2705,82 +777,6 @@
           "string": "Which countries that do not border Germany have German as an official language?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "countries",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q6256"
-        },
-        {
-          "string": "countries",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q3624078"
-        },
-        {
-          "string": "Germany",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q183"
-        },
-        {
-          "string": "German",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q188"
-        },
-        {
-          "string": "language",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q34770"
-        },
-        {
-          "string": "official language",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q23492",
-          "property": "http://www.wikidata.org/prop/P37"
-        },
-        {
-          "string": "border",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q133346",
-          "property": "http://www.wikidata.org/prop/P47"
-        },
-        {
-          "string": "países",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q6256"
-        },
-        {
-          "string": "países",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q3624078"
-        },
-        {
-          "string": "Alemania",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q183"
-        },
-        {
-          "string": "alemán",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q188"
-        },
-        {
-          "string": "idioma",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q34770"
-        },
-        {
-          "string": "idioma oficial",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q23492",
-          "property": "http://www.wikidata.org/prop/P37"
-        },
-        {
-          "string": "frontera",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q133346",
-          "property": "http://www.wikidata.org/prop/P47"
-        }
       ]
     },
     {
@@ -2793,30 +789,6 @@
         {
           "string": "What is the national anthem of Greece?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "Greece",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q41"
-        },
-        {
-          "string": "national anthem",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q23691",
-          "property": "http://www.wikidata.org/prop/P85"
-        },
-        {
-          "string": "Grecia",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q41"
-        },
-        {
-          "string": "himno nacional",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q23691",
-          "property": "http://www.wikidata.org/prop/P85"
         }
       ]
     },
@@ -2831,42 +803,6 @@
           "string": "Which company makes Twix?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "Twix",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q869733"
-        },
-        {
-          "string": "company",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q783794"
-        },
-        {
-          "string": "makes",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q13235160",
-          "property": "http://www.wikidata.org/prop/P176",
-          "inverse": true
-        },
-        {
-          "string": "Twix",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q869733"
-        },
-        {
-          "string": "empresa",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q783794"
-        },
-        {
-          "string": "fabrica",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q13235160",
-          "property": "http://www.wikidata.org/prop/P176",
-          "inverse": true
-        }
       ]
     },
     {
@@ -2879,45 +815,6 @@
         {
           "string": "What is the nearest black hole to Earth?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "black hole",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q589"
-        },
-        {
-          "string": "Earth",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q2"
-        },
-        {
-          "string": "nearest",
-          "language": "en",
-          "property": "http://www.wikidata.org/prop/P2583",
-          "superlative": "min"
-        },
-        {
-          "string": "agujero negro",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q589"
-        },
-        {
-          "string": "Tierra",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q2"
-        },
-        {
-          "string": "cercano",
-          "language": "es",
-          "property": "http://www.wikidata.org/prop/P2583"
-        },
-        {
-          "string": "más cercano",
-          "language": "es",
-          "property": "http://www.wikidata.org/prop/P2583",
-          "superlative": "min"
         }
       ]
     },
@@ -2939,44 +836,6 @@
         {
           "string": "Which conferences focus on Machine Learning?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "conferences",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q47258130"
-        },
-        {
-          "string": "Machine Learning",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q2539",
-          "property": "http://www.wikidata.org/prop/P921",
-          "mention": "implicit"
-        },
-        {
-          "string": "focus on",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q12310021",
-          "property": "http://www.wikidata.org/prop/P921"
-        },
-        {
-          "string": "conferencias",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q47258130"
-        },
-        {
-          "string": "aprendizaje de máquinas",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q47258130",
-          "property": "http://www.wikidata.org/prop/P921",
-          "mention": "implicit"
-        },
-        {
-          "string": "enfocan",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q12310021",
-          "property": "http://www.wikidata.org/prop/P921"
         }
       ]
     },
@@ -3007,56 +866,6 @@
           "string": "Which cities are named after an apostle?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "cities",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q515"
-        },
-        {
-          "string": "apostle",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q43412"
-        },
-        {
-          "string": "named",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q82799",
-          "property": "http://www.wikidata.org/prop/P138"
-        },
-        {
-          "string": "name",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q82799",
-          "property": "http://www.wikidata.org/prop/P138"
-        },
-        {
-          "string": "named after",
-          "language": "en",
-          "property": "http://www.wikidata.org/prop/P138"
-        },
-        {
-          "string": "ciudades",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q515"
-        },
-        {
-          "string": "apóstol",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q43412"
-        },
-        {
-          "string": "nombre",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q82799",
-          "property": "http://www.wikidata.org/prop/P138"
-        },
-        {
-          "string": "deben su nombre a",
-          "language": "es",
-          "property": "http://www.wikidata.org/prop/P138"
-        }
       ]
     },
     {
@@ -3084,51 +893,6 @@
           "string": "What chocolate bars are made by Nestlé?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "chocolate bars",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q1361086"
-        },
-        {
-          "string": "Nestlé",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q160746"
-        },
-        {
-          "string": "chocolate",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q195"
-        },
-        {
-          "string": "made by",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q187939",
-          "property": "http://www.wikidata.org/prop/P176"
-        },
-        {
-          "string": "barras de chocolate",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q1361086"
-        },
-        {
-          "string": "chocolate",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q195"
-        },
-        {
-          "string": "Nestlé",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q160746"
-        },
-        {
-          "string": "fabrican",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q187939",
-          "property": "http://www.wikidata.org/prop/P176",
-          "inverse": true
-        }
       ]
     },
     {
@@ -3142,67 +906,6 @@
           "string": "Who was the US president before Richard Nixon?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "US president",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q11696",
-          "property": "http://www.wikidata.org/prop/P39",
-          "mention": "implicit"
-        },
-        {
-          "string": "Richard Nixon",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q9588"
-        },
-        {
-          "string": "president",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q30461",
-          "property": "http://www.wikidata.org/prop/P39",
-          "mention": "implicit"
-        },
-        {
-          "string": "Nixon",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q9588"
-        },
-        {
-          "string": "before",
-          "language": "en",
-          "property": "http://www.wikidata.org/prop/P1365"
-        },
-        {
-          "string": "presidente de los EEUU",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q11696",
-          "property": "http://www.wikidata.org/prop/P39",
-          "mention": "implicit"
-        },
-        {
-          "string": "Richard Nixon",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q9588"
-        },
-        {
-          "string": "presidente",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q30461",
-          "property": "http://www.wikidata.org/prop/P39",
-          "mention": "implicit"
-        },
-        {
-          "string": "Nixon",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q9588"
-        },
-        {
-          "string": "antes que",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q106110777",
-          "property": "http://www.wikidata.org/prop/P1365"
-        }
       ]
     },
     {
@@ -3215,63 +918,6 @@
         {
           "string": "How many books are in The Hitchhiker's Guide to the Galaxy series?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "The Hitchhiker's Guide to the Galaxy series",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q25169"
-        },
-        {
-          "string": "The Hitchhiker's Guide to the Galaxy",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q98557758"
-        },
-        {
-          "string": "Hitchhiker's Guide to the Galaxy",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q98557758"
-        },
-        {
-          "string": "books",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q571"
-        },
-        {
-          "string": "series",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q1667921"
-        },
-        {
-          "string": "are in",
-          "language": "en",
-          "property": "http://www.wikidata.org/prop/P527"
-        },
-        {
-          "string": "serie Guía del autoestopista galáctico",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q25169"
-        },
-        {
-          "string": "libros",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q571"
-        },
-        {
-          "string": "serie",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q1667921"
-        },
-        {
-          "string": "Guía del autoestopista galáctico",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q98557758"
-        },
-        {
-          "string": "hay en",
-          "language": "es",
-          "property": "http://www.wikidata.org/prop/P527"
         }
       ]
     },
@@ -3289,72 +935,6 @@
           "string": "Which Simpsons characters were not born in Springfield?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "Simpsons",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q7764350"
-        },
-        {
-          "string": "Simpsons",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q61468436"
-        },
-        {
-          "string": "Springfield",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q151076"
-        },
-        {
-          "string": "characters",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q95074"
-        },
-        {
-          "string": "born",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q14819852",
-          "property": "http://www.wikidata.org/prop/P19"
-        },
-        {
-          "string": "born in",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q14819852",
-          "property": "http://www.wikidata.org/prop/P19"
-        },
-        {
-          "string": "Los Simpson",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q7764350"
-        },
-        {
-          "string": "Los Simpson",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q61468436"
-        },
-        {
-          "string": "Springfield",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q151076"
-        },
-        {
-          "string": "caracteres",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q95074"
-        },
-        {
-          "string": "nacieron",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q14819852",
-          "property": "http://www.wikidata.org/prop/P19"
-        },
-        {
-          "string": "nacieron en",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q14819852",
-          "property": "http://www.wikidata.org/prop/P19"
-        }
       ]
     },
     {
@@ -3367,38 +947,6 @@
         {
           "string": "When was sparkling water invented?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "sparkling water",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q264554"
-        },
-        {
-          "string": "water",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q283"
-        },
-        {
-          "string": "invented",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q14208553"
-        },
-        {
-          "string": "agua con gas",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q264554"
-        },
-        {
-          "string": "agua",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q283"
-        },
-        {
-          "string": "inventó",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q14208553"
         }
       ]
     },
@@ -3413,52 +961,6 @@
           "string": "Who is the tallest professional basketball player of all time?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "basketball player",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q3665646"
-        },
-        {
-          "string": "professional basketball player",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q3665646"
-        },
-        {
-          "string": "tallest",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q208826",
-          "property": "http://www.wikidata.org/prop/P2048",
-          "superlative": "max"
-        },
-        {
-          "string": "player",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q4197743"
-        },
-        {
-          "string": "jugador profesional de básquetbol",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q3665646"
-        },
-        {
-          "string": "alto",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q208826",
-          "property": "http://www.wikidata.org/prop/P2048"
-        },
-        {
-          "string": "jugador",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q4197743"
-        },
-        {
-          "string": "más alto",
-          "language": "es",
-          "property": "http://www.wikidata.org/prop/P2048",
-          "superlative": "max"
-        }
       ]
     },
     {
@@ -3471,28 +973,6 @@
         {
           "string": "What age is Justin Bieber?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "Justin Bieber",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q34086"
-        },
-        {
-          "string": "age",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q185836"
-        },
-        {
-          "string": "Justin Bieber",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q34086"
-        },
-        {
-          "string": "años",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q577"
         }
       ]
     },
@@ -3507,46 +987,6 @@
           "string": "Is Justin Bieber alive?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "Justin Bieber",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q34086"
-        },
-        {
-          "string": "alive",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q21075715",
-          "property": "http://www.wikidata.org/prop/P570",
-          "quantifier": "not exists"
-        },
-        {
-          "string": "alive",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q21075715",
-          "property": "http://www.wikidata.org/prop/P20",
-          "quantifier": "not exists"
-        },
-        {
-          "string": "Justin Bieber",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q34086"
-        },
-        {
-          "string": "vivo",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q21075715",
-          "property": "http://www.wikidata.org/prop/P570",
-          "quantifier": "not exists"
-        },
-        {
-          "string": "vivo",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q21075715",
-          "property": "http://www.wikidata.org/prop/P20",
-          "quantifier": "not exists"
-        }
       ]
     },
     {
@@ -3559,46 +999,6 @@
         {
           "string": "Is Justin Bieber dead?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "Justin Bieber",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q34086"
-        },
-        {
-          "string": "dead",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q4",
-          "property": "http://www.wikidata.org/prop/P570",
-          "quantifier": "exists"
-        },
-        {
-          "string": "dead",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q4",
-          "property": "http://www.wikidata.org/prop/P20",
-          "quantifier": "exists"
-        },
-        {
-          "string": "Justin Bieber",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q34086"
-        },
-        {
-          "string": "muerto",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q4",
-          "property": "http://www.wikidata.org/prop/P570",
-          "quantifier": "exists"
-        },
-        {
-          "string": "muerto",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q4",
-          "property": "http://www.wikidata.org/prop/P20",
-          "quantifier": "exists"
         }
       ]
     },
@@ -3613,56 +1013,6 @@
           "string": "What age would Justin Bieber be if he were still alive?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "Justin Bieber",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q34086"
-        },
-        {
-          "string": "age",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q185836"
-        },
-        {
-          "string": "alive",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q21075715",
-          "property": "http://www.wikidata.org/prop/P20",
-          "quantifier": "not exists"
-        },
-        {
-          "string": "alive",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q21075715",
-          "property": "http://www.wikidata.org/prop/P570",
-          "quantifier": "not exists"
-        },
-        {
-          "string": "Justin Bieber",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q34086"
-        },
-        {
-          "string": "años",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q577"
-        },
-        {
-          "string": "vivo",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q21075715",
-          "property": "http://www.wikidata.org/prop/P20",
-          "quantifier": "not exists"
-        },
-        {
-          "string": "vivo",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q21075715",
-          "property": "http://www.wikidata.org/prop/P570",
-          "quantifier": "not exists"
-        }
       ]
     },
     {
@@ -3675,42 +1025,6 @@
         {
           "string": "Is Michael Jackson the oldest child?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "Michael Jackson",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q2831"
-        },
-        {
-          "string": "child",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q7569",
-          "property": "http://www.wikidata.org/prop/P40"
-        },
-        {
-          "string": "oldest",
-          "language": "en",
-          "property": "http://www.wikidata.org/prop/P569",
-          "superlative": "min"
-        },
-        {
-          "string": "Michael Jackson",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q2831"
-        },
-        {
-          "string": "hijo",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q7569",
-          "property": "http://www.wikidata.org/prop/P40"
-        },
-        {
-          "string": "mayor",
-          "language": "es",
-          "property": "http://www.wikidata.org/prop/P569",
-          "superlative": "min"
         }
       ]
     },
@@ -3725,50 +1039,6 @@
           "string": "Which element precedes tin in the periodic table?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "tin",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q1096"
-        },
-        {
-          "string": "element",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q11344"
-        },
-        {
-          "string": "periodic table",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q10693"
-        },
-        {
-          "string": "precedes",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q106110777",
-          "property": "http://www.wikidata.org/prop/P155"
-        },
-        {
-          "string": "estaño",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q1096"
-        },
-        {
-          "string": "elemento",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q11344"
-        },
-        {
-          "string": "tabla periódica",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q10693"
-        },
-        {
-          "string": "precede",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q106110777",
-          "property": "http://www.wikidata.org/prop/P155"
-        }
       ]
     },
     {
@@ -3782,42 +1052,6 @@
           "string": "Which element has the lowest melting point?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "element",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q11344"
-        },
-        {
-          "string": "melting point",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q15318",
-          "property": "http://www.wikidata.org/prop/P2101"
-        },
-        {
-          "string": "lowest melting point",
-          "language": "en",
-          "property": "http://www.wikidata.org/prop/P2101",
-          "superlative": "min"
-        },
-        {
-          "string": "punto de fusión",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q15318",
-          "property": "http://www.wikidata.org/prop/P2101"
-        },
-        {
-          "string": "elemento",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q11344"
-        },
-        {
-          "string": "punto de fusión más bajo",
-          "language": "es",
-          "property": "http://www.wikidata.org/prop/P2101",
-          "superlative": "min"
-        }
       ]
     },
     {
@@ -3830,55 +1064,6 @@
         {
           "string": "Which language is the official language of the most countries?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "language",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q34770"
-        },
-        {
-          "string": "official language",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q23492",
-          "property": "http://www.wikidata.org/prop/P37"
-        },
-        {
-          "string": "countries",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q3624078"
-        },
-        {
-          "string": "countries",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q6256"
-        },
-        {
-          "string": "official language of",
-          "language": "en",
-          "property": "http://www.wikidata.org/prop/P37",
-          "inverse": true
-        },
-        {
-          "string": "idioma",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q34770"
-        },
-        {
-          "string": "países",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q3624078"
-        },
-        {
-          "string": "países",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q6256"
-        },
-        {
-          "string": "oficial",
-          "language": "es",
-          "property": "http://www.wikidata.org/prop/P37"
         }
       ]
     },
@@ -3895,38 +1080,6 @@
         {
           "string": "Which honorary mayors were not human?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "mayors",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q30185"
-        },
-        {
-          "string": "human",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q5"
-        },
-        {
-          "string": "were",
-          "language": "en",
-          "property": "http://www.wikidata.org/prop/P39"
-        },
-        {
-          "string": "alcaldes",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q30185"
-        },
-        {
-          "string": "humanos",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q5"
-        },
-        {
-          "string": "fueron",
-          "language": "es",
-          "property": "http://www.wikidata.org/prop/P39"
         }
       ]
     },
@@ -3952,48 +1105,6 @@
           "string": "Which polygonal numbers are also pronic?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "polygonal numbers",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q836270"
-        },
-        {
-          "string": "numbers",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q11563"
-        },
-        {
-          "string": "polygonal",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q836270"
-        },
-        {
-          "string": "pronic",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q1486643"
-        },
-        {
-          "string": "números poligonales",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q836270"
-        },
-        {
-          "string": "números",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q11563"
-        },
-        {
-          "string": "poligonales",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q836270"
-        },
-        {
-          "string": "prónicos",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q1486643"
-        }
       ]
     },
     {
@@ -4007,52 +1118,6 @@
           "string": "What's the next prime after 51?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "prime",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q49008"
-        },
-        {
-          "string": "51",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q712808"
-        },
-        {
-          "string": "after",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q106110771",
-          "property": "http://www.wikidata.org/prop/P156"
-        },
-        {
-          "string": "next",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q106110771",
-          "property": "http://www.wikidata.org/prop/P156"
-        },
-        {
-          "string": "primo",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q49008"
-        },
-        {
-          "string": "51",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q712808"
-        },
-        {
-          "string": "próximo",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q106110771",
-          "property": "http://www.wikidata.org/prop/P156"
-        },
-        {
-          "string": "después",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q106110771",
-          "property": "http://www.wikidata.org/prop/P156"
-        }
       ]
     },
     {
@@ -4065,50 +1130,6 @@
         {
           "string": "What animal can hear the highest frequency?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "animal",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q729"
-        },
-        {
-          "string": "hear",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q160289"
-        },
-        {
-          "string": "frequency",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q11652"
-        },
-        {
-          "string": "hear the highest frequency",
-          "language": "en",
-          "property": "http://www.wikidata.org/prop/P3465",
-          "superlative": "max"
-        },
-        {
-          "string": "animal",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q729"
-        },
-        {
-          "string": "oír",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q160289"
-        },
-        {
-          "string": "frecuencia",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q11652"
-        },
-        {
-          "string": "oír la frecuencia más alta",
-          "language": "es",
-          "property": "http://www.wikidata.org/prop/P3465",
-          "superlative": "max"
         }
       ]
     },
@@ -4124,60 +1145,6 @@
           "string": "Who has won more than one type of Nobel Prize?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "Nobel Prize",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q7191"
-        },
-        {
-          "string": "won",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q50000",
-          "property": "http://www.wikidata.org/prop/P166"
-        },
-        {
-          "string": "one",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q199"
-        },
-        {
-          "string": "Prize",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q5257307"
-        },
-        {
-          "string": "Nobel",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q23810"
-        },
-        {
-          "string": "Premio Nobel",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q7191"
-        },
-        {
-          "string": "ganado",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q50000",
-          "property": "http://www.wikidata.org/prop/P166"
-        },
-        {
-          "string": "un",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q199"
-        },
-        {
-          "string": "Premio",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q5257307"
-        },
-        {
-          "string": "Nobel",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q23810"
-        }
       ]
     },
     {
@@ -4190,45 +1157,6 @@
         {
           "string": "Which city has the most cathedrals?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "city",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q515"
-        },
-        {
-          "string": "cathedrals",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q2977"
-        },
-        {
-          "string": "has",
-          "language": "en",
-          "property": "http://www.wikidata.org/prop/P131",
-          "inverse": true
-        },
-        {
-          "string": "ciudad",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q515"
-        },
-        {
-          "string": "catedrales",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q2977"
-        },
-        {
-          "string": "número",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q11563"
-        },
-        {
-          "string": "tiene",
-          "language": "es",
-          "property": "http://www.wikidata.org/prop/P131",
-          "inverse": true
         }
       ]
     },
@@ -4244,46 +1172,6 @@
           "string": "What make of car is a Corolla?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "make of car",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q786820",
-          "property": "http://www.wikidata.org/prop/P176"
-        },
-        {
-          "string": "Corolla",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q243543"
-        },
-        {
-          "string": "car",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q1420"
-        },
-        {
-          "string": "make",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q431289",
-          "property": "http://www.wikidata.org/prop/P176"
-        },
-        {
-          "string": "Corolla",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q243543"
-        },
-        {
-          "string": "auto",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q1420"
-        },
-        {
-          "string": "marca",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q431289",
-          "property": "http://www.wikidata.org/prop/P176"
-        }
       ]
     },
     {
@@ -4296,65 +1184,6 @@
         {
           "string": "What is the tallest mountain in the Andes?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "mountain",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q8502"
-        },
-        {
-          "string": "Andes",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q5456"
-        },
-        {
-          "string": "tallest",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q208826",
-          "property": "http://www.wikidata.org/prop/P610",
-          "superlative": "max"
-        },
-        {
-          "string": "tallest",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q190200",
-          "property": "http://www.wikidata.org/prop/P610",
-          "superlative": "max"
-        },
-        {
-          "string": "montaña",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q8502"
-        },
-        {
-          "string": "Los Andes",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q5456"
-        },
-        {
-          "string": "Andes",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q5456"
-        },
-        {
-          "string": "alta",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q208826",
-          "property": "http://www.wikidata.org/prop/P610"
-        },
-        {
-          "string": "alta",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q190200",
-          "property": "http://www.wikidata.org/prop/P610"
-        },
-        {
-          "string": "más alta",
-          "language": "es",
-          "property": "http://www.wikidata.org/prop/P610",
-          "superlative": "max"
         }
       ]
     },
@@ -4369,63 +1198,6 @@
           "string": "Which U.S. president had the most spouses?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "spouses",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q1196129",
-          "property": "http://www.wikidata.org/prop/P26"
-        },
-        {
-          "string": "president",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q30461",
-          "property": "http://www.wikidata.org/prop/P35",
-          "mention": "subproperty"
-        },
-        {
-          "string": "U.S.",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q30"
-        },
-        {
-          "string": "U.S. president",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q11696",
-          "property": "http://www.wikidata.org/prop/P39",
-          "mention": "implicit"
-        },
-        {
-          "string": "presidente de los EEUU",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q11696",
-          "property": "http://www.wikidata.org/prop/P39",
-          "mention": "implicit"
-        },
-        {
-          "string": "número",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q11563"
-        },
-        {
-          "string": "presidente",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q30461",
-          "property": "http://www.wikidata.org/prop/P35",
-          "mention": "subproperty"
-        },
-        {
-          "string": "esposos",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q1196129",
-          "property": "http://www.wikidata.org/prop/P26"
-        },
-        {
-          "string": "EEUU",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q30"
-        }
       ]
     },
     {
@@ -4438,53 +1210,6 @@
         {
           "string": "When was the Rubik's cube invented?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "Rubik's cube",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q47043"
-        },
-        {
-          "string": "invented",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q14208553"
-        },
-        {
-          "string": "cube",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q812880"
-        },
-        {
-          "string": "Rubik",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q186089"
-        },
-        {
-          "string": "cubo de Rubik",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q47043"
-        },
-        {
-          "string": "inventó",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q14208553"
-        },
-        {
-          "string": "cubo",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q812880"
-        },
-        {
-          "string": "Rubik",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q186089"
-        },
-        {
-          "string": "Cuándo se inventó",
-          "language": "es",
-          "property": "http://www.wikidata.org/prop/P571"
         }
       ]
     },
@@ -4503,73 +1228,6 @@
         {
           "string": "Which conferences were organized by Turing Award winners?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "conferences",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q2020153"
-        },
-        {
-          "string": "Turing Award",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q185667"
-        },
-        {
-          "string": "winners",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q18560095",
-          "property": "http://www.wikidata.org/prop/P166"
-        },
-        {
-          "string": "organized",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q1419997",
-          "property": "http://www.wikidata.org/prop/P664",
-          "inverse": true
-        },
-        {
-          "string": "Turing",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q7251"
-        },
-        {
-          "string": "organized by",
-          "language": "en",
-          "property": "http://www.wikidata.org/prop/P664"
-        },
-        {
-          "string": "Premio Turing",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q185667"
-        },
-        {
-          "string": "conferencias",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q2020153"
-        },
-        {
-          "string": "ganador",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q18560095",
-          "property": "http://www.wikidata.org/prop/P166"
-        },
-        {
-          "string": "organizadas",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q1419997",
-          "property": "http://www.wikidata.org/prop/P664"
-        },
-        {
-          "string": "Turing",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q7251"
-        },
-        {
-          "string": "organizadas por",
-          "language": "es",
-          "property": "http://www.wikidata.org/prop/P664"
         }
       ]
     },
@@ -4596,45 +1254,6 @@
           "string": "What video games are made by the developer of League of Legends?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "video games",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q7889"
-        },
-        {
-          "string": "League of Legends",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q223341"
-        },
-        {
-          "string": "developer",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q210167",
-          "property": "http://www.wikidata.org/prop/P178"
-        },
-        {
-          "string": "made by",
-          "language": "en",
-          "property": "http://www.wikidata.org/prop/P178"
-        },
-        {
-          "string": "juegos de video",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q7889"
-        },
-        {
-          "string": "desarrollador",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q210167",
-          "property": "http://www.wikidata.org/prop/P178"
-        },
-        {
-          "string": "League of Legends",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q223341"
-        }
       ]
     },
     {
@@ -4655,60 +1274,6 @@
         {
           "string": "Which writers speak French, Arabic and Japanese?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "writers",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q36180"
-        },
-        {
-          "string": "French",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q150"
-        },
-        {
-          "string": "Arabic",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q13955"
-        },
-        {
-          "string": "Japanese",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q5287"
-        },
-        {
-          "string": "speak",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q315",
-          "property": "http://www.wikidata.org/prop/P1412"
-        },
-        {
-          "string": "autores",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q36180"
-        },
-        {
-          "string": "francés",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q150"
-        },
-        {
-          "string": "árabe",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q13955"
-        },
-        {
-          "string": "japonés",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q5287"
-        },
-        {
-          "string": "hablan",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q315",
-          "property": "http://www.wikidata.org/prop/P1412"
         }
       ]
     },
@@ -4733,68 +1298,6 @@
           "string": "What whisky distilleries are based in Ireland?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "whisky distilleries",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q10373548"
-        },
-        {
-          "string": "Ireland",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q27"
-        },
-        {
-          "string": "whisky",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q281"
-        },
-        {
-          "string": "distilleries",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q1251750"
-        },
-        {
-          "string": "based in",
-          "language": "en",
-          "property": "http://www.wikidata.org/prop/P17"
-        },
-        {
-          "string": "in",
-          "language": "en",
-          "property": "http://www.wikidata.org/prop/P17"
-        },
-        {
-          "string": "destilerías de whisky",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q10373548"
-        },
-        {
-          "string": "Irlanda",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q27"
-        },
-        {
-          "string": "destilerías",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q10373548"
-        },
-        {
-          "string": "whisky",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q281"
-        },
-        {
-          "string": "están en",
-          "language": "es",
-          "property": "http://www.wikidata.org/prop/P17"
-        },
-        {
-          "string": "en",
-          "language": "es",
-          "property": "http://www.wikidata.org/prop/P17"
-        }
       ]
     },
     {
@@ -4808,48 +1311,6 @@
           "string": "How many regions of France are there?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "regions of France",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q36784"
-        },
-        {
-          "string": "regions",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q82794"
-        },
-        {
-          "string": "regions",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q36784"
-        },
-        {
-          "string": "France",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q142"
-        },
-        {
-          "string": "regiones de Francia",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q36784"
-        },
-        {
-          "string": "regiones",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q82794"
-        },
-        {
-          "string": "regiones",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q36784"
-        },
-        {
-          "string": "Francia",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q142"
-        }
       ]
     },
     {
@@ -4862,98 +1323,6 @@
         {
           "string": "Which living people have an element named after them?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "people",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q5"
-        },
-        {
-          "string": "element",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q11344"
-        },
-        {
-          "string": "living",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q21075715",
-          "property": "http://www.wikidata.org/prop/P20",
-          "quantifier": "not exists"
-        },
-        {
-          "string": "living",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q21075715",
-          "property": "http://www.wikidata.org/prop/P570",
-          "quantifier": "not exists"
-        },
-        {
-          "string": "named",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q82799",
-          "property": "http://www.wikidata.org/prop/P138"
-        },
-        {
-          "string": "named after",
-          "language": "en",
-          "property": "http://www.wikidata.org/prop/P138"
-        },
-        {
-          "string": "personas vivas",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q5"
-        },
-        {
-          "string": "elemento",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q11344"
-        },
-        {
-          "string": "personas",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q5"
-        },
-        {
-          "string": "nombre",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q82799",
-          "property": "http://www.wikidata.org/prop/P138"
-        },
-        {
-          "string": "vivas",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q21075715",
-          "property": "http://www.wikidata.org/prop/P20",
-          "quantifier": "not exists"
-        },
-        {
-          "string": "vivas",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q21075715",
-          "property": "http://www.wikidata.org/prop/P570",
-          "quantifier": "not exists"
-        },
-        {
-          "string": "viva",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q21075715",
-          "property": "http://www.wikidata.org/prop/P20",
-          "quantifier": "not exists"
-        },
-        {
-          "string": "viva",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q21075715",
-          "property": "http://www.wikidata.org/prop/P570",
-          "quantifier": "not exists"
-        },
-        {
-          "string": "dado su nombre a",
-          "language": "es",
-          "property": "http://www.wikidata.org/prop/P138",
-          "inverse": true
         }
       ]
     },
@@ -4976,93 +1345,6 @@
           "string": "Which Chilean companies have U.S. parent companies?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "Chilean",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q298",
-          "property": "http://www.wikidata.org/prop/P17",
-          "mention": "implicit"
-        },
-        {
-          "string": "companies",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q783794"
-        },
-        {
-          "string": "companies",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q4830453"
-        },
-        {
-          "string": "companies",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q21980538"
-        },
-        {
-          "string": "parent companies",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q1956113",
-          "property": "http://www.wikidata.org/prop/P749"
-        },
-        {
-          "string": "U.S.",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q30",
-          "property": "http://www.wikidata.org/prop/P17",
-          "mention": "implicit"
-        },
-        {
-          "string": "empresas",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q783794"
-        },
-        {
-          "string": "empresas",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q4830453"
-        },
-        {
-          "string": "empresas",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q21980538"
-        },
-        {
-          "string": "empresa",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q783794"
-        },
-        {
-          "string": "empresa",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q4830453"
-        },
-        {
-          "string": "empresa",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q21980538"
-        },
-        {
-          "string": "empresa matriz",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q1956113",
-          "property": "http://www.wikidata.org/prop/P749"
-        },
-        {
-          "string": "chilenas",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q298",
-          "property": "http://www.wikidata.org/prop/P17",
-          "mention": "implicit"
-        },
-        {
-          "string": "estadounidense",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q30",
-          "property": "http://www.wikidata.org/prop/P17",
-          "mention": "implicit"
-        }
       ]
     },
     {
@@ -5076,50 +1358,6 @@
           "string": "Did Tarantino direct a movie last year?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "Tarantino",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q3772"
-        },
-        {
-          "string": "movie",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q11424"
-        },
-        {
-          "string": "direct",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q2137554",
-          "property": "http://www.wikidata.org/prop/P57"
-        },
-        {
-          "string": "year",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q577"
-        },
-        {
-          "string": "Dirigió",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q2137554",
-          "property": "http://www.wikidata.org/prop/P57"
-        },
-        {
-          "string": "Tarantino",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q3772"
-        },
-        {
-          "string": "película",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q11424"
-        },
-        {
-          "string": "año",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q577"
-        }
       ]
     },
     {
@@ -5132,75 +1370,6 @@
         {
           "string": "Which movie of the last ten years has won the most Academy Awards?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "movie",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q11424"
-        },
-        {
-          "string": "ten",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q23806"
-        },
-        {
-          "string": "years",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q577"
-        },
-        {
-          "string": "years",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q24564698"
-        },
-        {
-          "string": "won",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q50000",
-          "property": "http://www.wikidata.org/prop/P166"
-        },
-        {
-          "string": "Academy Awards",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q19020"
-        },
-        {
-          "string": "película",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q11424"
-        },
-        {
-          "string": "diez",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q23806"
-        },
-        {
-          "string": "años",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q577"
-        },
-        {
-          "string": "años",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q24564698"
-        },
-        {
-          "string": "ganado",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q50000",
-          "property": "http://www.wikidata.org/prop/P166"
-        },
-        {
-          "string": "Premios Óscar",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q19020"
-        },
-        {
-          "string": "diez años",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q39911"
         }
       ]
     },
@@ -5218,97 +1387,6 @@
           "string": "Who was the winner of the latest Fields Medal?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "winner",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q18560095",
-          "property": "http://www.wikidata.org/prop/P166",
-          "inverse": true
-        },
-        {
-          "string": "Fields Medal",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q28835"
-        },
-        {
-          "string": "Fields",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q315431"
-        },
-        {
-          "string": "Medal",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q131647"
-        },
-        {
-          "string": "Medal",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q618779"
-        },
-        {
-          "string": "galardonado",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q50000",
-          "property": "http://www.wikidata.org/prop/P166",
-          "inverse": true
-        },
-        {
-          "string": "galardonado",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q618779",
-          "property": "http://www.wikidata.org/prop/P166",
-          "inverse": true
-        },
-        {
-          "string": "galardonado",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q97453439",
-          "property": "http://www.wikidata.org/prop/P166",
-          "inverse": true
-        },
-        {
-          "string": "galardonada",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q50000",
-          "property": "http://www.wikidata.org/prop/P166",
-          "inverse": true
-        },
-        {
-          "string": "galardonada",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q618779",
-          "property": "http://www.wikidata.org/prop/P166",
-          "inverse": true
-        },
-        {
-          "string": "galardonada",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q97453439",
-          "property": "http://www.wikidata.org/prop/P166",
-          "inverse": true
-        },
-        {
-          "string": "Medalla Fields",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q28835"
-        },
-        {
-          "string": "Fields",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q315431"
-        },
-        {
-          "string": "Medalla",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q131647"
-        },
-        {
-          "string": "Medalla",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q618779"
-        }
       ]
     },
     {
@@ -5321,46 +1399,6 @@
         {
           "string": "Who wrote The Old Man and the Sea?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "The Old Man and the Sea",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q26505"
-        },
-        {
-          "string": "wrote",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q2250012",
-          "property": "http://www.wikidata.org/prop/P50",
-          "inverse": true
-        },
-        {
-          "string": "wrote",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q36180",
-          "property": "http://www.wikidata.org/prop/P50",
-          "inverse": true
-        },
-        {
-          "string": "El viejo y el mar",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q26505"
-        },
-        {
-          "string": "escribió",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q2250012",
-          "property": "http://www.wikidata.org/prop/P50",
-          "inverse": true
-        },
-        {
-          "string": "escribió",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q36180",
-          "property": "http://www.wikidata.org/prop/P50",
-          "inverse": true
         }
       ]
     },
@@ -5379,58 +1417,6 @@
           "string": "Which YouTube channels talk about math?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "YouTube",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q866"
-        },
-        {
-          "string": "YouTube channels",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q17558136"
-        },
-        {
-          "string": "math",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q395"
-        },
-        {
-          "string": "channel",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q733553"
-        },
-        {
-          "string": "talk about",
-          "language": "en",
-          "property": "http://www.wikidata.org/prop/P921"
-        },
-        {
-          "string": "YouTube",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q866"
-        },
-        {
-          "string": "canales de YouTube",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q17558136"
-        },
-        {
-          "string": "matemáticas",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q395"
-        },
-        {
-          "string": "canales",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q733553"
-        },
-        {
-          "string": "hablan de",
-          "language": "es",
-          "property": "http://www.wikidata.org/prop/P921"
-        }
       ]
     },
     {
@@ -5446,50 +1432,6 @@
           "string": "What diseases are associated with the gene FGF14?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "diseases",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q12136"
-        },
-        {
-          "string": "gene",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q7187"
-        },
-        {
-          "string": "FGF14",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q17928040"
-        },
-        {
-          "string": "associated",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q744727",
-          "property": "http://www.wikidata.org/prop/P2293"
-        },
-        {
-          "string": "enfermedades",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q12136"
-        },
-        {
-          "string": "gen",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q7187"
-        },
-        {
-          "string": "FGF14",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q17928040"
-        },
-        {
-          "string": "asocian",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q744727",
-          "property": "http://www.wikidata.org/prop/P2293"
-        }
       ]
     },
     {
@@ -5502,50 +1444,6 @@
         {
           "string": "What ultra-cool dwarfs have been found in the constellation Aquarius?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "ultra-cool dwarfs",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q24039974"
-        },
-        {
-          "string": "constellation",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q8928",
-          "property": "http://www.wikidata.org/prop/P59"
-        },
-        {
-          "string": "Aquarius",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q10576"
-        },
-        {
-          "string": "dwarfs",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q244393"
-        },
-        {
-          "string": "enanas ultra-frías",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q24039974"
-        },
-        {
-          "string": "constelación",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q8928",
-          "property": "http://www.wikidata.org/prop/P59"
-        },
-        {
-          "string": "Acuario",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q10576"
-        },
-        {
-          "string": "enanas",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q244393"
         }
       ]
     },
@@ -5562,38 +1460,6 @@
           "string": "Kim Deal played with which bands?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "Kim Deal",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q240509"
-        },
-        {
-          "string": "bands",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q215380"
-        },
-        {
-          "string": "played with",
-          "language": "en",
-          "property": "http://www.wikidata.org/prop/P463"
-        },
-        {
-          "string": "Kim Deal",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q240509"
-        },
-        {
-          "string": "bandas",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q215380"
-        },
-        {
-          "string": "ha tocado con",
-          "language": "es",
-          "property": "http://www.wikidata.org/prop/P463"
-        }
       ]
     },
     {
@@ -5606,66 +1472,6 @@
         {
           "string": "Who supervised the PhD of Alan Turing?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "Alan Turing",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q7251"
-        },
-        {
-          "string": "Turing",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q7251"
-        },
-        {
-          "string": "supervised the PhD",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q363802",
-          "property": "http://www.wikidata.org/prop/P184",
-          "inverse": true
-        },
-        {
-          "string": "PhD",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q752297"
-        },
-        {
-          "string": "supervised",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q101405849",
-          "property": "http://www.wikidata.org/prop/P7604",
-          "inverse": true
-        },
-        {
-          "string": "Alan Turing",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q7251"
-        },
-        {
-          "string": "Turing",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q7251"
-        },
-        {
-          "string": "dirigió el doctorado",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q363802",
-          "property": "http://www.wikidata.org/prop/P184",
-          "inverse": true
-        },
-        {
-          "string": "doctorado",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q752297"
-        },
-        {
-          "string": "dirigió",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q101405849",
-          "property": "http://www.wikidata.org/prop/P7604",
-          "inverse": true
         }
       ]
     },
@@ -5682,84 +1488,6 @@
           "string": "Which movies directed by Chloé Zhao are not MPAA-rated R?",
           "language": "en"
         }
-      ],
-      "mentions": [
-        {
-          "string": "movies",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q11424"
-        },
-        {
-          "string": "Chloé Zhao",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q21078321"
-        },
-        {
-          "string": "directed",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q2526255",
-          "property": "http://www.wikidata.org/prop/P57"
-        },
-        {
-          "string": "direct",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q2526255",
-          "property": "http://www.wikidata.org/prop/P57"
-        },
-        {
-          "string": "MPAA-rated",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q23660208",
-          "property": "http://www.wikidata.org/prop/P1687"
-        },
-        {
-          "string": "rated",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q23660208",
-          "property": "http://www.wikidata.org/prop/P1687"
-        },
-        {
-          "string": "R",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q18665344"
-        },
-        {
-          "string": "MPAA",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q676222"
-        },
-        {
-          "string": "películas",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q11424"
-        },
-        {
-          "string": "dirigidas",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q2526255",
-          "property": "http://www.wikidata.org/prop/P57"
-        },
-        {
-          "string": "Chloé Zhao",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q21078321"
-        },
-        {
-          "string": "clasificación MPAA",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q23660208",
-          "property": "http://www.wikidata.org/prop/P1687"
-        },
-        {
-          "string": "R",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q18665344"
-        },
-        {
-          "string": "MPAA",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q676222"
-        }
       ]
     },
     {
@@ -5772,43 +1500,6 @@
         {
           "string": "Who is the Hindu deity of knowledge?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "Hindu",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q9089"
-        },
-        {
-          "string": "deity",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q178885"
-        },
-        {
-          "string": "knowledge",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q9081"
-        },
-        {
-          "string": "deity of",
-          "language": "en",
-          "property": "http://www.wikidata.org/prop/P2925"
-        },
-        {
-          "string": "deidad",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q178885"
-        },
-        {
-          "string": "hindú",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q9089"
-        },
-        {
-          "string": "conocimiento",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q9081"
         }
       ]
     },
@@ -5826,70 +1517,6 @@
         {
           "string": "Which science fiction movies star Uma Thurman?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "science fiction movies",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q471839"
-        },
-        {
-          "string": "Uma Thurman",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q125017"
-        },
-        {
-          "string": "movies",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q11424"
-        },
-        {
-          "string": "star",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q1765879",
-          "property": "http://www.wikidata.org/prop/P161"
-        },
-        {
-          "string": "science fiction",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q24925"
-        },
-        {
-          "string": "fiction",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q8253"
-        },
-        {
-          "string": "Uma Thurman",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q125017"
-        },
-        {
-          "string": "películas de ciencia ficción",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q471839"
-        },
-        {
-          "string": "protagonizó",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q1765879",
-          "property": "http://www.wikidata.org/prop/P161"
-        },
-        {
-          "string": "películas",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q11424"
-        },
-        {
-          "string": "ciencia ficción",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q24925"
-        },
-        {
-          "string": "ficción",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q8253"
         }
       ]
     },
@@ -5918,53 +1545,6 @@
         {
           "string": "Which relational database management systems are open source?",
           "language": "en"
-        }
-      ],
-      "mentions": [
-        {
-          "string": "relational database management systems",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q3932296"
-        },
-        {
-          "string": "open source",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q39162"
-        },
-        {
-          "string": "relational database",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q192588"
-        },
-        {
-          "string": "database",
-          "language": "en",
-          "entity": "http://www.wikidata.org/entity/Q8513"
-        },
-        {
-          "string": "sistemas de gestión de bases de datos relacionales",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q3932296"
-        },
-        {
-          "string": "bases de datos relacionales",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q192588"
-        },
-        {
-          "string": "bases de datos",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q8513"
-        },
-        {
-          "string": "fuente abierta",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q39162"
-        },
-        {
-          "string": "datos",
-          "language": "es",
-          "entity": "http://www.wikidata.org/entity/Q42848"
         }
       ]
     }
